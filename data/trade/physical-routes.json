@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "feature": "physical-trade-routes",
+  "dispatchIntervalsMs": {
+    "trade": 30000,
+    "alliance": 22000
+  },
+  "cargo": {
+    "trade": {
+      "food": 6,
+      "gold": 12
+    },
+    "alliance": {
+      "wood": 10,
+      "food": 10,
+      "gold": 10,
+      "stone": 4
+    }
+  },
+  "caravan": {
+    "tradeHp": 95,
+    "allianceHp": 130,
+    "tradeSpeed": 1.65,
+    "allianceSpeed": 1.85
+  },
+  "notes": [
+    "Income is delivered only when the physical caravan reaches the player town center.",
+    "Foreign enclaves are generated for every non-rival diplomatic faction.",
+    "Enemy units can raid outbound caravans when the active rival is hostile."
+  ]
+}

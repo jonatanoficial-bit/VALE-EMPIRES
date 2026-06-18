@@ -1,0 +1,24 @@
+{
+  "buildId": "VE-3.3.0-F27",
+  "javascriptSyntax": "passed",
+  "jsonFiles": 30,
+  "htmlIds": 242,
+  "duplicateIds": [],
+  "localReferences": 117,
+  "missingLocalReferences": [],
+  "serviceWorkerAssets": 98,
+  "missingServiceWorkerAssets": [],
+  "fileCountIncludingManifests": 296,
+  "saveSchema": 7,
+  "featuresChecked": [
+    "world factions",
+    "foreign enclaves",
+    "physical trade routes",
+    "caravans",
+    "delivery",
+    "raids",
+    "save migration"
+  ],
+  "browserAutomation": "blocked_by_administrator_policy",
+  "logicTest": "passed"
+}

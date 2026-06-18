@@ -1,0 +1,23 @@
+{
+  "units": [
+    "villager",
+    "infantry",
+    "archer",
+    "cavalry",
+    "siegeRam"
+  ],
+  "exclusiveUnits": [
+    "longbowman",
+    "royal_knight",
+    "cataphract",
+    "mangudai",
+    "andalusian_guard",
+    "berserker"
+  ],
+  "navalUnits": [
+    "patrolGalley",
+    "warGalley",
+    "fireShip",
+    "transportShip"
+  ]
+}

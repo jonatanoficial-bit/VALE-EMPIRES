@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "feature": "ports-maritime-trade",
+  "requiredEra": "feudal",
+  "harbor": {
+    "cost": {
+      "wood": 220,
+      "stone": 110,
+      "gold": 80
+    },
+    "coastalDefenseRadius": 230
+  },
+  "dispatchIntervalsMs": {
+    "trade": 45000,
+    "alliance": 32000
+  },
+  "cargo": {
+    "trade": {
+      "wood": 8,
+      "food": 8,
+      "gold": 18
+    },
+    "alliance": {
+      "wood": 15,
+      "food": 15,
+      "gold": 20,
+      "stone": 8
+    }
+  },
+  "merchantShips": {
+    "tradeHp": 135,
+    "allianceHp": 175,
+    "tradeSpeed": 1.45,
+    "allianceSpeed": 1.7
+  },
+  "raiders": {
+    "count": 2,
+    "hp": 180,
+    "respawnMs": 45000
+  },
+  "notes": [
+    "Maritime cargo is delivered only when the ship reaches the player's harbor.",
+    "Sea trade runs in parallel with land caravans.",
+    "Hostile corsairs may raid outbound ships; harbor coastal defense damages nearby raiders."
+  ]
+}

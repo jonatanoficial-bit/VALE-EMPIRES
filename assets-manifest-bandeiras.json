@@ -1,0 +1,104 @@
+[
+  {
+    "id": "england",
+    "nation_label": "Reino da Inglaterra",
+    "flag_path": "assets/factions/flags/reino-da-inglaterra.png",
+    "thumb_path": "assets/factions/flags/reino-da-inglaterra-thumb.png",
+    "size": [
+      414,
+      468
+    ],
+    "source_box": [
+      40,
+      12,
+      454,
+      480
+    ],
+    "sha256": "a0a98538185785444263218c4b6232bea496be71c7efb72aa80d8631c9563fd4"
+  },
+  {
+    "id": "france",
+    "nation_label": "Reino da França",
+    "flag_path": "assets/factions/flags/reino-da-franca.png",
+    "thumb_path": "assets/factions/flags/reino-da-franca-thumb.png",
+    "size": [
+      488,
+      472
+    ],
+    "source_box": [
+      480,
+      12,
+      968,
+      484
+    ],
+    "sha256": "ce1d2fb236b37957c883cb44657b50de09055d9b3e4551b723b5eb10227a0844"
+  },
+  {
+    "id": "byzantine",
+    "nation_label": "Império Bizantino",
+    "flag_path": "assets/factions/flags/imperio-bizantino.png",
+    "thumb_path": "assets/factions/flags/imperio-bizantino-thumb.png",
+    "size": [
+      470,
+      463
+    ],
+    "source_box": [
+      974,
+      12,
+      1444,
+      475
+    ],
+    "sha256": "d1c43e568e6381d2dd9fb257c2d439b3d5dc48ba6b43530c24d5aacf115a6947"
+  },
+  {
+    "id": "mongol",
+    "nation_label": "Império Mongol",
+    "flag_path": "assets/factions/flags/imperio-mongol.png",
+    "thumb_path": "assets/factions/flags/imperio-mongol-thumb.png",
+    "size": [
+      434,
+      493
+    ],
+    "source_box": [
+      28,
+      514,
+      462,
+      1007
+    ],
+    "sha256": "5caccd5395c0d8ea5930881635ccbf2eeb51056b09c2e41e0bc86ebf2ccca00e"
+  },
+  {
+    "id": "cordoba",
+    "nation_label": "Califado de Córdoba",
+    "flag_path": "assets/factions/flags/califado-de-cordoba.png",
+    "thumb_path": "assets/factions/flags/califado-de-cordoba-thumb.png",
+    "size": [
+      476,
+      476
+    ],
+    "source_box": [
+      497,
+      522,
+      973,
+      998
+    ],
+    "sha256": "225aa0d2758fee5537901200e8e10aac7ecb6305d94548977c581468f0b7bdb3"
+  },
+  {
+    "id": "nordics",
+    "nation_label": "Reinos Nórdicos",
+    "flag_path": "assets/factions/flags/reinos-nordicos.png",
+    "thumb_path": "assets/factions/flags/reinos-nordicos-thumb.png",
+    "size": [
+      474,
+      485
+    ],
+    "source_box": [
+      972,
+      519,
+      1446,
+      1004
+    ],
+    "sha256": "f7061697b7e2a828f509e82ecccb73b5204413ba30e883753307b0fb43409d25"
+  }
+]

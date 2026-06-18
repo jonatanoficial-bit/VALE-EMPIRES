@@ -1,0 +1,184 @@
+{
+  "project": "Vale Empires",
+  "phase": 1,
+  "version": "0.1.0",
+  "build": "VE-0.1.0-F01",
+  "generated_at": "2026-06-10T15:22:01+00:00",
+  "asset_count": 29,
+  "assets": [
+    {
+      "path": "assets/backgrounds/loading-screen-background-alternative.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "f9f8c6172262885115f471d927f06122c6e8a7a014d6e956055f49f35d1dce79"
+    },
+    {
+      "path": "assets/backgrounds/loading-screen-background.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "44745d5055940f9e6289459b47e356c7fe02cdcae6edc5ee638b537185fde7e7"
+    },
+    {
+      "path": "assets/backgrounds/menu-main-background.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "c92bbe6856c923575fc1c4a2023aee9fc5c82fb74a4e973739fc6c8ac60ae5a8"
+    },
+    {
+      "path": "assets/branding/vale-empires-logo-fullscreen.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "5f73c3fa2595281cdb1d7393da32c51ea1b3c19ba318a9069331afda989f37bf"
+    },
+    {
+      "path": "assets/placeholders/test-placeholder-emblem.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "86e4d61fda83ba3281aa493bf4c0c25a4336274f7501a83f9ee069a6154e1778"
+    },
+    {
+      "path": "assets/source-sheets/terrain-source-sheet.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "6834dce5c64650530755bc00dbdca6e4be20f90c4d5b4d3fd4a7a4e649afe9cb"
+    },
+    {
+      "path": "assets/source-sheets/ui-buttons-source-sheet.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "36719e4859476d72e74224be88f60193136a720b81844379dcfde2051487fc0d"
+    },
+    {
+      "path": "assets/terrain/terrain-dirt.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "d364fb842f3454c439f775924d626cff17726f03150901564520eb9b1bc9735d"
+    },
+    {
+      "path": "assets/terrain/terrain-grass-dark.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "10ec1e871749cc9aba663fef3123b473dd82ba673e039149f9c8f72afff29068"
+    },
+    {
+      "path": "assets/terrain/terrain-grass-light.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "3194ecaa8978a0a89cd593843065c227051c0f71dc0bf045be38f18ef5a6100d"
+    },
+    {
+      "path": "assets/terrain/terrain-rock.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "5869872a629ffc78d110b20cf8b056fdcb7e25acf70080337948317234daee0e"
+    },
+    {
+      "path": "assets/terrain/terrain-stone-path.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "9795569c10696532f94ea74f82c3593ed7d05acd0dd79dc84fdfc13a1eada3a1"
+    },
+    {
+      "path": "assets/terrain/terrain-water-shallow.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "89e1123bf1f77e8e1b85f2a1e663d90ed514500e2ffce4df1bfe454bdb65a3ff"
+    },
+    {
+      "path": "assets/ui/buttons/button-back.png",
+      "width": 183,
+      "height": 51,
+      "sha256": "ae89cda7c7c9573f7314771d7990a6243614549fe242ab0ea87b569efb26e108"
+    },
+    {
+      "path": "assets/ui/buttons/button-continue.png",
+      "width": 423,
+      "height": 63,
+      "sha256": "22bd9afd0bb8922092cbcccb82d92a4ba0ebb7158784c96dadf4c6e5efcaedf9"
+    },
+    {
+      "path": "assets/ui/buttons/button-credits.png",
+      "width": 423,
+      "height": 62,
+      "sha256": "9a7b5b06fe9816859fac366cd5458f20b1fdb978aeaaaddc5e441e7b2bef3396"
+    },
+    {
+      "path": "assets/ui/buttons/button-new-game.png",
+      "width": 440,
+      "height": 92,
+      "sha256": "c3b31ff9d6f4b60f5d7bc807bb6c8e8191e31eb6a739348fd7ddc816ec821a5c"
+    },
+    {
+      "path": "assets/ui/buttons/button-restart.png",
+      "width": 179,
+      "height": 55,
+      "sha256": "11c2054c3edc5efdfa45df1a69b83c37161031916b166a22be2edc5d8d642149"
+    },
+    {
+      "path": "assets/ui/buttons/button-safe-mode.png",
+      "width": 215,
+      "height": 57,
+      "sha256": "8944603d20d60d96c97cdf268fa01dccb9d5f05268169d1ee4d50e8d66aa7ae6"
+    },
+    {
+      "path": "assets/ui/buttons/button-settings.png",
+      "width": 423,
+      "height": 61,
+      "sha256": "4c3e860495f4325c6359cf02324a2e75aa9d3bc9a399b14d6ee53fed72b25e34"
+    },
+    {
+      "path": "assets/ui/icons/build-badge-ve-0.1.0-f01.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d8e1128755708bbcb5d1d549841cbcb2a799ce828fed2e3203260b9dada4d47d"
+    },
+    {
+      "path": "assets/ui/icons/icon-close.png",
+      "width": 91,
+      "height": 96,
+      "sha256": "6f1af1a5d4c43f81f1ca375cb9e77c30cd479f5da3d7d5aa1a53de1f49ca1539"
+    },
+    {
+      "path": "assets/ui/icons/icon-scroll.png",
+      "width": 87,
+      "height": 91,
+      "sha256": "6e61352ee95efea61d6c4edb718b9a4ba7b360e016362a7d81ea1a3b9aca619b"
+    },
+    {
+      "path": "assets/ui/icons/icon-settings.png",
+      "width": 81,
+      "height": 85,
+      "sha256": "190c4ef8871aaa5ec97a75d0772ac45ef52c9bde3279dec1ce15eb6c771fd5be"
+    },
+    {
+      "path": "assets/ui/icons/icon-shield.png",
+      "width": 86,
+      "height": 92,
+      "sha256": "f76ffd2e2e4797f042dee6eac80d66bab4cbfecc73ff182fbb3a86100bce143b"
+    },
+    {
+      "path": "assets/ui/panels/medieval-premium-interface.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "0392e140c2c5af6e7a074acad6ca29cbe6d9dcb78a7786408bbfa373a538b2a9"
+    },
+    {
+      "path": "assets/ui/panels/panel-large-torch.png",
+      "width": 890,
+      "height": 475,
+      "sha256": "39f0d928aa8951212a75f3e24f7cffb8609d74580ab7011ec1b47015ec9af0d6"
+    },
+    {
+      "path": "assets/ui/panels/panel-wide-dark.png",
+      "width": 830,
+      "height": 165,
+      "sha256": "8405fff7ab9e1ebfd40bf25206551722523be377887e0dba5d6edd8c7699600c"
+    },
+    {
+      "path": "assets/ui/panels/panel-wide-parchment.png",
+      "width": 855,
+      "height": 240,
+      "sha256": "8148037f04e7258816acec1a82a4e018e8c14d27f733a74e6301712ec7779fe7"
+    }
+  ]
+}

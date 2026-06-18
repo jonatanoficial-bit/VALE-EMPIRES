@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "personalities": {
+    "england": {
+      "key": "cautious",
+      "label": "Cautelosa",
+      "tradeBias": 0.65,
+      "allianceBias": 0.55
+    },
+    "france": {
+      "key": "honorable",
+      "label": "Honrada",
+      "tradeBias": 0.62,
+      "allianceBias": 0.72
+    },
+    "byzantium": {
+      "key": "strategic",
+      "label": "Estratégica",
+      "tradeBias": 0.7,
+      "allianceBias": 0.58
+    },
+    "mongol": {
+      "key": "aggressive",
+      "label": "Agressiva",
+      "tradeBias": 0.35,
+      "allianceBias": 0.28
+    },
+    "cordoba": {
+      "key": "merchant",
+      "label": "Mercantil",
+      "tradeBias": 0.88,
+      "allianceBias": 0.64
+    },
+    "norse": {
+      "key": "proud",
+      "label": "Orgulhosa",
+      "tradeBias": 0.42,
+      "allianceBias": 0.48
+    }
+  },
+  "systems": {
+    "relationRange": [
+      -100,
+      100
+    ],
+    "tradeTickMs": 15000,
+    "eventTickMs": 45000,
+    "truceDurationMs": 120000,
+    "alliancePopulationBonus": 3
+  }
+}

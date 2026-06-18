@@ -1,0 +1,54 @@
+{
+  "status": "planning",
+  "nations": [
+    {
+      "id": "brazil",
+      "label": "Brasil"
+    },
+    {
+      "id": "usa",
+      "label": "Estados Unidos"
+    },
+    {
+      "id": "china",
+      "label": "China"
+    },
+    {
+      "id": "india",
+      "label": "Índia"
+    },
+    {
+      "id": "japan",
+      "label": "Japão"
+    },
+    {
+      "id": "germany",
+      "label": "Alemanha"
+    },
+    {
+      "id": "france-modern",
+      "label": "França"
+    },
+    {
+      "id": "uk",
+      "label": "Reino Unido"
+    },
+    {
+      "id": "turkiye",
+      "label": "Turquia"
+    },
+    {
+      "id": "mexico",
+      "label": "México"
+    },
+    {
+      "id": "south-africa",
+      "label": "África do Sul"
+    },
+    {
+      "id": "russia",
+      "label": "Rússia"
+    }
+  ],
+  "notice": "Cadastro preliminar para expansão futura; nenhuma nação contemporânea está jogável nesta build."
+}

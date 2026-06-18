@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "errors": [],
+  "ramHitsToBreakPort": 9,
+  "captureSeconds": 18,
+  "towerTargetHpAfter5Shots": 170,
+  "portIncomeAfter3Ticks": {
+    "gold": 115,
+    "wood": 112
+  },
+  "saveRoundtrip": true
+}

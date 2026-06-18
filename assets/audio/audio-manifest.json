@@ -1,0 +1,41 @@
+{
+  "music": {
+    "menu": "assets/audio/music/menu-royal.ogg",
+    "exploration": "assets/audio/music/exploration-fields.ogg",
+    "combat": "assets/audio/music/combat-siege.ogg",
+    "victory": "assets/audio/music/victory-fanfare.ogg",
+    "defeat": "assets/audio/music/defeat-lament.ogg"
+  },
+  "sfx": {
+    "arrow-shot": "assets/audio/sfx/arrow-shot.ogg",
+    "autosave": "assets/audio/sfx/autosave.ogg",
+    "building-complete": "assets/audio/sfx/building-complete.ogg",
+    "cavalry-charge": "assets/audio/sfx/cavalry-charge.ogg",
+    "command-move": "assets/audio/sfx/command-move.ogg",
+    "construction": "assets/audio/sfx/construction.ogg",
+    "era-complete": "assets/audio/sfx/era-complete.ogg",
+    "gather-food": "assets/audio/sfx/gather-food.ogg",
+    "gather-gold": "assets/audio/sfx/gather-gold.ogg",
+    "gather-stone": "assets/audio/sfx/gather-stone.ogg",
+    "gather-wood": "assets/audio/sfx/gather-wood.ogg",
+    "impact": "assets/audio/sfx/impact.ogg",
+    "notification": "assets/audio/sfx/notification.ogg",
+    "repair": "assets/audio/sfx/repair.ogg",
+    "sword-hit": "assets/audio/sfx/sword-hit.ogg",
+    "tech-complete": "assets/audio/sfx/tech-complete.ogg",
+    "territory-capture": "assets/audio/sfx/territory-capture.ogg",
+    "ui-click": "assets/audio/sfx/ui-click.ogg",
+    "ui-confirm": "assets/audio/sfx/ui-confirm.ogg",
+    "ui-error": "assets/audio/sfx/ui-error.ogg",
+    "unit-death": "assets/audio/sfx/unit-death.ogg",
+    "unit-select": "assets/audio/sfx/unit-select.ogg"
+  },
+  "stingers": {
+    "byzantium": "assets/audio/stingers/nation-byzantium.ogg",
+    "cordoba": "assets/audio/stingers/nation-cordoba.ogg",
+    "england": "assets/audio/stingers/nation-england.ogg",
+    "france": "assets/audio/stingers/nation-france.ogg",
+    "mongol": "assets/audio/stingers/nation-mongol.ogg",
+    "norse": "assets/audio/stingers/nation-norse.ogg"
+  }
+}

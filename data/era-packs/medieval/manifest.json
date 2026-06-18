@@ -1,0 +1,25 @@
+{
+  "id": "medieval",
+  "label": "Era Medieval",
+  "version": "3.6.0",
+  "status": "playable",
+  "enabled": true,
+  "campaign": "Crônicas do Vale",
+  "nationsFile": "nations.json",
+  "resourcesFile": "resources.json",
+  "unitsFile": "units.json",
+  "buildingsFile": "buildings.json",
+  "technologiesFile": "technologies.json",
+  "saveNamespace": "vale-empires.medieval",
+  "compatibleSaveSchema": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "features": [
+    "amphibious-operations",
+    "transport-ships",
+    "coastal-defense"
+  ]
+}

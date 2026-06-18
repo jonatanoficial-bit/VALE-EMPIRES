@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "captureProgressAfter18s": 84.6,
+  "captureComplete": 100,
+  "gateClosedBlocks": true,
+  "gateOpenPasses": true,
+  "siegeTowerDamage": 128,
+  "rewardApplications": 1
+}

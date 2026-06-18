@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "errors": [],
+  "shipTypes": [
+    "patrolGalley",
+    "warGalley",
+    "fireShip",
+    "transportShip"
+  ],
+  "warVsPatrolDamage": 25,
+  "patrolVsWarDamage": 8,
+  "fireShipBurst": 104,
+  "blockadeShipsInside": 2,
+  "blockadeActivated": true,
+  "waterRouteNodes": 93,
+  "saveRoundtrip": true
+}

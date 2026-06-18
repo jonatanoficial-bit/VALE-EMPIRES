@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "factions": 4,
+  "shipments": 1,
+  "delivered": 18,
+  "lost": 1,
+  "routePoints": 5,
+  "restore": true
+}

@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "errors": [],
+  "transportCapacity": 8,
+  "embarkDistribution": [
+    8,
+    5
+  ],
+  "landingPositions": 8,
+  "coastalHpAfter4Shots": 204,
+  "normalInvasionIntervalMs": 69000,
+  "saveRoundtrip": true
+}

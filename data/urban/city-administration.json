@@ -1,0 +1,59 @@
+{
+  "id": "city-administration",
+  "version": 1,
+  "saveSchema": 13,
+  "metrics": [
+    "stability",
+    "loyalty",
+    "prosperity",
+    "reconstruction",
+    "integration",
+    "unrest",
+    "revoltRisk"
+  ],
+  "policies": {
+    "balanced": {
+      "income": {
+        "gold": 8,
+        "food": 5
+      },
+      "description": "Equilíbrio entre renda e integração"
+    },
+    "relief": {
+      "cost": {
+        "food": 90,
+        "wood": 70
+      },
+      "description": "Reconstrução e confiança popular"
+    },
+    "tribute": {
+      "income": {
+        "gold": 16,
+        "stone": 5
+      },
+      "description": "Maior arrecadação com risco político"
+    },
+    "martial": {
+      "cost": {
+        "gold": 60
+      },
+      "description": "Segurança elevada com menor lealdade civil"
+    }
+  },
+  "garrison": {
+    "recommended": 6,
+    "minimum": 2,
+    "maximum": 12
+  },
+  "reconstructionCost": {
+    "wood": 160,
+    "stone": 120,
+    "gold": 50
+  },
+  "reliefCost": {
+    "food": 120,
+    "gold": 45
+  },
+  "revoltCheckSeconds": 30,
+  "incomeCycleSeconds": 20
+}

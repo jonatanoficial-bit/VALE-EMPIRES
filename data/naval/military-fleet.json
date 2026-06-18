@@ -1,0 +1,78 @@
+{
+  "version": 2,
+  "feature": "military-fleet-naval-combat-blockades-amphibious",
+  "requiredEra": "feudal",
+  "shipyard": {
+    "requiredEra": "feudal",
+    "cost": {
+      "wood": 280,
+      "stone": 140,
+      "gold": 110
+    },
+    "fleetCapacity": 4
+  },
+  "ships": {
+    "patrolGalley": {
+      "era": "feudal",
+      "cost": {
+        "wood": 130,
+        "gold": 45
+      },
+      "hp": 190,
+      "attack": 13,
+      "range": 125,
+      "speed": 2.05
+    },
+    "warGalley": {
+      "era": "kingdoms",
+      "cost": {
+        "wood": 230,
+        "gold": 105,
+        "stone": 35
+      },
+      "hp": 340,
+      "attack": 27,
+      "range": 165,
+      "speed": 1.5
+    },
+    "fireShip": {
+      "era": "kingdoms",
+      "cost": {
+        "wood": 170,
+        "food": 65,
+        "gold": 80
+      },
+      "hp": 175,
+      "attack": 58,
+      "range": 48,
+      "speed": 2.18
+    },
+    "transportShip": {
+      "era": "feudal",
+      "cost": {
+        "wood": 210,
+        "food": 90,
+        "gold": 55
+      },
+      "hp": 300,
+      "attack": 0,
+      "range": 0,
+      "armor": 4,
+      "speed": 1.42,
+      "capacity": 8
+    }
+  },
+  "orders": [
+    "escort",
+    "patrol",
+    "blockade",
+    "return",
+    "landing"
+  ],
+  "blockade": {
+    "shipsRequired": 2,
+    "radius": 310,
+    "incomeGoldEvery15s": 6
+  },
+  "saveSchema": 10
+}

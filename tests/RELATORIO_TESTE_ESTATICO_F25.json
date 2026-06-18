@@ -1,0 +1,175 @@
+{
+  "phase": "25",
+  "version": "v3.1.0",
+  "files": 283,
+  "html_ids": 241,
+  "html_css_references": 134,
+  "pwa_core_assets": 93,
+  "locale_base_keys": 19,
+  "locale_base_texts": 568,
+  "checks": [
+    {
+      "check": "HTML sem IDs duplicados",
+      "ok": true
+    },
+    {
+      "check": "ID obrigatório presente: btnSkirmishMenu",
+      "ok": true
+    },
+    {
+      "check": "ID obrigatório presente: skirmishScreen",
+      "ok": true
+    },
+    {
+      "check": "ID obrigatório presente: btnSkirmishStart",
+      "ok": true
+    },
+    {
+      "check": "ID obrigatório presente: skirmishSeed",
+      "ok": true
+    },
+    {
+      "check": "ID obrigatório presente: skirmishResultOverlay",
+      "ok": true
+    },
+    {
+      "check": "ID obrigatório presente: btnSkirmishResultRestart",
+      "ok": true
+    },
+    {
+      "check": "mapSize: 3 opções",
+      "ok": true
+    },
+    {
+      "check": "startingEra: 4 opções",
+      "ok": true
+    },
+    {
+      "check": "resources: 3 opções",
+      "ok": true
+    },
+    {
+      "check": "victory: 3 opções",
+      "ok": true
+    },
+    {
+      "check": "difficulty: 5 opções",
+      "ok": true
+    },
+    {
+      "check": "Função presente: openSkirmishSetup",
+      "ok": true
+    },
+    {
+      "check": "Função presente: startSkirmish",
+      "ok": true
+    },
+    {
+      "check": "Função presente: updateSkirmish",
+      "ok": true
+    },
+    {
+      "check": "Função presente: finishSkirmish",
+      "ok": true
+    },
+    {
+      "check": "Função presente: skirmishProgress",
+      "ok": true
+    },
+    {
+      "check": "Função presente: normalizeSkirmishConfig",
+      "ok": true
+    },
+    {
+      "check": "Save schema 5 no app",
+      "ok": true
+    },
+    {
+      "check": "Slot dedicado de save da partida livre",
+      "ok": true
+    },
+    {
+      "check": "Slot dedicado de save da campanha",
+      "ok": true
+    },
+    {
+      "check": "Roteamento por modo de jogo",
+      "ok": true
+    },
+    {
+      "check": "Tamanho de mapa aplicado na geração",
+      "ok": true
+    },
+    {
+      "check": "Painel contextual da partida livre",
+      "ok": true
+    },
+    {
+      "check": "Versão v3.1.0",
+      "ok": true
+    },
+    {
+      "check": "Fase 25",
+      "ok": true
+    },
+    {
+      "check": "BUILD saveSchema 5",
+      "ok": true
+    },
+    {
+      "check": "Paridade de keys: pt-BR",
+      "ok": true
+    },
+    {
+      "check": "Paridade de textos-base: pt-BR",
+      "ok": true
+    },
+    {
+      "check": "Tradução menu.skirmish: pt-BR",
+      "ok": true
+    },
+    {
+      "check": "Paridade de keys: en-US",
+      "ok": true
+    },
+    {
+      "check": "Paridade de textos-base: en-US",
+      "ok": true
+    },
+    {
+      "check": "Tradução menu.skirmish: en-US",
+      "ok": true
+    },
+    {
+      "check": "Paridade de keys: es-ES",
+      "ok": true
+    },
+    {
+      "check": "Paridade de textos-base: es-ES",
+      "ok": true
+    },
+    {
+      "check": "Tradução menu.skirmish: es-ES",
+      "ok": true
+    },
+    {
+      "check": "Referências HTML/CSS existentes",
+      "ok": true
+    },
+    {
+      "check": "CORE_ASSETS encontrado",
+      "ok": true
+    },
+    {
+      "check": "Cache PWA sem arquivos ausentes",
+      "ok": true
+    },
+    {
+      "check": "Cache PWA versionado para F25",
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "missing_references": [],
+  "missing_core_assets": []
+}

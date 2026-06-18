@@ -1,0 +1,14 @@
+{
+  "trees": [
+    "economy",
+    "military",
+    "defense",
+    "civilization"
+  ],
+  "ages": [
+    "tribal",
+    "feudal",
+    "kingdoms",
+    "imperial"
+  ]
+}

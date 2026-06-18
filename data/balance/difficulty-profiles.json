@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "default": "normal",
+  "profiles": {
+    "story": {
+      "label": "História",
+      "aiEconomy": 0.7,
+      "aiCombat": 0.78,
+      "waveScale": 0.58,
+      "rewardMultiplier": 1.0
+    },
+    "easy": {
+      "label": "Fácil",
+      "aiEconomy": 0.86,
+      "aiCombat": 0.9,
+      "waveScale": 0.8,
+      "rewardMultiplier": 1.05
+    },
+    "normal": {
+      "label": "Normal",
+      "aiEconomy": 1.0,
+      "aiCombat": 1.0,
+      "waveScale": 1.0,
+      "rewardMultiplier": 1.1
+    },
+    "hard": {
+      "label": "Difícil",
+      "aiEconomy": 1.18,
+      "aiCombat": 1.13,
+      "waveScale": 1.2,
+      "rewardMultiplier": 1.22
+    },
+    "conqueror": {
+      "label": "Conquistador",
+      "aiEconomy": 1.38,
+      "aiCombat": 1.28,
+      "waveScale": 1.42,
+      "rewardMultiplier": 1.38
+    }
+  }
+}

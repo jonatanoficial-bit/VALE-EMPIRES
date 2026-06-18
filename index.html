@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/>
+<meta content="#08111f" name="theme-color"/>
+<meta content="yes" name="mobile-web-app-capable"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="Vale Empires" name="apple-mobile-web-app-title"/>
+<meta content="Vale Empires — estratégia histórica mobile-first, campanha medieval, conquistas e suporte a português, inglês e espanhol." name="description"/>
+<link href="manifest.webmanifest" rel="manifest"/>
+<link href="assets/pwa/apple-touch-icon.png" rel="apple-touch-icon"/>
+<title>Vale Empires — v3.0.1 Release Candidate Final</title>
+<link href="css/main.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="app app-loading" data-visual-quality="premium" id="app">
+<div aria-hidden="true" class="screen-transition" id="screenTransition"><span></span></div>
+<div aria-atomic="false" aria-live="polite" class="toast-stack" id="toastStack"></div>
+<div class="rotate-hint hidden" id="rotateHint">
+<div class="rotate-card">
+<img alt="Emblema" src="assets/placeholders/test-placeholder-emblem.png"/>
+<h2>Gire o dispositivo</h2>
+<p>Esta build foi otimizada para jogar na horizontal.</p>
+</div>
+</div>
+<section aria-label="Tela de carregamento" class="screen loading-screen active" id="loadingScreen">
+<div class="loading-overlay"></div>
+<img alt="Vale Empires" class="loading-logo" src="assets/branding/vale-empires-logo-fullscreen.png"/>
+<div class="loading-box">
+<div class="loading-title">Inicializando reino...</div>
+<div class="progress-shell"><div class="progress-bar" id="progressBar"></div></div>
+<div class="progress-text" id="progressText">0%</div>
+<div class="loading-hint" id="loadingHint">Preparando recursos, validando assets e sistemas anti-quebra.</div>
+</div>
+<div class="build-stamp compact" id="loadingBuild"></div>
+</section>
+<section aria-label="Menu principal" class="screen menu-screen" id="menuScreen">
+<div class="menu-shade"></div>
+<img alt="Logo Vale Empires" class="menu-logo" src="assets/branding/vale-empires-logo-fullscreen.png"/>
+<div class="menu-layout">
+<div class="menu-left">
+<div class="menu-buttons">
+<button class="image-button localized-menu-button" id="btnNewGame"><img alt="NOVO JOGO" class="localized-menu-icon" src="assets/ui/icons-upgrade/others/icon-map.png"/><span data-i18n-key="menu.newGame">NOVO JOGO</span></button>
+<button class="image-button localized-menu-button" id="btnContinue"><img alt="CONTINUAR" class="localized-menu-icon" src="assets/ui/icons-upgrade/status/icon-available.png"/><span data-i18n-key="menu.continue">CONTINUAR</span></button>
+<button class="image-button localized-menu-button" id="btnSettings"><img alt="CONFIGURAÇÕES" class="localized-menu-icon" src="assets/ui/icons-upgrade/interface/icon-settings.png"/><span data-i18n-key="menu.settings">CONFIGURAÇÕES</span></button>
+<button class="image-button localized-menu-button" id="btnCredits"><img alt="CRÉDITOS" class="localized-menu-icon" src="assets/ui/icons-upgrade/interface/icon-credits.png"/><span data-i18n-key="menu.credits">CRÉDITOS</span></button>
+</div>
+<div class="menu-utility-row">
+<button aria-label="Entrar em tela cheia" class="fullscreen-entry" id="btnFullscreenMenu" type="button">
+<img alt="Tela cheia" src="assets/ui/icons-upgrade/camera/icon-overview.png"/>
+<span data-i18n-key="menu.fullscreen">TELA CHEIA</span>
+</button>
+<button aria-label="Instalar Vale Empires" class="fullscreen-entry install-entry" id="btnInstallApp" type="button">
+<img alt="Instalar aplicativo" src="assets/ui/icons-upgrade/interface/icon-achievements.png"/>
+<span data-i18n-key="menu.install" id="installButtonText">INSTALAR APP</span>
+</button>
+<button aria-label="Abrir tutorial" class="fullscreen-entry tutorial-entry" id="btnTutorialHelp" type="button">
+<img alt="Tutorial" src="assets/ui/icons-upgrade/interface/icon-help.png"/>
+<span data-i18n-key="menu.tutorial">TUTORIAL</span>
+</button>
+<button aria-label="Abrir conquistas" class="fullscreen-entry achievements-entry" id="btnAchievementsMenu" type="button">
+<img alt="Conquistas" src="assets/ui/icons-upgrade/interface/icon-achievements.png"/>
+<span data-i18n-key="menu.achievements" id="achievementsMenuLabel">CONQUISTAS</span>
+</button>
+<button aria-label="Escolher idioma" class="fullscreen-entry language-entry" id="btnLanguageMenu" type="button"><img alt="Idioma" src="assets/ui/icons-upgrade/others/icon-map.png"/><span id="languageCurrentLabel">PORTUGUÊS</span></button></div>
+<div class="menu-profile-summary hidden" id="menuProfileSummary">
+<img alt="Governante" id="menuProfileAvatar" src="assets/ui/icons-upgrade/villagers/icon-select-villager.png"/>
+<img alt="Bandeira da nação" class="profile-nation-flag" id="menuProfileFlag" src="assets/factions/flags/reino-da-inglaterra-thumb.png"/>
+<div><strong id="menuProfileName">Governante</strong><span id="menuProfileNation">Reino não definido</span><small id="menuProfilePeriod">Era Medieval</small></div>
+</div>
+<div class="menu-tip card-panel">
+<strong>Build Fase 24</strong>
+<span>Release Candidate Final: conquistas, documentos comerciais, pacote de loja e auditoria de lançamento.</span>
+</div>
+</div>
+<div class="menu-right">
+<div class="build-badge-wrap">
+<img alt="Selo da build" class="build-badge" src="assets/ui/icons/build-badge-ve-0.1.0-f01.png">
+</img></div>
+</div>
+</div>
+<div class="build-stamp" id="menuBuild"></div>
+</section>
+<section aria-label="Seleção de período histórico" class="screen period-screen" id="periodScreen">
+<div class="period-shade"></div>
+<div class="period-shell">
+<header class="period-header">
+<div>
+<span class="period-kicker">NOVA CAMPANHA</span>
+<h1>Escolha o período histórico</h1>
+<p>Cada período funciona como um pacote independente, com nações, recursos, unidades, tecnologias e saves próprios.</p>
+</div>
+<div class="profile-build" id="periodBuild"></div>
+</header>
+<div class="period-grid" id="periodGrid">
+<button class="period-card active selected" data-period="medieval" type="button">
+<div class="period-card-art medieval"><img alt="Era Medieval" src="assets/ui/icons-upgrade/buildings/icon-town-center.png"/></div>
+<div class="period-card-copy"><small>DISPONÍVEL</small><strong>Era Medieval</strong><span>Crônicas do Vale, seis civilizações, quatro eras e campanha completa.</span><em>Pacote estável atual</em></div>
+</button>
+<button aria-disabled="true" class="period-card locked" data-period="renaissance" type="button">
+<div class="period-card-art renaissance"><img alt="Renascimento" src="assets/ui/icons-upgrade/others/icon-trade.png"/></div>
+<div class="period-card-copy"><small>EXPANSÃO FUTURA</small><strong>Renascimento</strong><span>Pólvora, navegação oceânica e grandes rotas comerciais.</span><em>Arquitetura reservada</em></div>
+</button>
+<button aria-disabled="true" class="period-card locked" data-period="industrial" type="button">
+<div class="period-card-art industrial"><img alt="Era Industrial" src="assets/ui/icons-upgrade/others/icon-technology.png"/></div>
+<div class="period-card-copy"><small>EXPANSÃO FUTURA</small><strong>Era Industrial</strong><span>Fábricas, ferrovias, energia e produção em massa.</span><em>Arquitetura reservada</em></div>
+</button>
+<button aria-disabled="true" class="period-card locked" data-period="early-1900s" type="button">
+<div class="period-card-art early"><img alt="Início dos anos 1900" src="assets/ui/icons-upgrade/military/icon-infantry.png"/></div>
+<div class="period-card-copy"><small>EXPANSÃO FUTURA</small><strong>Início dos anos 1900</strong><span>Trincheiras, artilharia, primeiros veículos e aviação.</span><em>Arquitetura reservada</em></div>
+</button>
+<button aria-disabled="true" class="period-card locked featured" data-period="modern" type="button">
+<div class="period-card-art modern"><img alt="Mundo Contemporâneo" src="assets/ui/icons-upgrade/others/icon-map.png"/></div>
+<div class="period-card-copy"><small>EXPANSÃO PLANEJADA</small><strong>Mundo Contemporâneo</strong><span>Nações atuais, economia, diplomacia, logística e forças combinadas.</span><em>Fundação criada nesta build</em></div>
+</button>
+</div>
+<div class="period-preview">
+<img alt="Período selecionado" id="periodPreviewIcon" src="assets/ui/icons-upgrade/buildings/icon-town-center.png"/>
+<div><small id="periodPreviewStatus">PACOTE DISPONÍVEL</small><strong id="periodPreviewTitle">Era Medieval</strong><span id="periodPreviewText">O único período liberado nesta versão. As expansões permanecem isoladas para não comprometer a campanha medieval.</span></div>
+</div>
+<footer class="period-footer">
+<div class="profile-validation ok" id="periodValidation">A Era Medieval está pronta para iniciar.</div>
+<div class="profile-actions">
+<button class="profile-action secondary" id="btnPeriodBack" type="button">VOLTAR</button>
+<button class="profile-action primary" id="btnPeriodConfirm" type="button">CONTINUAR</button>
+</div>
+</footer>
+</div>
+</section>
+<section aria-label="Criação do governante" class="screen profile-screen" id="profileScreen">
+<div class="profile-shade"></div>
+<div class="profile-shell">
+<header class="profile-header">
+<div>
+<span class="profile-kicker" id="profilePeriodKicker">ERA MEDIEVAL</span>
+<h1>Crie seu governante</h1>
+<small class="profile-period-name" id="profilePeriodName">Pacote histórico: Era Medieval</small>
+<p>Defina sua identidade antes de assumir o comando do reino.</p>
+</div>
+<div class="profile-build" id="profileBuild"></div>
+</header>
+<div class="profile-layout">
+<section class="profile-identity-card">
+<label for="rulerName">Nome do governante</label>
+<input autocomplete="off" id="rulerName" maxlength="24" placeholder="Digite seu nome" type="text"/>
+<div class="profile-preview">
+<div class="profile-preview-avatar"><img alt="Avatar selecionado" id="profilePreviewAvatar" src="assets/ui/icons-upgrade/villagers/icon-select-villager.png"/></div>
+<img alt="Bandeira selecionada" class="profile-preview-flag" id="profilePreviewFlag" src="assets/factions/flags/reino-da-inglaterra-thumb.png"/>
+<div class="profile-preview-copy">
+<small>GOVERNANTE</small>
+<strong id="profilePreviewName">Seu nome</strong>
+<span id="profilePreviewNation">Escolha uma nação</span>
+<em id="profilePreviewBonus">O bônus aparecerá aqui.</em>
+</div>
+</div>
+</section>
+<section class="profile-choice-card">
+<div class="profile-section-title"><span>1</span><div><strong>Escolha seu avatar</strong><small>Representará seu governante na campanha.</small></div></div>
+<div class="avatar-grid" id="avatarGrid">
+<button class="avatar-option" data-avatar="governor" type="button"><img alt="Governante" src="assets/ui/icons-upgrade/villagers/icon-select-villager.png"/><span>Governante</span></button>
+<button class="avatar-option" data-avatar="commander" type="button"><img alt="Comandante" src="assets/ui/icons-upgrade/military/icon-infantry.png"/><span>Comandante</span></button>
+<button class="avatar-option" data-avatar="ranger" type="button"><img alt="Arqueiro" src="assets/ui/icons-upgrade/military/icon-archer.png"/><span>Estrategista</span></button>
+<button class="avatar-option" data-avatar="rider" type="button"><img alt="Cavaleiro" src="assets/ui/icons-upgrade/military/icon-cavalry.png"/><span>Cavaleiro</span></button>
+<button class="avatar-option" data-avatar="hero" type="button"><img alt="Herói" src="assets/ui/icons-upgrade/others/icon-heroes.png"/><span>Herói</span></button>
+<button class="avatar-option" data-avatar="sovereign" type="button"><img alt="Soberano" src="assets/ui/panels-upgrade/crest-blue-gold.png"/><span>Soberano</span></button>
+</div>
+</section>
+<section class="profile-choice-card nation-choice-card">
+<div class="profile-section-title"><span>2</span><div><strong>Escolha a nação</strong><small>Cada reino começa com um bônus diferente.</small></div></div>
+<div class="nation-grid" id="nationGrid">
+<button class="nation-option" data-nation="england" type="button"><img alt="Bandeira do Reino da Inglaterra" src="assets/factions/flags/reino-da-inglaterra-thumb.png"/><div><strong>Inglaterra</strong><span>Arqueiros de longo alcance • madeira +10%</span></div></button>
+<button class="nation-option" data-nation="france" type="button"><img alt="Bandeira do Reino da França" src="assets/factions/flags/reino-da-franca-thumb.png"/><div><strong>França</strong><span>Cavalaria real • alimento +10%</span></div></button>
+<button class="nation-option" data-nation="byzantium" type="button"><img alt="Bandeira do Império Bizantino" src="assets/factions/flags/imperio-bizantino-thumb.png"/><div><strong>Império Bizantino</strong><span>Catafractos • edifícios +14%</span></div></button>
+<button class="nation-option" data-nation="mongol" type="button"><img alt="Bandeira do Império Mongol" src="assets/factions/flags/imperio-mongol-thumb.png"/><div><strong>Império Mongol</strong><span>Mangudai • produção e mobilidade</span></div></button>
+<button class="nation-option" data-nation="cordoba" type="button"><img alt="Bandeira do Califado de Córdoba" src="assets/factions/flags/califado-de-cordoba-thumb.png"/><div><strong>Califado de Córdoba</strong><span>Guarda Andaluz • pesquisa e ouro</span></div></button>
+<button class="nation-option" data-nation="norse" type="button"><img alt="Bandeira dos Reinos Nórdicos" src="assets/factions/flags/reinos-nordicos-thumb.png"/><div><strong>Reinos Nórdicos</strong><span>Berserkers • infantaria agressiva</span></div></button>
+</div>
+</section>
+</div>
+<footer class="profile-footer">
+<div class="profile-validation" id="profileValidation">Preencha o nome e selecione avatar e nação.</div>
+<div class="profile-actions">
+<button class="profile-action secondary" id="btnProfileBack" type="button">VOLTAR</button>
+<button class="profile-action primary" id="btnProfileConfirm" type="button">INICIAR CAMPANHA</button>
+</div>
+</footer>
+</div>
+</section>
+<section aria-label="Mapa da campanha" class="screen campaign-screen" id="campaignScreen">
+<div class="campaign-shade"></div>
+<div class="campaign-shell">
+<header class="campaign-header">
+<div>
+<span class="campaign-kicker" id="campaignPeriodLabel">CAMPANHA MEDIEVAL</span>
+<h1>Crônicas do Vale</h1>
+<p>Conduza sua civilização da fundação do primeiro povoado ao domínio de um reino.</p>
+</div>
+<div class="campaign-profile">
+<img alt="Governante" id="campaignAvatar" src="assets/ui/icons-upgrade/villagers/icon-select-villager.png"/>
+<img alt="Bandeira da nação" class="campaign-nation-flag" id="campaignFlag" src="assets/factions/flags/reino-da-inglaterra-thumb.png"/>
+<div><strong id="campaignRuler">Governante</strong><span id="campaignNation">Reino</span><small id="campaignStars">0 capítulos concluídos</small></div>
+</div>
+<div class="campaign-build" id="campaignBuild"></div>
+</header>
+<div class="campaign-content">
+<section aria-label="Capítulos da campanha" class="campaign-map">
+<div class="campaign-route"></div>
+<button class="mission-node" data-mission="foundation" type="button"><i>I</i><div><strong>A Fundação do Vale</strong><span>Vale Dourado</span></div><b>INÍCIO</b></button>
+<button class="mission-node" data-mission="frontier" type="button"><i>II</i><div><strong>A Fronteira em Chamas</strong><span>Passo do Norte</span></div><b>BLOQUEADA</b></button>
+<button class="mission-node" data-mission="ascension" type="button"><i>III</i><div><strong>A Ascensão Feudal</strong><span>Planícies Reais</span></div><b>BLOQUEADA</b></button>
+<button class="mission-node" data-mission="siege" type="button"><i>IV</i><div><strong>O Grande Cerco</strong><span>Muralhas do Oriente</span></div><b>BLOQUEADA</b></button>
+<button class="mission-node" data-mission="crown" type="button"><i>V</i><div><strong>A Coroa do Vale</strong><span>Trono Imperial</span></div><b>BLOQUEADA</b></button>
+</section>
+<aside class="campaign-briefing">
+<span class="campaign-chapter" id="campaignChapter">CAPÍTULO I</span>
+<h2 id="campaignMissionTitle">A Fundação do Vale</h2>
+<p id="campaignMissionDescription">Estabeleça o primeiro assentamento e prepare o reino para sobreviver às ameaças da fronteira.</p>
+<div class="campaign-intel">
+<span><small>DIFICULDADE DA MISSÃO</small><b id="campaignDifficulty">INICIANTE</b></span>
+<span><small>DURAÇÃO ESTIMADA</small><b id="campaignDuration">12–18 MIN</b></span>
+<span><small>MELHOR RESULTADO</small><b id="campaignBest">AINDA NÃO CONCLUÍDA</b></span>
+</div>
+<div aria-label="Selecionar nível de dificuldade" class="difficulty-selector">
+<div class="difficulty-selector-title"><small>NÍVEL DA CAMPANHA</small><strong id="selectedDifficultyName">NORMAL</strong></div>
+<div class="difficulty-options" id="difficultyOptions">
+<button class="difficulty-option" data-difficulty="story" type="button">HISTÓRIA</button>
+<button class="difficulty-option" data-difficulty="easy" type="button">FÁCIL</button>
+<button class="difficulty-option selected" data-difficulty="normal" type="button">NORMAL</button>
+<button class="difficulty-option" data-difficulty="hard" type="button">DIFÍCIL</button>
+<button class="difficulty-option" data-difficulty="conqueror" type="button">CONQUISTADOR</button>
+</div>
+<p id="selectedDifficultyDescription">Experiência equilibrada para conhecer todos os sistemas do jogo.</p>
+</div>
+<div class="campaign-tip"><img alt="Dica" src="assets/ui/icons-upgrade/interface/icon-help.png"/><span id="campaignTip">Priorize madeira e alimento.</span></div>
+<div class="campaign-objectives-preview" id="campaignObjectivesPreview"></div>
+<div class="campaign-reward"><small>RECOMPENSA</small><strong id="campaignReward">150 madeira • 100 alimento • 50 ouro</strong></div>
+<div class="campaign-actions">
+<button class="profile-action secondary" id="btnCampaignBack" type="button">VOLTAR AO MENU</button>
+<button class="profile-action tutorial-campaign-action" id="btnCampaignTutorial" type="button">JOGAR COM GUIA</button>
+<button class="profile-action primary" id="btnCampaignStart" type="button">INICIAR MISSÃO</button>
+</div>
+</aside>
+</div>
+</div>
+</section>
+<section aria-label="Mapa inicial" class="screen game-screen" id="gameScreen">
+<div class="game-background"></div>
+<canvas aria-label="Mapa do jogo" height="720" id="gameCanvas" width="1280"></canvas>
+<div aria-hidden="true" class="world-lighting" id="worldLighting"></div>
+<div aria-hidden="true" class="cinematic-vignette"></div>
+<div aria-hidden="true" class="premium-scanlines"></div>
+<div class="visual-quality-badge" id="visualQualityBadge">PREMIUM</div>
+<header class="mobile-hud-top">
+<div class="resource-strip" id="resourcePanel">
+<div class="resource-chip"><img alt="Madeira" src="assets/ui/icons-upgrade/resources/icon-wood.png"/><b id="stockWood">200</b><small>/<span id="capWood">500</span></small></div>
+<div class="resource-chip"><img alt="Alimento" src="assets/ui/icons-upgrade/resources/icon-food.png"/><b id="stockFood">200</b><small>/<span id="capFood">500</span></small></div>
+<div class="resource-chip"><img alt="Ouro" src="assets/ui/icons-upgrade/resources/icon-gold.png"/><b id="stockGold">100</b><small>/<span id="capGold">500</span></small></div>
+<div class="resource-chip"><img alt="Pedra" src="assets/ui/icons-upgrade/resources/icon-stone.png"/><b id="stockStone">100</b><small>/<span id="capStone">500</span></small></div>
+<div class="resource-chip"><img alt="População" src="assets/ui/icons-upgrade/resources/icon-population.png"/><b id="populationNow">10</b><small>/<span id="populationCap">10</span></small></div>
+</div>
+<div aria-label="Abrir painel da civilização" class="scenario-strip governor-strip civ-strip" id="btnCivilizationPanel" role="button" tabindex="0"><img alt="Governante" id="profileHudAvatar" src="assets/ui/icons-upgrade/villagers/icon-select-villager.png"/><img alt="Bandeira da nação" class="profile-hud-flag" id="profileHudFlag" src="assets/factions/flags/reino-da-inglaterra-thumb.png"/><div><strong id="profileHudName">VALE EMPIRES</strong><span id="profileHudNation">Reino escolhido</span><small id="civHudStyle">Toque para ver a civilização</small></div></div>
+<div class="top-tools">
+<button class="mission-hud-button" data-tooltip="Objetivos da missão" id="btnMissionPanel" type="button">
+<img alt="Missão" src="assets/ui/icons-upgrade/interface/icon-missions.png"/>
+<span><small id="missionHudChapter">CAPÍTULO I</small><b id="missionHudTitle">A Fundação</b><em id="missionHudProgress">0 / 3 objetivos</em></span>
+</button>
+<button class="era-hud-button" data-tooltip="Eras e evolução" id="btnEraPanel" type="button">
+<img alt="Era" src="assets/ui/icons-upgrade/others/icon-technology.png"/>
+<span><small>ERA ATUAL</small><b id="eraHudName">Era Tribal</b><em id="eraHudProgress">Pronta</em></span>
+</button>
+<button class="tech-hud-button" data-tooltip="Árvore tecnológica" id="btnTechPanel" type="button">
+<img alt="Tecnologias" src="assets/ui/icons-upgrade/others/icon-technology.png"/>
+<span><small>TECNOLOGIAS</small><b id="techHudCount">0 / 12</b><em id="techHudProgress">Toque para pesquisar</em></span>
+</button>
+<button class="diplomacy-hud-button" data-tooltip="Diplomacia, comércio e alianças" id="btnDiplomacyPanel" type="button">
+<img alt="Diplomacia" src="assets/ui/icons-upgrade/others/icon-diplomacy.png"/>
+<span><small id="diplomacyHudKicker">DIPLOMACIA</small><b id="diplomacyHudStatus">1 rival • 0 aliados</b><em id="diplomacyHudIncome">Comércio inativo</em></span>
+</button>
+<button class="icon-action top-icon city-admin-hud-button hidden" data-tooltip="Administração da cidade conquistada" id="btnCityAdminPanel" type="button"><img alt="Administração urbana" src="assets/ui/icons-upgrade/minimap/icon-building.png"/></button>
+<button class="icon-action top-icon province-hud-button" data-tooltip="Conselho provincial" id="btnProvincePanel" type="button"><img alt="Províncias" src="assets/ui/icons-upgrade/others/icon-map.png"/></button>
+<button class="icon-action top-icon royal-hud-button" data-tooltip="Conselho Real" id="btnRoyalCouncilPanel" type="button"><img alt="Conselho Real" src="assets/ui/icons-upgrade/others/icon-heroes.png"/></button>
+<button class="icon-action top-icon intrigue-hud-button" data-tooltip="Intrigas da corte" id="btnCourtIntriguePanel" type="button"><img alt="Intrigas" src="assets/ui/icons-upgrade/interface/icon-messages.png"/></button>
+<button class="icon-action top-icon" data-tooltip="Grade" id="btnGrid"><img alt="Grade" src="assets/ui/icons-upgrade/camera/icon-area-select.png"/></button>
+<button class="icon-action top-icon" data-tooltip="Modo seguro" id="btnSafeToggle"><img alt="Modo seguro" src="assets/ui/icons-upgrade/status/icon-available.png"/></button>
+<button class="icon-action top-icon" data-tooltip="Menu" id="btnBackMenu"><img alt="Menu" src="assets/ui/icons-upgrade/interface/icon-settings.png"/></button>
+</div>
+</header>
+<div class="mission-tracker" id="missionTracker"><img alt="Objetivos" src="assets/ui/icons-upgrade/interface/icon-missions.png"/><div><strong id="missionTrackerTitle">Objetivo atual</strong><span id="missionTrackerText">Abra o painel de missão para ver os objetivos.</span></div></div>
+<div class="game-build compact" id="gameBuild"></div>
+<div aria-live="polite" class="mobile-system-badges">
+<span class="system-badge" id="autosaveStatus"><b>●</b> AUTOSAVE PRONTO</span>
+<span class="system-badge" id="connectionStatus"><b>●</b> ONLINE</span>
+</div>
+<aside aria-label="Minimapa" class="minimap-shell">
+<button class="territory-map-button" data-tooltip="Exploração e território" id="btnTerritoryPanel" type="button"><img alt="Território" src="assets/ui/icons-upgrade/minimap/icon-marker.png"/></button>
+<canvas height="160" id="minimapCanvas" width="240"></canvas>
+<div class="minimap-title" id="minimapTitle">EXPLORADO 0% • DOMÍNIO 0%</div>
+</aside>
+<aside class="selection-panel premium-bottom-panel" id="selectionPanel">
+<div class="selection-portrait"><img alt="Seleção" id="selectionIcon" src="assets/ui/icons-upgrade/minimap/icon-marker.png"/></div>
+<div class="selection-copy"><strong id="selectionTitle">Nada selecionado</strong><span id="selectionCount">0</span><small id="selectionHelp">Selecione unidades ou edifícios.</small><small id="buildModeHelp">Modo construção: desativado</small></div>
+<div class="compact-queues">
+<div><small>Centro Urbano</small><div class="queue-progress"><div id="queueProgressBar"></div></div><span id="queueText">Fila vazia</span></div>
+<div><small>Militar</small><div class="queue-progress"><div id="militaryQueueProgress"></div></div><span id="militaryQueueText">Fila militar vazia</span></div>
+<div class="naval-queue"><small>Naval</small><div class="queue-progress"><div id="navalQueueProgress"></div></div><span id="navalQueueText">Fila naval vazia</span></div>
+</div>
+</aside>
+<aside class="action-dock" id="actionDock">
+<div class="action-page context-neutral" data-context="neutral">
+<button class="icon-action" data-tooltip="Salvar" id="btnSave"><img alt="Salvar" src="assets/ui/buttons-upgrade/button-save-blue.png"/></button>
+<button class="icon-action square" data-tooltip="Centralizar" id="btnCenter"><img alt="Centralizar" src="assets/ui/icons-upgrade/camera/icon-center-camera.png"/></button>
+<button class="icon-action square" data-tooltip="Selecionar aldeões" id="btnSelectAll"><img alt="Aldeões" src="assets/ui/icons-upgrade/villagers/icon-select-villager.png"/></button>
+<button class="icon-action square" data-tooltip="Selecionar exército" id="btnSelectArmy"><img alt="Exército" src="assets/ui/icons-upgrade/military/icon-select-all-army.png"/></button>
+<button class="icon-action square" data-tooltip="Treinamento militar" id="btnMilitaryMenu"><img alt="Treinamento militar" src="assets/ui/icons-upgrade/buildings/icon-barracks.png"/></button>
+<button class="icon-action square" data-tooltip="Comando naval" id="btnNavalMenu"><img alt="Comando naval" src="assets/ui/icons-upgrade/others/icon-trade.png"/></button>
+<button class="icon-action square" data-tooltip="Criar aldeão" id="btnTrainVillager"><img alt="Criar aldeão" src="assets/ui/icons-upgrade/population/icon-population-increase.png"/></button>
+<button class="icon-action square" data-tooltip="Cancelar fila" id="btnCancelQueue"><img alt="Cancelar fila" src="assets/ui/icons-upgrade/commands/icon-cancel.png"/></button>
+<button class="icon-action square" data-tooltip="Novo mapa" id="btnRegenerate"><img alt="Novo mapa" src="assets/ui/icons-upgrade/others/icon-map.png"/></button>
+<button class="icon-action square" data-tooltip="Abrir/fechar portões" id="btnToggleCityGates"><img alt="Controlar portões" src="assets/ui/icons-upgrade/commands/icon-stop.png"/></button>
+<button class="icon-action square" data-tooltip="Localizar porto rival" id="btnLocateRivalPort"><img alt="Porto rival" src="assets/ui/icons-upgrade/others/icon-trade.png"/></button>
+<button class="icon-action square" data-tooltip="Localizar cidade rival" id="btnLocateEnemyCity"><img alt="Cidade rival" src="assets/ui/icons-upgrade/camera/icon-center-camera.png"/></button>
+</div>
+<div class="action-page context-villager hidden" data-context="villager">
+<button class="icon-action square resource-command" data-resource="wood" data-tooltip="Coletar madeira"><img alt="Madeira" src="assets/ui/icons-upgrade/villagers/icon-gather-wood.png"/></button>
+<button class="icon-action square resource-command" data-resource="food" data-tooltip="Coletar alimento"><img alt="Alimento" src="assets/ui/icons-upgrade/villagers/icon-gather-food.png"/></button>
+<button class="icon-action square resource-command" data-resource="gold" data-tooltip="Coletar ouro"><img alt="Ouro" src="assets/ui/icons-upgrade/villagers/icon-gather-gold.png"/></button>
+<button class="icon-action square resource-command" data-resource="stone" data-tooltip="Coletar pedra"><img alt="Pedra" src="assets/ui/icons-upgrade/villagers/icon-gather-stone.png"/></button>
+<button class="icon-action square" data-tooltip="Construir" id="btnBuildMenu"><img alt="Construir" src="assets/ui/icons-upgrade/construction/icon-build.png"/></button>
+<button class="icon-action square" data-tooltip="Reparar" id="btnRepair"><img alt="Reparar" src="assets/ui/icons-upgrade/construction/icon-repair.png"/></button>
+</div>
+<div class="action-page context-build hidden" data-context="build">
+<button class="icon-action square build-command" data-building="house" data-tooltip="Casa"><img alt="Casa" src="assets/ui/icons-upgrade/buildings/icon-house.png"/></button>
+<button class="icon-action square build-command" data-building="storehouse" data-tooltip="Depósito"><img alt="Depósito" src="assets/ui/icons-upgrade/buildings/icon-storage.png"/></button>
+<button class="icon-action square build-command" data-building="mill" data-tooltip="Moinho"><img alt="Moinho" src="assets/ui/icons-upgrade/buildings/icon-mill.png"/></button>
+<button class="icon-action square build-command" data-building="lumberCamp" data-tooltip="Acampamento de madeira"><img alt="Acampamento" src="assets/ui/icons-upgrade/buildings/icon-lumber-camp.png"/></button>
+<button class="icon-action square build-command military-build" data-building="barracks" data-tooltip="Quartel"><img alt="Quartel" src="assets/ui/icons-upgrade/buildings/icon-barracks.png"/></button>
+<button class="icon-action square build-command military-build" data-building="archeryRange" data-tooltip="Campo de arqueiros"><img alt="Campo de arqueiros" src="assets/ui/icons-upgrade/buildings/icon-archery-range.png"/></button>
+<button class="icon-action square build-command military-build" data-building="stable" data-tooltip="Estábulo"><img alt="Estábulo" src="assets/ui/icons-upgrade/military/icon-cavalry.png"/></button>
+<button class="icon-action square build-command" data-building="outpost" data-tooltip="Posto avançado"><img alt="Posto avançado" src="assets/ui/icons-upgrade/minimap/icon-marker.png"/></button>
+<button class="icon-action square build-command" data-building="shipyard" data-tooltip="Estaleiro Real"><img alt="Estaleiro" src="assets/ui/icons-upgrade/buildings/icon-lumber-camp.png"/></button>
+<button class="icon-action square build-command" data-building="harbor" data-tooltip="Porto Real"><img alt="Porto Real" src="assets/ui/icons-upgrade/others/icon-trade.png"/></button>
+<button class="icon-action square build-command" data-building="coastalFort" data-tooltip="Forte Costeiro"><img alt="Forte Costeiro" src="assets/ui/icons-upgrade/commands/icon-defend.png"/></button>
+<button class="icon-action square build-command" data-building="coastalWall" data-tooltip="Muralha Costeira"><img alt="Muralha Costeira" src="assets/ui/icons-upgrade/status/icon-blocked.png"/></button>
+<button class="icon-action square build-command" data-building="beachTower" data-tooltip="Torre de Praia"><img alt="Torre de Praia" src="assets/ui/icons-upgrade/commands/icon-defend.png"/></button>
+<button class="icon-action square build-command" data-building="siegeWorkshop" data-tooltip="Oficina de Cerco"><img alt="Oficina de Cerco" src="assets/ui/icons-upgrade/construction/icon-foundation.png"/></button>
+<button class="icon-action square build-command" data-building="cityWall" data-tooltip="Muralha Urbana"><img alt="Muralha Urbana" src="assets/ui/icons-upgrade/status/icon-blocked.png"/></button>
+<button class="icon-action square build-command" data-building="cityGate" data-tooltip="Portão Fortificado"><img alt="Portão Fortificado" src="assets/ui/icons-upgrade/commands/icon-stop.png"/></button>
+<button class="icon-action square build-command" data-building="cityTower" data-tooltip="Torre de Muralha"><img alt="Torre de Muralha" src="assets/ui/icons-upgrade/minimap/icon-building.png"/></button>
+<button class="icon-action square" data-tooltip="Cancelar construção" id="btnCancelBuild"><img alt="Cancelar" src="assets/ui/icons-upgrade/construction/icon-cancel-construction.png"/></button>
+</div>
+<div class="action-page context-army hidden" data-context="army">
+<button class="icon-action square tactic-command" data-tactic="line" data-tooltip="Formação em linha"><img alt="Linha" src="assets/ui/icons-upgrade/military/icon-formation-line.png"/></button>
+<button class="icon-action square tactic-command" data-tactic="wedge" data-tooltip="Formação em cunha"><img alt="Cunha" src="assets/ui/icons-upgrade/military/icon-formation-wedge.png"/></button>
+<button class="icon-action square tactic-command" data-tactic="hold" data-tooltip="Defender posição"><img alt="Defender" src="assets/ui/icons-upgrade/commands/icon-defend.png"/></button>
+<button class="icon-action square tactic-command" data-tactic="patrol" data-tooltip="Patrulhar"><img alt="Patrulhar" src="assets/ui/icons-upgrade/commands/icon-patrol.png"/></button>
+<button class="icon-action square" data-tooltip="Mover"><img alt="Mover" src="assets/ui/icons-upgrade/commands/icon-move.png"/></button>
+<button class="icon-action square" data-tooltip="Atacar inimigo" id="btnAttackMode"><img alt="Atacar" src="assets/ui/icons-upgrade/commands/icon-attack.png"/></button>
+</div>
+<div class="action-page context-military hidden" data-context="military">
+<button class="icon-action square military-train" data-tooltip="Treinar infantaria" data-unit="infantry"><img alt="Infantaria" src="assets/ui/icons-upgrade/military/icon-infantry.png"/></button>
+<button class="icon-action square military-train" data-tooltip="Treinar arqueiro" data-unit="archer"><img alt="Arqueiro" src="assets/ui/icons-upgrade/military/icon-archer.png"/></button>
+<button class="icon-action square military-train" data-tooltip="Treinar cavalaria" data-unit="cavalry"><img alt="Cavalaria" src="assets/ui/icons-upgrade/military/icon-cavalry.png"/></button>
+<button class="icon-action square military-train" data-tooltip="Produzir Aríete de Cerco" data-unit="siegeRam"><img alt="Aríete de Cerco" src="assets/ui/icons-upgrade/construction/icon-build.png"/></button>
+<button class="icon-action square military-train" data-tooltip="Produzir Torre de Cerco" data-unit="siegeTower"><img alt="Torre de Cerco" src="assets/ui/icons-upgrade/minimap/icon-building.png"/></button>
+<button class="icon-action square" data-tooltip="Voltar" id="btnCloseMilitaryMenu"><img alt="Voltar" src="assets/ui/icons-upgrade/commands/icon-cancel.png"/></button>
+</div>
+<div class="action-page context-naval hidden" data-context="naval">
+<button class="icon-action square naval-train" data-ship="patrolGalley" data-tooltip="Produzir Galé de Patrulha"><img alt="Galé de Patrulha" src="assets/ui/icons-upgrade/minimap/icon-friendly-unit.png"/></button>
+<button class="icon-action square naval-train" data-ship="warGalley" data-tooltip="Produzir Galé de Guerra"><img alt="Galé de Guerra" src="assets/ui/icons-upgrade/commands/icon-attack.png"/></button>
+<button class="icon-action square naval-train" data-ship="fireShip" data-tooltip="Produzir Navio Incendiário"><img alt="Navio Incendiário" src="assets/ui/icons-upgrade/status/icon-attention.png"/></button>
+<button class="icon-action square naval-train" data-ship="transportShip" data-tooltip="Produzir Navio de Transporte"><img alt="Navio de Transporte" src="assets/ui/icons-upgrade/minimap/icon-friendly-unit.png"/></button>
+<button class="icon-action square amphibious-command" data-tooltip="Embarcar tropas selecionadas" id="btnLoadTroops"><img alt="Embarcar tropas" src="assets/ui/icons-upgrade/military/icon-select-all-army.png"/></button>
+<button class="icon-action square amphibious-command" data-tooltip="Iniciar desembarque anfíbio" id="btnLaunchLanding"><img alt="Desembarque" src="assets/ui/icons-upgrade/commands/icon-move.png"/></button>
+<button class="icon-action square amphibious-command" data-tooltip="Recolher transportes" id="btnRecallTransports"><img alt="Recolher transportes" src="assets/ui/icons-upgrade/villagers/icon-return-center.png"/></button>
+<button class="icon-action square naval-order" data-order="escort" data-tooltip="Escoltar mercantes"><img alt="Escolta" src="assets/ui/icons-upgrade/commands/icon-defend.png"/></button>
+<button class="icon-action square naval-order" data-order="patrol" data-tooltip="Patrulhar litoral"><img alt="Patrulha" src="assets/ui/icons-upgrade/commands/icon-patrol.png"/></button>
+<button class="icon-action square naval-order" data-order="blockade" data-tooltip="Bloquear porto rival"><img alt="Bloqueio" src="assets/ui/icons-upgrade/commands/icon-stop.png"/></button>
+<button class="icon-action square naval-order" data-order="return" data-tooltip="Retornar ao estaleiro"><img alt="Retornar" src="assets/ui/icons-upgrade/villagers/icon-return-center.png"/></button>
+<button class="icon-action square" data-tooltip="Voltar" id="btnCloseNavalMenu"><img alt="Voltar" src="assets/ui/icons-upgrade/commands/icon-cancel.png"/></button>
+</div>
+</aside>
+<button aria-label="Abrir estatísticas" class="mobile-expand-button" id="btnStatsToggle"><img alt="Estatísticas" src="assets/ui/icons-upgrade/interface/icon-help.png"/></button>
+<aside class="stats-drawer hidden" id="statsDrawer">
+<strong>RESUMO DO REINO</strong>
+<div class="economy-stats"><span>Trabalhando: <b id="workersBusy">0</b></span><span>Ociosos: <b id="workersIdle">10</b></span><span>Edifícios: <b id="buildingCount">0</b></span><span>Coletado: <b id="totalGathered">0</b></span></div>
+<div class="military-stats"><span>Infantaria: <b id="countInfantry">0</b></span><span>Arqueiros: <b id="countArcher">0</b></span><span>Cavalaria: <b id="countCavalry">0</b></span><span>Total militar: <b id="countArmy">0</b></span></div>
+<div class="pathfinding-stats"><span>Rotas: <b id="pathRequests">0</b></span><span>Concluídas: <b id="pathSuccess">0</b></span><span>Recalculos: <b id="pathRepaths">0</b></span><span>Falhas: <b id="pathFailures">0</b></span></div>
+<div class="era-stats"><span>Era do jogador: <b id="playerEraStat">Era Tribal</b></span><span>Pesquisa: <b id="playerEraResearchStat">Inativa</b></span><span>Era inimiga: <b id="aiEra">Era Tribal</b></span><span>Bônus econômico: <b id="eraEconomyBonus">0%</b></span></div>
+<div class="tech-stats"><span>Tecnologias: <b id="playerTechStat">0/12</b></span><span>Pesquisa tecnológica: <b id="playerTechResearchStat">Inativa</b></span><span>Tecnologias da IA: <b id="aiTechStat">0</b></span><span>Bônus tecnológico: <b id="techBonusStat">0 ativos</b></span></div>
+<div class="ai-stats"><span>Dificuldade: <b id="aiDifficulty">NORMAL</b></span><span>IA: <b id="aiPhase">expansão</b></span><span>Recursos M/A/O/P: <b id="aiStock">0/0/0/0</b></span><span>Exército IA: <b id="aiArmy">0</b></span><span>Onda: <b id="aiWave">0</b></span><span>Diretor: <b id="aiDirector">equilibrado</b></span><span class="ai-order">Ordem: <b id="aiOrder">Organizando economia</b></span></div>
+<div class="diplomacy-stats"><span>Aliados: <b id="diplomacyAlliesStat">0</b></span><span>Comércio: <b id="diplomacyTradeStat">0</b></span><span>Rival: <b id="diplomacyRivalStat">GUERRA</b></span><span>Renda diplomática: <b id="diplomacyIncomeStat">0</b></span></div>
+<div class="naval-military-stats"><span>Frota: <b id="navalFleetStat">0/3</b></span><span>Frota rival: <b id="navalEnemyFleetStat">0</b></span><span>Bloqueio: <b id="navalBlockadeStat">LIVRE</b></span><span>Vitórias/Perdas: <b id="navalCombatStat">0/0</b></span></div>
+<div class="amphibious-stats"><span>Transportes: <b id="amphibiousTransportStat">0</b></span><span>Tropas embarcadas: <b id="amphibiousCargoStat">0</b></span><span>Desembarques J/IA: <b id="amphibiousLandingsStat">0/0</b></span><span>Costa: <b id="amphibiousThreatStat">SEGURA</b></span></div>
+<div class="coastal-siege-stats"><span>Muralhas costeiras: <b id="coastalWallsStat">0</b></span><span>Torres de praia: <b id="beachTowersStat">0</b></span><span>Aríetes: <b id="siegeRamsStat">0</b></span><span>Porto: <b id="portCaptureStat">0%</b></span><span>Fortificação: <b id="portFortificationStat">950</b></span></div>
+<div class="city-siege-stats"><span>Muralhas: <b id="cityWallsStat">0</b></span><span>Portões: <b id="cityGatesStat">0</b></span><span>Torres: <b id="cityTowersStat">0</b></span><span>Torres de cerco: <b id="siegeTowersStat">0</b></span><span>Cidade: <b id="cityCaptureStat">0%</b></span><span>Cidadela: <b id="cityKeepStat">1800</b></span></div>
+<div class="city-administration-stats"><span>Estabilidade: <b id="cityStabilityStat">0</b></span><span>Lealdade: <b id="cityLoyaltyStat">0</b></span><span>Guarnição: <b id="cityGarrisonStat">0/0</b></span><span>Reconstrução: <b id="cityRebuildStat">0%</b></span><span>Revolta: <b id="cityRevoltStat">0%</b></span><span>Integração: <b id="cityIntegrationStat">0%</b></span></div>
+<div class="province-administration-stats"><span>Províncias: <b id="provinceCountStat">1/3</b></span><span>Governadores: <b id="provinceGovernorStat">0/1</b></span><span>Coesão: <b id="provinceCohesionStat">72%</b></span><span>Renda regional: <b id="provinceIncomeStat">0</b></span><span>Conexões: <b id="provinceConnectionsStat">0</b></span><span>Ciclos fiscais: <b id="provinceTaxCyclesStat">0</b></span></div>
+</aside>
+<div class="hud-status compact-status" id="hudStatus">HUD mobile premium ativa</div>
+<div aria-hidden="true" class="command-marker hidden" id="commandMarker"></div>
+</section>
+<section aria-hidden="true" class="modal-overlay hidden" id="modalOverlay">
+<div class="modal-backdrop"></div>
+<div class="modal-panel">
+<img alt="Interface medieval" class="modal-frame" src="assets/ui/panels/medieval-premium-interface.png">
+<div class="modal-content">
+<div class="modal-header">
+<h2 id="modalTitle">Título</h2>
+</div>
+<div class="modal-body" id="modalBody"></div>
+<div class="modal-actions">
+<button class="image-button small" id="btnModalBack"><img alt="Voltar" src="assets/ui/buttons/button-back.png"/></button>
+</div>
+</div>
+</img></div>
+</section>
+<section aria-hidden="true" class="campaign-dialogue-overlay hidden" id="campaignDialogueOverlay">
+<div class="campaign-dialogue-backdrop"></div>
+<div class="campaign-dialogue-card">
+<div class="dialogue-portrait"><img alt="Personagem" id="dialoguePortrait" src="assets/ui/icons-upgrade/interface/icon-missions.png"/></div>
+<div class="dialogue-copy"><small id="dialogueSpeaker">CONSELHEIRO</small><p id="dialogueText">Mensagem da campanha.</p><span id="dialogueCounter">1 / 1</span></div>
+<button class="profile-action primary" id="btnDialogueNext" type="button">CONTINUAR</button>
+</div>
+</section>
+<section aria-hidden="true" class="campaign-result-overlay hidden" id="campaignResultOverlay">
+<div class="campaign-result-backdrop"></div>
+<div class="campaign-result-card">
+<img alt="Resultado" id="campaignResultIcon" src="assets/ui/icons-upgrade/status/icon-available.png"/>
+<span id="campaignResultKicker">MISSÃO CONCLUÍDA</span>
+<h2 id="campaignResultTitle">Vitória</h2>
+<p id="campaignResultText">O reino superou este capítulo.</p>
+<div class="campaign-result-reward" id="campaignResultReward"></div>
+<div class="campaign-result-actions">
+<button class="profile-action secondary" id="btnCampaignResultSecondary" type="button">MAPA DA CAMPANHA</button>
+<button class="profile-action primary" id="btnCampaignResultPrimary" type="button">CONTINUAR</button>
+</div>
+</div>
+</section>
+<section aria-hidden="true" class="tutorial-overlay hidden" id="tutorialOverlay">
+<div class="tutorial-backdrop"></div>
+<div class="tutorial-card">
+<div class="tutorial-icon-wrap"><img alt="Tutorial" id="tutorialIcon" src="assets/ui/icons-upgrade/interface/icon-help.png"/></div>
+<div class="tutorial-copy">
+<small id="tutorialKicker">TUTORIAL</small>
+<h2 id="tutorialTitle">Primeiros passos</h2>
+<p id="tutorialText">Siga as instruções para aprender os sistemas do reino.</p>
+<span id="tutorialHint">A etapa será reconhecida automaticamente.</span>
+<div class="tutorial-progress"><i id="tutorialProgressBar"></i></div>
+</div>
+<div class="tutorial-actions">
+<button class="tutorial-button primary" id="btnTutorialNext" type="button">CONTINUAR</button>
+<button class="tutorial-button" id="btnTutorialSkipStep" type="button">PULAR ETAPA</button>
+<button class="tutorial-button danger" id="btnTutorialExit" type="button">SAIR</button>
+</div>
+</div>
+</section>
+<section aria-hidden="true" aria-label="Escolha do idioma" class="language-overlay hidden" id="languageOverlay">
+<div class="language-backdrop"></div>
+<div aria-labelledby="languageTitle" aria-modal="true" class="language-card" role="dialog">
+<img alt="Idioma" class="language-emblem" src="assets/ui/icons-upgrade/others/icon-map.png"/>
+<small>VALE EMPIRES</small>
+<h2 data-i18n-key="language.title" id="languageTitle">Escolha o idioma</h2>
+<p data-i18n-key="language.subtitle">O idioma pode ser alterado sem afetar a campanha ou os saves.</p>
+<div class="language-grid">
+<button class="language-option" data-locale="pt-BR" type="button"><b>PT-BR</b><span data-i18n-key="language.pt">Português (Brasil)</span><em>Português</em></button>
+<button class="language-option" data-locale="en-US" type="button"><b>EN</b><span data-i18n-key="language.en">Inglês</span><em>English</em></button>
+<button class="language-option" data-locale="es-ES" type="button"><b>ES</b><span data-i18n-key="language.es">Espanhol</span><em>Español</em></button>
+</div>
+<button class="profile-action secondary language-back" data-i18n-key="language.back" id="btnLanguageBack" type="button">VOLTAR</button>
+</div>
+</section><section aria-hidden="true" aria-label="Conquistas" class="achievements-overlay hidden" id="achievementsOverlay">
+<div class="achievements-backdrop"></div>
+<div class="achievements-shell" role="dialog" aria-modal="true" aria-labelledby="achievementsTitle">
+<header class="achievements-header"><img alt="Conquistas" src="assets/ui/icons-upgrade/interface/icon-achievements.png"/><div><small>VALE EMPIRES</small><h2 id="achievementsTitle">Conquistas</h2><p id="achievementsSubtitle">Marcos permanentes do seu governante e da campanha.</p></div><strong id="achievementsSummary">0 conquistas desbloqueadas</strong></header>
+<div class="achievements-grid" id="achievementsGrid"></div>
+<footer class="achievements-actions"><button class="profile-action secondary" id="btnAchievementsExport" type="button">EXPORTAR REGISTRO</button><button class="profile-action primary" id="btnAchievementsClose" type="button">VOLTAR</button></footer>
+</div></section>
+<section aria-hidden="true" aria-label="Diplomacia" class="diplomacy-overlay hidden" id="diplomacyOverlay">
+<div class="diplomacy-backdrop"></div>
+<div class="diplomacy-shell" role="dialog" aria-modal="true" aria-labelledby="diplomacyTitle">
+<header class="diplomacy-header">
+<img alt="Diplomacia" src="assets/ui/icons-upgrade/others/icon-diplomacy.png"/>
+<div><small id="diplomacyKicker">CONSELHO DAS NAÇÕES</small><h2 id="diplomacyTitle">Diplomacia e Comércio</h2><p id="diplomacySubtitle">Administre relações, tratados, alianças, tréguas e rotas comerciais.</p></div>
+<div class="diplomacy-summary"><span><b id="diplomacySummaryAllies">0</b><small id="diplomacyAlliesLabel">ALIADOS</small></span><span><b id="diplomacySummaryTrade">0</b><small id="diplomacyTradeLabel">PACTOS</small></span><span><b id="diplomacySummaryIncome">0</b><small id="diplomacyIncomeLabel">RENDA</small></span></div>
+</header>
+<div class="diplomacy-layout">
+<nav class="diplomacy-factions" id="diplomacyFactionList"></nav>
+<section class="diplomacy-detail" id="diplomacyDetail"></section>
+</div>
+<footer class="diplomacy-footer"><div class="diplomacy-legend" id="diplomacyLegend">Relações variam de −100 a +100. Tratados geram benefícios e compromissos reais.</div><button class="profile-action primary" id="btnDiplomacyClose" type="button">VOLTAR</button></footer>
+</div>
+</section>
+<section aria-hidden="true" class="recovery-overlay hidden" id="recoveryOverlay">
+<div class="recovery-panel">
+<img alt="Modo recuperação" class="recovery-icon" src="assets/placeholders/test-placeholder-emblem.png">
+<h2>Modo de Recuperação</h2>
+<p>Um erro foi capturado pelo sistema anti-quebra. Você pode tentar recuperar a build sem perder o acesso.</p>
+<pre class="error-details" id="errorDetails">Sem detalhes.</pre>
+<div class="recovery-actions">
+<button class="image-button medium" id="btnRecoverRestart"><img alt="Reiniciar" src="assets/ui/buttons/button-restart.png"/></button>
+<button class="image-button medium" id="btnRecoverSafe"><img alt="Modo seguro" src="assets/ui/buttons/button-safe-mode.png"/></button>
+<button class="hud-button recovery-backup-button" id="btnRecoverBackup" type="button">RESTAURAR BACKUP</button>
+<button class="image-button medium" id="btnRecoverBack"><img alt="Voltar" src="assets/ui/buttons/button-back.png"/></button>
+</div>
+</img></div>
+</section>
+<input accept="application/json,.json" aria-hidden="true" class="hidden" id="importSaveInput" type="file"/>
+</div>
+<script src="js/build-info.js"></script><script src="js/i18n.js"></script>
+<script src="js/audio-engine.js"></script>
+<script src="js/release-guard.js"></script>
+<script src="js/achievements-engine.js"></script>
+<script src="js/app.js"></script>
+<script src="js/royal-politics.js"></script>
+<script src="js/court-intrigue.js"></script>
+</body>
+</html>

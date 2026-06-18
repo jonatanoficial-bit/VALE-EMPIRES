@@ -1,0 +1,63 @@
+{
+  "id": "medieval-foundations",
+  "version": 1,
+  "title": "Fundamentos do Vale",
+  "steps": [
+    {
+      "id": "welcome",
+      "title": "Bem-vindo ao Vale"
+    },
+    {
+      "id": "camera",
+      "title": "Explore o mapa"
+    },
+    {
+      "id": "select",
+      "title": "Selecione um aldeão"
+    },
+    {
+      "id": "gather",
+      "title": "Colete madeira"
+    },
+    {
+      "id": "houses",
+      "title": "Construa duas casas"
+    },
+    {
+      "id": "mill",
+      "title": "Construa um moinho"
+    },
+    {
+      "id": "villager",
+      "title": "Produza um aldeão"
+    },
+    {
+      "id": "barracks",
+      "title": "Erga um quartel"
+    },
+    {
+      "id": "infantry",
+      "title": "Treine infantaria"
+    },
+    {
+      "id": "technology",
+      "title": "Pesquise uma tecnologia"
+    },
+    {
+      "id": "era",
+      "title": "Avance para a Era Feudal"
+    },
+    {
+      "id": "combat",
+      "title": "Derrote um inimigo"
+    },
+    {
+      "id": "territory",
+      "title": "Capture um ponto estratégico"
+    },
+    {
+      "id": "save",
+      "title": "Salve seu progresso"
+    }
+  ]
+}

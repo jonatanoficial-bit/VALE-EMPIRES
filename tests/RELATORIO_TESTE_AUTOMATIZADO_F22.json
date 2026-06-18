@@ -1,0 +1,45 @@
+{
+  "buildId": "VE-2.2.0-F22",
+  "htmlIds": 206,
+  "duplicateIds": [],
+  "htmlCssReferences": 108,
+  "missingHtmlCssReferences": [],
+  "jsAssetReferences": 62,
+  "missingJsAssets": [],
+  "criticalIdsMissing": [],
+  "featureChecks": {
+    "five_difficulties": true,
+    "adaptive_counter_logic": true,
+    "anti_stall_director": true,
+    "difficulty_in_save": true,
+    "legacy_fallback": true,
+    "difficulty_reward": true,
+    "tutorial_overlay": true,
+    "pwa_balance_cache": true
+  },
+  "nodeChecks": {
+    "js/app.js": {
+      "ok": true,
+      "stderr": ""
+    },
+    "js/audio-engine.js": {
+      "ok": true,
+      "stderr": ""
+    },
+    "js/release-guard.js": {
+      "ok": true,
+      "stderr": ""
+    },
+    "service-worker.js": {
+      "ok": true,
+      "stderr": ""
+    }
+  },
+  "jsonFiles": 22,
+  "jsonErrors": [],
+  "filesAudited": 242,
+  "browserTest": {
+    "status": "blocked",
+    "reason": "Chromium headless did not complete under container policy; manual device validation remains required."
+  }
+}

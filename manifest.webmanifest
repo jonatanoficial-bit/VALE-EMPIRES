@@ -1,0 +1,75 @@
+{
+  "name": "Vale Empires",
+  "short_name": "Vale Empires",
+  "description": "RTS medieval multiera com dinastia, intrigas da corte, províncias, cidades, diplomacia, comércio e guerra naval.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "fullscreen",
+  "display_override": [
+    "fullscreen",
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "landscape",
+  "background_color": "#08111f",
+  "theme_color": "#08111f",
+  "categories": [
+    "games",
+    "entertainment"
+  ],
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "assets/pwa/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/pwa/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "dir": "ltr",
+  "version": "3.9.0",
+  "shortcuts": [
+    {
+      "name": "Nova Campanha",
+      "short_name": "Nova Campanha",
+      "description": "Iniciar uma nova campanha",
+      "url": "./index.html?action=new-game",
+      "icons": [
+        {
+          "src": "assets/pwa/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Continuar",
+      "short_name": "Continuar",
+      "description": "Continuar o último save",
+      "url": "./index.html?action=continue",
+      "icons": [
+        {
+          "src": "assets/pwa/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Partida Livre",
+      "short_name": "Partida Livre",
+      "description": "Configurar uma partida personalizada",
+      "url": "./index.html?action=skirmish",
+      "icons": [
+        {
+          "src": "assets/pwa/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

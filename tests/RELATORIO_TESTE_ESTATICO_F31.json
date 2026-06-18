@@ -1,0 +1,32 @@
+{
+  "checks": {
+    "schema11": true,
+    "coastal_state": true,
+    "coastal_wall": true,
+    "beach_tower": true,
+    "siege_workshop": true,
+    "siege_ram": true,
+    "capture_update": true,
+    "siege_update": true,
+    "siege_draw": true,
+    "save_payload": true,
+    "wall_button": true,
+    "tower_button": true,
+    "workshop_button": true,
+    "ram_button": true,
+    "locate_button": true,
+    "stats": true,
+    "data_file": true,
+    "pwa_cache": true,
+    "no_duplicate_ids": true,
+    "local_refs": true,
+    "json_valid": true
+  },
+  "failed": [],
+  "duplicateIds": [],
+  "missingRefs": [],
+  "badJson": [],
+  "ids": 264,
+  "files": 332,
+  "ok": true
+}

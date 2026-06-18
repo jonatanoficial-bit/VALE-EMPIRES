@@ -1,0 +1,11 @@
+const fs=require('fs'),vm=require('vm');
+const code=fs.readFileSync(require('path').join(__dirname,'../js/release-guard.js'),'utf8');
+const listeners={};
+const storage=new Map();
+const context={window:{VALE_BUILD:{buildId:'VE-3.7.0-F31',version:'v3.7.0'},addEventListener:(n,fn)=>{listeners[n]=fn}},navigator:{userAgent:'test',language:'pt-BR',platform:'node',onLine:true},localStorage:{getItem:k=>storage.get(k)||null},document:{fullscreenElement:null,getElementById:()=>null,addEventListener:()=>{},body:{appendChild:()=>{}}},matchMedia:()=>({matches:false}),innerWidth:915,innerHeight:412,devicePixelRatio:1,Image:function(){},Blob:function(){this.size=0},URL:{createObjectURL:()=>'',revokeObjectURL:()=>{}},setTimeout,console};
+context.global=context;vm.createContext(context);vm.runInContext(code,context);
+const old={schemaVersion:10,profile:{eraPack:'medieval'},units:[],buildings:[],enemies:[]};
+const migrated=context.window.VALE_RELEASE_GUARD.migrateSave(old);
+if(migrated.schemaVersion!==11)throw new Error('schema não migrou para 11');
+if(migrated.coastalSiege!==null)throw new Error('fallback coastalSiege inválido');
+console.log(JSON.stringify({ok:true,schema:migrated.schemaVersion,coastalSiege:migrated.coastalSiege}));

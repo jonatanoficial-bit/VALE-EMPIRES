@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "defaultPack": "medieval",
+  "packs": [
+    {
+      "id": "medieval",
+      "label": "Era Medieval",
+      "status": "playable",
+      "enabled": true,
+      "manifest": "data/era-packs/medieval/manifest.json"
+    },
+    {
+      "id": "renaissance",
+      "label": "Renascimento e Grandes Navegações",
+      "status": "planned",
+      "enabled": false,
+      "manifest": "data/era-packs/renaissance/manifest.json"
+    },
+    {
+      "id": "industrial",
+      "label": "Era Industrial",
+      "status": "planned",
+      "enabled": false,
+      "manifest": "data/era-packs/industrial/manifest.json"
+    },
+    {
+      "id": "early-1900s",
+      "label": "Início dos anos 1900",
+      "status": "planned",
+      "enabled": false,
+      "manifest": "data/era-packs/early-1900s/manifest.json"
+    },
+    {
+      "id": "modern",
+      "label": "Mundo Contemporâneo",
+      "status": "planned",
+      "enabled": false,
+      "manifest": "data/era-packs/modern/manifest.json"
+    }
+  ]
+}

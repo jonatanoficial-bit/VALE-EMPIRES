@@ -1,0 +1,309 @@
+{
+  "version": 1,
+  "achievements": [
+    {
+      "id": "ruler_created",
+      "icon": "assets/ui/icons-upgrade/others/icon-heroes.png",
+      "target": 1,
+      "metric": "profile",
+      "title": {
+        "pt": "Primeiro Decreto",
+        "en": "First Decree",
+        "es": "Primer Decreto"
+      },
+      "description": {
+        "pt": "Crie o perfil do governante.",
+        "en": "Create a ruler profile.",
+        "es": "Crea el perfil del gobernante."
+      }
+    },
+    {
+      "id": "first_save",
+      "icon": "assets/ui/buttons-upgrade/button-save-blue.png",
+      "target": 1,
+      "metric": "save",
+      "title": {
+        "pt": "Crônica Preservada",
+        "en": "Chronicle Preserved",
+        "es": "Crónica Preservada"
+      },
+      "description": {
+        "pt": "Salve uma partida.",
+        "en": "Save a game.",
+        "es": "Guarda una partida."
+      }
+    },
+    {
+      "id": "tutorial_complete",
+      "icon": "assets/ui/icons-upgrade/interface/icon-help.png",
+      "target": 1,
+      "metric": "tutorial",
+      "title": {
+        "pt": "Comandante Preparado",
+        "en": "Prepared Commander",
+        "es": "Comandante Preparado"
+      },
+      "description": {
+        "pt": "Conclua o tutorial guiado.",
+        "en": "Complete the guided tutorial.",
+        "es": "Completa el tutorial guiado."
+      }
+    },
+    {
+      "id": "builder",
+      "icon": "assets/ui/icons-upgrade/construction/icon-build.png",
+      "target": 5,
+      "metric": "buildings",
+      "title": {
+        "pt": "Mestre Construtor",
+        "en": "Master Builder",
+        "es": "Maestro Constructor"
+      },
+      "description": {
+        "pt": "Conclua cinco edifícios.",
+        "en": "Complete five buildings.",
+        "es": "Completa cinco edificios."
+      }
+    },
+    {
+      "id": "army",
+      "icon": "assets/ui/icons-upgrade/military/icon-select-all-army.png",
+      "target": 8,
+      "metric": "army",
+      "title": {
+        "pt": "Exército do Vale",
+        "en": "Army of the Vale",
+        "es": "Ejército del Valle"
+      },
+      "description": {
+        "pt": "Mantenha oito tropas militares.",
+        "en": "Field eight military units.",
+        "es": "Mantén ocho unidades militares."
+      }
+    },
+    {
+      "id": "scholar",
+      "icon": "assets/ui/icons-upgrade/others/icon-technology.png",
+      "target": 6,
+      "metric": "technologies",
+      "title": {
+        "pt": "Patrono do Conhecimento",
+        "en": "Patron of Knowledge",
+        "es": "Patrón del Conocimiento"
+      },
+      "description": {
+        "pt": "Conclua seis tecnologias.",
+        "en": "Complete six technologies.",
+        "es": "Completa seis tecnologías."
+      }
+    },
+    {
+      "id": "feudal",
+      "icon": "assets/ui/icons-upgrade/buildings/icon-barracks.png",
+      "target": 1,
+      "metric": "era",
+      "title": {
+        "pt": "Senhor Feudal",
+        "en": "Feudal Lord",
+        "es": "Señor Feudal"
+      },
+      "description": {
+        "pt": "Alcance a Era Feudal.",
+        "en": "Reach the Feudal Age.",
+        "es": "Alcanza la Era Feudal."
+      }
+    },
+    {
+      "id": "kingdoms",
+      "icon": "assets/ui/panels-upgrade/crest-blue-gold.png",
+      "target": 2,
+      "metric": "era",
+      "title": {
+        "pt": "Fundador de Reinos",
+        "en": "Founder of Kingdoms",
+        "es": "Fundador de Reinos"
+      },
+      "description": {
+        "pt": "Alcance a Era dos Reinos.",
+        "en": "Reach the Kingdoms Age.",
+        "es": "Alcanza la Era de los Reinos."
+      }
+    },
+    {
+      "id": "imperial",
+      "icon": "assets/ui/icons-upgrade/interface/icon-achievements.png",
+      "target": 3,
+      "metric": "era",
+      "title": {
+        "pt": "Apogeu Imperial",
+        "en": "Imperial Zenith",
+        "es": "Apogeo Imperial"
+      },
+      "description": {
+        "pt": "Alcance a Era Imperial.",
+        "en": "Reach the Imperial Age.",
+        "es": "Alcanza la Era Imperial."
+      }
+    },
+    {
+      "id": "conqueror",
+      "icon": "assets/ui/icons-upgrade/commands/icon-attack.png",
+      "target": 30,
+      "metric": "kills",
+      "title": {
+        "pt": "Conquistador",
+        "en": "Conqueror",
+        "es": "Conquistador"
+      },
+      "description": {
+        "pt": "Elimine trinta inimigos em uma campanha.",
+        "en": "Defeat thirty enemies in a campaign.",
+        "es": "Derrota a treinta enemigos en una campaña."
+      }
+    },
+    {
+      "id": "territory",
+      "icon": "assets/ui/icons-upgrade/minimap/icon-marker.png",
+      "target": 3,
+      "metric": "territory",
+      "title": {
+        "pt": "Senhor das Fronteiras",
+        "en": "Lord of the Frontiers",
+        "es": "Señor de las Fronteras"
+      },
+      "description": {
+        "pt": "Controle três pontos estratégicos.",
+        "en": "Control three strategic points.",
+        "es": "Controla tres puntos estratégicos."
+      }
+    },
+    {
+      "id": "national_tech",
+      "icon": "assets/ui/icons-upgrade/others/icon-technology.png",
+      "target": 1,
+      "metric": "civtech",
+      "title": {
+        "pt": "Identidade Nacional",
+        "en": "National Identity",
+        "es": "Identidad Nacional"
+      },
+      "description": {
+        "pt": "Conclua a tecnologia exclusiva da civilização.",
+        "en": "Complete the civilization unique technology.",
+        "es": "Completa la tecnología exclusiva de la civilización."
+      }
+    },
+    {
+      "id": "chapter_one",
+      "icon": "assets/ui/icons-upgrade/interface/icon-missions.png",
+      "target": 1,
+      "metric": "campaign",
+      "title": {
+        "pt": "O Primeiro Estandarte",
+        "en": "The First Banner",
+        "es": "El Primer Estandarte"
+      },
+      "description": {
+        "pt": "Conclua um capítulo da campanha.",
+        "en": "Complete one campaign chapter.",
+        "es": "Completa un capítulo de campaña."
+      }
+    },
+    {
+      "id": "campaign_complete",
+      "icon": "assets/ui/icons-upgrade/others/icon-map.png",
+      "target": 5,
+      "metric": "campaign",
+      "title": {
+        "pt": "A Coroa do Vale",
+        "en": "The Crown of the Vale",
+        "es": "La Corona del Valle"
+      },
+      "description": {
+        "pt": "Conclua os cinco capítulos medievais.",
+        "en": "Complete all five medieval chapters.",
+        "es": "Completa los cinco capítulos medievales."
+      }
+    },
+    {
+      "id": "perfect_mission",
+      "icon": "assets/ui/icons-upgrade/status/icon-buff.png",
+      "target": 1,
+      "metric": "threeStars",
+      "title": {
+        "pt": "Vitória Perfeita",
+        "en": "Perfect Victory",
+        "es": "Victoria Perfecta"
+      },
+      "description": {
+        "pt": "Obtenha três estrelas em uma missão.",
+        "en": "Earn three stars in a mission.",
+        "es": "Obtén tres estrellas en una misión."
+      }
+    },
+    {
+      "id": "legendary",
+      "icon": "assets/ui/icons-upgrade/status/icon-attention.png",
+      "target": 1,
+      "metric": "legendary",
+      "title": {
+        "pt": "Lenda Conquistadora",
+        "en": "Conqueror Legend",
+        "es": "Leyenda Conquistadora"
+      },
+      "description": {
+        "pt": "Obtenha três estrelas na dificuldade Conquistador.",
+        "en": "Earn three stars on Conqueror difficulty.",
+        "es": "Obtén tres estrellas en dificultad Conquistador."
+      }
+    },
+    {
+      "id": "harvester",
+      "icon": "assets/ui/icons-upgrade/resources/icon-gold.png",
+      "target": 1000,
+      "metric": "gathered",
+      "title": {
+        "pt": "Tesouro do Reino",
+        "en": "Kingdom Treasury",
+        "es": "Tesoro del Reino"
+      },
+      "description": {
+        "pt": "Colete mil recursos em uma partida.",
+        "en": "Gather one thousand resources in a game.",
+        "es": "Recolecta mil recursos en una partida."
+      }
+    },
+    {
+      "id": "polyglot",
+      "icon": "assets/ui/icons-upgrade/others/icon-map.png",
+      "target": 3,
+      "metric": "languages",
+      "title": {
+        "pt": "Embaixador do Vale",
+        "en": "Ambassador of the Vale",
+        "es": "Embajador del Valle"
+      },
+      "description": {
+        "pt": "Use os três idiomas disponíveis.",
+        "en": "Use all three available languages.",
+        "es": "Usa los tres idiomas disponibles."
+      }
+    },
+    {
+      "id": "installed",
+      "icon": "assets/ui/icons-upgrade/status/icon-available.png",
+      "target": 1,
+      "metric": "installed",
+      "title": {
+        "pt": "Reino Instalado",
+        "en": "Kingdom Installed",
+        "es": "Reino Instalado"
+      },
+      "description": {
+        "pt": "Instale o Vale Empires como aplicativo.",
+        "en": "Install Vale Empires as an app.",
+        "es": "Instala Vale Empires como aplicación."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1482 @@
+{
+  "buildId": "VE-4.2.0-F36",
+  "version": "v4.2.0",
+  "files": [
+    {
+      "path": "AUDITORIA.md",
+      "size": 844
+    },
+    {
+      "path": "BUILD.json",
+      "size": 744
+    },
+    {
+      "path": "BUILD_INTEGRITY.json",
+      "size": 62707
+    },
+    {
+      "path": "BUILD_MANIFEST.json",
+      "size": 16641
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size": 451
+    },
+    {
+      "path": "CHECKLIST.md",
+      "size": 432
+    },
+    {
+      "path": "README.md",
+      "size": 617
+    },
+    {
+      "path": "assets/audio/audio-manifest.json",
+      "size": 1887
+    },
+    {
+      "path": "assets/audio/music/combat-siege.ogg",
+      "size": 98544
+    },
+    {
+      "path": "assets/audio/music/defeat-lament.ogg",
+      "size": 28284
+    },
+    {
+      "path": "assets/audio/music/exploration-fields.ogg",
+      "size": 123379
+    },
+    {
+      "path": "assets/audio/music/menu-royal.ogg",
+      "size": 147103
+    },
+    {
+      "path": "assets/audio/music/victory-fanfare.ogg",
+      "size": 28723
+    },
+    {
+      "path": "assets/audio/sfx/arrow-shot.ogg",
+      "size": 4539
+    },
+    {
+      "path": "assets/audio/sfx/autosave.ogg",
+      "size": 3687
+    },
+    {
+      "path": "assets/audio/sfx/building-complete.ogg",
+      "size": 4095
+    },
+    {
+      "path": "assets/audio/sfx/cavalry-charge.ogg",
+      "size": 6669
+    },
+    {
+      "path": "assets/audio/sfx/command-move.ogg",
+      "size": 4193
+    },
+    {
+      "path": "assets/audio/sfx/construction.ogg",
+      "size": 4777
+    },
+    {
+      "path": "assets/audio/sfx/era-complete.ogg",
+      "size": 4824
+    },
+    {
+      "path": "assets/audio/sfx/gather-food.ogg",
+      "size": 4876
+    },
+    {
+      "path": "assets/audio/sfx/gather-gold.ogg",
+      "size": 3840
+    },
+    {
+      "path": "assets/audio/sfx/gather-stone.ogg",
+      "size": 4703
+    },
+    {
+      "path": "assets/audio/sfx/gather-wood.ogg",
+      "size": 4494
+    },
+    {
+      "path": "assets/audio/sfx/impact.ogg",
+      "size": 4692
+    },
+    {
+      "path": "assets/audio/sfx/notification.ogg",
+      "size": 3861
+    },
+    {
+      "path": "assets/audio/sfx/repair.ogg",
+      "size": 4488
+    },
+    {
+      "path": "assets/audio/sfx/sword-hit.ogg",
+      "size": 4625
+    },
+    {
+      "path": "assets/audio/sfx/tech-complete.ogg",
+      "size": 4098
+    },
+    {
+      "path": "assets/audio/sfx/territory-capture.ogg",
+      "size": 5240
+    },
+    {
+      "path": "assets/audio/sfx/ui-click.ogg",
+      "size": 3658
+    },
+    {
+      "path": "assets/audio/sfx/ui-confirm.ogg",
+      "size": 3843
+    },
+    {
+      "path": "assets/audio/sfx/ui-error.ogg",
+      "size": 5272
+    },
+    {
+      "path": "assets/audio/sfx/unit-death.ogg",
+      "size": 5101
+    },
+    {
+      "path": "assets/audio/sfx/unit-select.ogg",
+      "size": 3930
+    },
+    {
+      "path": "assets/audio/stingers/nation-byzantium.ogg",
+      "size": 17815
+    },
+    {
+      "path": "assets/audio/stingers/nation-cordoba.ogg",
+      "size": 17867
+    },
+    {
+      "path": "assets/audio/stingers/nation-england.ogg",
+      "size": 18097
+    },
+    {
+      "path": "assets/audio/stingers/nation-france.ogg",
+      "size": 17857
+    },
+    {
+      "path": "assets/audio/stingers/nation-mongol.ogg",
+      "size": 18130
+    },
+    {
+      "path": "assets/audio/stingers/nation-norse.ogg",
+      "size": 17834
+    },
+    {
+      "path": "assets/backgrounds/loading-screen-background-alternative.png",
+      "size": 2249867
+    },
+    {
+      "path": "assets/backgrounds/loading-screen-background.png",
+      "size": 2321152
+    },
+    {
+      "path": "assets/backgrounds/menu-main-background.png",
+      "size": 2114422
+    },
+    {
+      "path": "assets/branding/vale-empires-logo-fullscreen.png",
+      "size": 2474393
+    },
+    {
+      "path": "assets/factions/flags/califado-de-cordoba-thumb.png",
+      "size": 55129
+    },
+    {
+      "path": "assets/factions/flags/califado-de-cordoba.png",
+      "size": 496043
+    },
+    {
+      "path": "assets/factions/flags/flags-map.json",
+      "size": 1064
+    },
+    {
+      "path": "assets/factions/flags/imperio-bizantino-thumb.png",
+      "size": 58257
+    },
+    {
+      "path": "assets/factions/flags/imperio-bizantino.png",
+      "size": 487746
+    },
+    {
+      "path": "assets/factions/flags/imperio-mongol-thumb.png",
+      "size": 61263
+    },
+    {
+      "path": "assets/factions/flags/imperio-mongol.png",
+      "size": 456539
+    },
+    {
+      "path": "assets/factions/flags/reino-da-franca-thumb.png",
+      "size": 51463
+    },
+    {
+      "path": "assets/factions/flags/reino-da-franca.png",
+      "size": 477602
+    },
+    {
+      "path": "assets/factions/flags/reino-da-inglaterra-thumb.png",
+      "size": 61911
+    },
+    {
+      "path": "assets/factions/flags/reino-da-inglaterra.png",
+      "size": 427439
+    },
+    {
+      "path": "assets/factions/flags/reinos-nordicos-thumb.png",
+      "size": 57689
+    },
+    {
+      "path": "assets/factions/flags/reinos-nordicos.png",
+      "size": 504425
+    },
+    {
+      "path": "assets/placeholders/test-placeholder-emblem.png",
+      "size": 1966860
+    },
+    {
+      "path": "assets/pwa/apple-touch-icon.png",
+      "size": 48805
+    },
+    {
+      "path": "assets/pwa/icon-192.png",
+      "size": 54568
+    },
+    {
+      "path": "assets/pwa/icon-512.png",
+      "size": 330923
+    },
+    {
+      "path": "assets/source-sheets/bandeiras-civilizacoes-sheet.png",
+      "size": 3021781
+    },
+    {
+      "path": "assets/source-sheets/terrain-source-sheet.png",
+      "size": 3264856
+    },
+    {
+      "path": "assets/source-sheets/ui-buttons-source-sheet.png",
+      "size": 3772629
+    },
+    {
+      "path": "assets/source-sheets/ui-complete-icon-sheet-f07.png",
+      "size": 2156674
+    },
+    {
+      "path": "assets/terrain/terrain-dirt.png",
+      "size": 532527
+    },
+    {
+      "path": "assets/terrain/terrain-grass-dark.png",
+      "size": 517792
+    },
+    {
+      "path": "assets/terrain/terrain-grass-light.png",
+      "size": 553937
+    },
+    {
+      "path": "assets/terrain/terrain-rock.png",
+      "size": 555150
+    },
+    {
+      "path": "assets/terrain/terrain-stone-path.png",
+      "size": 560383
+    },
+    {
+      "path": "assets/terrain/terrain-water-shallow.png",
+      "size": 471547
+    },
+    {
+      "path": "assets/ui/buttons/button-back.png",
+      "size": 22427
+    },
+    {
+      "path": "assets/ui/buttons/button-continue.png",
+      "size": 63669
+    },
+    {
+      "path": "assets/ui/buttons/button-credits.png",
+      "size": 64863
+    },
+    {
+      "path": "assets/ui/buttons/button-new-game.png",
+      "size": 100269
+    },
+    {
+      "path": "assets/ui/buttons/button-restart.png",
+      "size": 24396
+    },
+    {
+      "path": "assets/ui/buttons/button-safe-mode.png",
+      "size": 30413
+    },
+    {
+      "path": "assets/ui/buttons/button-settings.png",
+      "size": 62867
+    },
+    {
+      "path": "assets/ui/buttons-upgrade/button-continue-green.png",
+      "size": 19434
+    },
+    {
+      "path": "assets/ui/buttons-upgrade/button-credits-blue.png",
+      "size": 15984
+    },
+    {
+      "path": "assets/ui/buttons-upgrade/button-exit-red.png",
+      "size": 15898
+    },
+    {
+      "path": "assets/ui/buttons-upgrade/button-load-blue.png",
+      "size": 18437
+    },
+    {
+      "path": "assets/ui/buttons-upgrade/button-new-game-blue.png",
+      "size": 19627
+    },
+    {
+      "path": "assets/ui/buttons-upgrade/button-save-blue.png",
+      "size": 17363
+    },
+    {
+      "path": "assets/ui/buttons-upgrade/button-settings-blue.png",
+      "size": 19055
+    },
+    {
+      "path": "assets/ui/icons/build-badge-ve-0.1.0-f01.png",
+      "size": 4597630
+    },
+    {
+      "path": "assets/ui/icons/icon-close.png",
+      "size": 24214
+    },
+    {
+      "path": "assets/ui/icons/icon-scroll.png",
+      "size": 21436
+    },
+    {
+      "path": "assets/ui/icons/icon-settings.png",
+      "size": 18738
+    },
+    {
+      "path": "assets/ui/icons/icon-shield.png",
+      "size": 21327
+    },
+    {
+      "path": "assets/ui/icons-upgrade/buildings/icon-archery-range.png",
+      "size": 14730
+    },
+    {
+      "path": "assets/ui/icons-upgrade/buildings/icon-barracks.png",
+      "size": 14929
+    },
+    {
+      "path": "assets/ui/icons-upgrade/buildings/icon-gold-mine.png",
+      "size": 14388
+    },
+    {
+      "path": "assets/ui/icons-upgrade/buildings/icon-house.png",
+      "size": 14308
+    },
+    {
+      "path": "assets/ui/icons-upgrade/buildings/icon-lumber-camp.png",
+      "size": 13708
+    },
+    {
+      "path": "assets/ui/icons-upgrade/buildings/icon-mill.png",
+      "size": 12514
+    },
+    {
+      "path": "assets/ui/icons-upgrade/buildings/icon-quarry.png",
+      "size": 15751
+    },
+    {
+      "path": "assets/ui/icons-upgrade/buildings/icon-storage.png",
+      "size": 13929
+    },
+    {
+      "path": "assets/ui/icons-upgrade/buildings/icon-town-center.png",
+      "size": 17283
+    },
+    {
+      "path": "assets/ui/icons-upgrade/camera/icon-area-select.png",
+      "size": 8156
+    },
+    {
+      "path": "assets/ui/icons-upgrade/camera/icon-center-camera.png",
+      "size": 9107
+    },
+    {
+      "path": "assets/ui/icons-upgrade/camera/icon-overview.png",
+      "size": 7195
+    },
+    {
+      "path": "assets/ui/icons-upgrade/camera/icon-zoom-in.png",
+      "size": 7612
+    },
+    {
+      "path": "assets/ui/icons-upgrade/camera/icon-zoom-out.png",
+      "size": 8036
+    },
+    {
+      "path": "assets/ui/icons-upgrade/commands/icon-attack.png",
+      "size": 8238
+    },
+    {
+      "path": "assets/ui/icons-upgrade/commands/icon-cancel.png",
+      "size": 7209
+    },
+    {
+      "path": "assets/ui/icons-upgrade/commands/icon-defend.png",
+      "size": 7978
+    },
+    {
+      "path": "assets/ui/icons-upgrade/commands/icon-move.png",
+      "size": 5457
+    },
+    {
+      "path": "assets/ui/icons-upgrade/commands/icon-patrol.png",
+      "size": 5542
+    },
+    {
+      "path": "assets/ui/icons-upgrade/commands/icon-stop.png",
+      "size": 6332
+    },
+    {
+      "path": "assets/ui/icons-upgrade/construction/icon-build.png",
+      "size": 8959
+    },
+    {
+      "path": "assets/ui/icons-upgrade/construction/icon-cancel-construction.png",
+      "size": 9453
+    },
+    {
+      "path": "assets/ui/icons-upgrade/construction/icon-foundation.png",
+      "size": 11146
+    },
+    {
+      "path": "assets/ui/icons-upgrade/construction/icon-priority.png",
+      "size": 7801
+    },
+    {
+      "path": "assets/ui/icons-upgrade/construction/icon-repair.png",
+      "size": 9776
+    },
+    {
+      "path": "assets/ui/icons-upgrade/construction/icon-rotate.png",
+      "size": 9193
+    },
+    {
+      "path": "assets/ui/icons-upgrade/interface/icon-achievements.png",
+      "size": 8584
+    },
+    {
+      "path": "assets/ui/icons-upgrade/interface/icon-close.png",
+      "size": 6925
+    },
+    {
+      "path": "assets/ui/icons-upgrade/interface/icon-credits.png",
+      "size": 10319
+    },
+    {
+      "path": "assets/ui/icons-upgrade/interface/icon-help.png",
+      "size": 9574
+    },
+    {
+      "path": "assets/ui/icons-upgrade/interface/icon-messages.png",
+      "size": 8063
+    },
+    {
+      "path": "assets/ui/icons-upgrade/interface/icon-missions.png",
+      "size": 8615
+    },
+    {
+      "path": "assets/ui/icons-upgrade/interface/icon-settings.png",
+      "size": 8802
+    },
+    {
+      "path": "assets/ui/icons-upgrade/military/icon-archer.png",
+      "size": 13630
+    },
+    {
+      "path": "assets/ui/icons-upgrade/military/icon-cavalry.png",
+      "size": 12871
+    },
+    {
+      "path": "assets/ui/icons-upgrade/military/icon-formation-line.png",
+      "size": 7425
+    },
+    {
+      "path": "assets/ui/icons-upgrade/military/icon-formation-wedge.png",
+      "size": 4653
+    },
+    {
+      "path": "assets/ui/icons-upgrade/military/icon-infantry.png",
+      "size": 12482
+    },
+    {
+      "path": "assets/ui/icons-upgrade/military/icon-select-all-army.png",
+      "size": 13513
+    },
+    {
+      "path": "assets/ui/icons-upgrade/minimap/icon-building.png",
+      "size": 5974
+    },
+    {
+      "path": "assets/ui/icons-upgrade/minimap/icon-enemy-unit.png",
+      "size": 5216
+    },
+    {
+      "path": "assets/ui/icons-upgrade/minimap/icon-friendly-unit.png",
+      "size": 5154
+    },
+    {
+      "path": "assets/ui/icons-upgrade/minimap/icon-marker.png",
+      "size": 5394
+    },
+    {
+      "path": "assets/ui/icons-upgrade/minimap/icon-resource.png",
+      "size": 6434
+    },
+    {
+      "path": "assets/ui/icons-upgrade/minimap/icon-visible-area.png",
+      "size": 4809
+    },
+    {
+      "path": "assets/ui/icons-upgrade/others/icon-diplomacy.png",
+      "size": 10369
+    },
+    {
+      "path": "assets/ui/icons-upgrade/others/icon-heroes.png",
+      "size": 10403
+    },
+    {
+      "path": "assets/ui/icons-upgrade/others/icon-map.png",
+      "size": 9865
+    },
+    {
+      "path": "assets/ui/icons-upgrade/others/icon-shop.png",
+      "size": 7924
+    },
+    {
+      "path": "assets/ui/icons-upgrade/others/icon-technology.png",
+      "size": 10064
+    },
+    {
+      "path": "assets/ui/icons-upgrade/others/icon-trade.png",
+      "size": 8297
+    },
+    {
+      "path": "assets/ui/icons-upgrade/population/icon-population-cap.png",
+      "size": 8498
+    },
+    {
+      "path": "assets/ui/icons-upgrade/population/icon-population-current.png",
+      "size": 7833
+    },
+    {
+      "path": "assets/ui/icons-upgrade/population/icon-population-increase.png",
+      "size": 4000
+    },
+    {
+      "path": "assets/ui/icons-upgrade/resources/icon-food.png",
+      "size": 11033
+    },
+    {
+      "path": "assets/ui/icons-upgrade/resources/icon-gold.png",
+      "size": 8731
+    },
+    {
+      "path": "assets/ui/icons-upgrade/resources/icon-population.png",
+      "size": 9622
+    },
+    {
+      "path": "assets/ui/icons-upgrade/resources/icon-stone.png",
+      "size": 9582
+    },
+    {
+      "path": "assets/ui/icons-upgrade/resources/icon-wood.png",
+      "size": 9429
+    },
+    {
+      "path": "assets/ui/icons-upgrade/status/icon-attention.png",
+      "size": 8160
+    },
+    {
+      "path": "assets/ui/icons-upgrade/status/icon-available.png",
+      "size": 8229
+    },
+    {
+      "path": "assets/ui/icons-upgrade/status/icon-blocked.png",
+      "size": 7629
+    },
+    {
+      "path": "assets/ui/icons-upgrade/status/icon-buff.png",
+      "size": 7317
+    },
+    {
+      "path": "assets/ui/icons-upgrade/status/icon-debuff.png",
+      "size": 4838
+    },
+    {
+      "path": "assets/ui/icons-upgrade/status/icon-in-progress.png",
+      "size": 7179
+    },
+    {
+      "path": "assets/ui/icons-upgrade/time/icon-day.png",
+      "size": 7345
+    },
+    {
+      "path": "assets/ui/icons-upgrade/time/icon-night.png",
+      "size": 6060
+    },
+    {
+      "path": "assets/ui/icons-upgrade/time/icon-pause.png",
+      "size": 8458
+    },
+    {
+      "path": "assets/ui/icons-upgrade/time/icon-speed-up.png",
+      "size": 6651
+    },
+    {
+      "path": "assets/ui/icons-upgrade/time/icon-time.png",
+      "size": 4134
+    },
+    {
+      "path": "assets/ui/icons-upgrade/villagers/icon-gather-food.png",
+      "size": 11965
+    },
+    {
+      "path": "assets/ui/icons-upgrade/villagers/icon-gather-gold.png",
+      "size": 10315
+    },
+    {
+      "path": "assets/ui/icons-upgrade/villagers/icon-gather-stone.png",
+      "size": 10312
+    },
+    {
+      "path": "assets/ui/icons-upgrade/villagers/icon-gather-wood.png",
+      "size": 7700
+    },
+    {
+      "path": "assets/ui/icons-upgrade/villagers/icon-return-center.png",
+      "size": 10437
+    },
+    {
+      "path": "assets/ui/icons-upgrade/villagers/icon-select-villager.png",
+      "size": 11178
+    },
+    {
+      "path": "assets/ui/panels/medieval-premium-interface.png",
+      "size": 2284630
+    },
+    {
+      "path": "assets/ui/panels/panel-large-torch.png",
+      "size": 1133905
+    },
+    {
+      "path": "assets/ui/panels/panel-wide-dark.png",
+      "size": 392530
+    },
+    {
+      "path": "assets/ui/panels/panel-wide-parchment.png",
+      "size": 555563
+    },
+    {
+      "path": "assets/ui/panels-upgrade/banner-red.png",
+      "size": 24066
+    },
+    {
+      "path": "assets/ui/panels-upgrade/crest-blue-gold.png",
+      "size": 53688
+    },
+    {
+      "path": "assets/ui/panels-upgrade/panel-dark-medium.png",
+      "size": 41612
+    },
+    {
+      "path": "assets/ui/panels-upgrade/panel-dark-wide.png",
+      "size": 47936
+    },
+    {
+      "path": "assets/ui/panels-upgrade/panel-parchment-large.png",
+      "size": 55585
+    },
+    {
+      "path": "assets/ui/panels-upgrade/panel-stone-medium.png",
+      "size": 43760
+    },
+    {
+      "path": "commercial-assets/ASSET_LICENSE_REGISTER.md",
+      "size": 604
+    },
+    {
+      "path": "commercial-assets/EULA.md",
+      "size": 284
+    },
+    {
+      "path": "commercial-assets/LAUNCH_GUIDE.md",
+      "size": 619
+    },
+    {
+      "path": "commercial-assets/PRESS_KIT.md",
+      "size": 467
+    },
+    {
+      "path": "commercial-assets/PRIVACY_POLICY.md",
+      "size": 405
+    },
+    {
+      "path": "commercial-assets/RELEASE_CHECKLIST.md",
+      "size": 722
+    },
+    {
+      "path": "commercial-assets/STORE_LISTING_PT_EN_ES.md",
+      "size": 1059
+    },
+    {
+      "path": "commercial-assets/TERMS_OF_USE.md",
+      "size": 345
+    },
+    {
+      "path": "commercial-assets/THIRD_PARTY_NOTICES.md",
+      "size": 219
+    },
+    {
+      "path": "commercial-assets/screenshots/screenshot-01-1280x720.jpg",
+      "size": 258758
+    },
+    {
+      "path": "commercial-assets/screenshots/screenshot-02-1280x720.jpg",
+      "size": 192442
+    },
+    {
+      "path": "commercial-assets/screenshots/screenshot-03-1280x720.jpg",
+      "size": 270498
+    },
+    {
+      "path": "commercial-assets/store/app-icon-192.png",
+      "size": 59050
+    },
+    {
+      "path": "commercial-assets/store/app-icon-512.png",
+      "size": 330923
+    },
+    {
+      "path": "commercial-assets/store/feature-graphic-1024x500.jpg",
+      "size": 186386
+    },
+    {
+      "path": "commercial-assets/store/social-card-1200x630.jpg",
+      "size": 245665
+    },
+    {
+      "path": "css/main.css",
+      "size": 149834
+    },
+    {
+      "path": "data/achievements/achievements.json",
+      "size": 8817
+    },
+    {
+      "path": "data/balance/difficulty-profiles.json",
+      "size": 832
+    },
+    {
+      "path": "data/diplomacy/diplomatic-profiles.json",
+      "size": 1004
+    },
+    {
+      "path": "data/era-packs/early-1900s/manifest.json",
+      "size": 377
+    },
+    {
+      "path": "data/era-packs/index.json",
+      "size": 1009
+    },
+    {
+      "path": "data/era-packs/industrial/manifest.json",
+      "size": 356
+    },
+    {
+      "path": "data/era-packs/medieval/buildings.json",
+      "size": 274
+    },
+    {
+      "path": "data/era-packs/medieval/manifest.json",
+      "size": 527
+    },
+    {
+      "path": "data/era-packs/medieval/nations.json",
+      "size": 109
+    },
+    {
+      "path": "data/era-packs/medieval/resources.json",
+      "size": 72
+    },
+    {
+      "path": "data/era-packs/medieval/technologies.json",
+      "size": 161
+    },
+    {
+      "path": "data/era-packs/medieval/units.json",
+      "size": 331
+    },
+    {
+      "path": "data/era-packs/modern/manifest.json",
+      "size": 387
+    },
+    {
+      "path": "data/era-packs/modern/nations.json",
+      "size": 901
+    },
+    {
+      "path": "data/era-packs/renaissance/manifest.json",
+      "size": 393
+    },
+    {
+      "path": "data/naval/amphibious-operations.json",
+      "size": 855
+    },
+    {
+      "path": "data/naval/coastal-siege.json",
+      "size": 1113
+    },
+    {
+      "path": "data/naval/maritime-trade.json",
+      "size": 912
+    },
+    {
+      "path": "data/naval/military-fleet.json",
+      "size": 1351
+    },
+    {
+      "path": "data/trade/physical-routes.json",
+      "size": 676
+    },
+    {
+      "path": "data/tutorial/medieval-tutorial.json",
+      "size": 1115
+    },
+    {
+      "path": "data/urban/city-administration.json",
+      "size": 1087
+    },
+    {
+      "path": "data/urban/province-governance.json",
+      "size": 958
+    },
+    {
+      "path": "docs/ADMINISTRACAO_CIDADES_F33.md",
+      "size": 1706
+    },
+    {
+      "path": "docs/ANIMACOES_UNIDADES_EDIFICIOS_F19.md",
+      "size": 1056
+    },
+    {
+      "path": "docs/ARQUITETURA_MULTIERA_F20_1.md",
+      "size": 1130
+    },
+    {
+      "path": "docs/ARVORE_TECNOLOGICA_F12.md",
+      "size": 1206
+    },
+    {
+      "path": "docs/ASSET_PATHS.md",
+      "size": 2957
+    },
+    {
+      "path": "docs/ASSET_PATHS_UI_UPGRADE.md",
+      "size": 11066
+    },
+    {
+      "path": "docs/AUDIO_MUSICA_FEEDBACK_F20.md",
+      "size": 2263
+    },
+    {
+      "path": "docs/BALANCEAMENTO_IA_F22.md",
+      "size": 1042
+    },
+    {
+      "path": "docs/BANDEIRAS_CIVILIZACOES_F17_1.md",
+      "size": 874
+    },
+    {
+      "path": "docs/CAMPANHA_F14.md",
+      "size": 1012
+    },
+    {
+      "path": "docs/CERCO_COSTEIRO_CONQUISTA_PORTOS_F31.md",
+      "size": 1173
+    },
+    {
+      "path": "docs/CIDADES_MURALHAS_CERCO_F32.md",
+      "size": 826
+    },
+    {
+      "path": "docs/CIVILIZACOES_F13.md",
+      "size": 903
+    },
+    {
+      "path": "docs/DINASTIA_CONSELHO_REAL_F35.md",
+      "size": 1765
+    },
+    {
+      "path": "docs/DINASTIA_INTRIGAS_F36.md",
+      "size": 777
+    },
+    {
+      "path": "docs/DIPLOMACIA_COMERCIO_ALIANCAS_F26.md",
+      "size": 977
+    },
+    {
+      "path": "docs/ERAS_E_EVOLUCAO_F11.md",
+      "size": 831
+    },
+    {
+      "path": "docs/FACCOES_CARAVANAS_ROTAS_F27.md",
+      "size": 1057
+    },
+    {
+      "path": "docs/FROTA_COMBATE_BLOQUEIOS_F29.md",
+      "size": 1046
+    },
+    {
+      "path": "docs/GOVERNADORES_PROVINCIAS_F34.md",
+      "size": 828
+    },
+    {
+      "path": "docs/INTELIGENCIA_ARTIFICIAL_F10.md",
+      "size": 687
+    },
+    {
+      "path": "docs/INTERNACIONALIZACAO_F23.md",
+      "size": 894
+    },
+    {
+      "path": "docs/MATRIZ_TESTES_DISPOSITIVOS_F18.md",
+      "size": 728
+    },
+    {
+      "path": "docs/MOBILE_PWA_ACESSIBILIDADE_F17.md",
+      "size": 944
+    },
+    {
+      "path": "docs/NEBLINA_EXPLORACAO_TERRITORIO_F15.md",
+      "size": 1003
+    },
+    {
+      "path": "docs/OPERACOES_ANFIBIAS_F30.md",
+      "size": 1276
+    },
+    {
+      "path": "docs/PARTIDA_LIVRE_F25.md",
+      "size": 1398
+    },
+    {
+      "path": "docs/PERFIL_GOVERNANTE.md",
+      "size": 486
+    },
+    {
+      "path": "docs/PLANEJAMENTO_ONBOARDING.md",
+      "size": 643
+    },
+    {
+      "path": "docs/POLIMENTO_VISUAL_F16.md",
+      "size": 711
+    },
+    {
+      "path": "docs/PORTOS_COMERCIO_NAVAL_F28.md",
+      "size": 934
+    },
+    {
+      "path": "docs/RELATORIO_CONSOLIDACAO_F18.md",
+      "size": 911
+    },
+    {
+      "path": "docs/RELEASE_COMERCIAL_F24.md",
+      "size": 383
+    },
+    {
+      "path": "docs/ROADMAP_FINAL_MULTIERA.md",
+      "size": 771
+    },
+    {
+      "path": "docs/TUTORIAL_CAMPANHA_F21.md",
+      "size": 1040
+    },
+    {
+      "path": "index.html",
+      "size": 49199
+    },
+    {
+      "path": "js/achievements-engine.js",
+      "size": 13662
+    },
+    {
+      "path": "js/app.js",
+      "size": 392715
+    },
+    {
+      "path": "js/audio-engine.js",
+      "size": 9651
+    },
+    {
+      "path": "js/build-info.js",
+      "size": 310
+    },
+    {
+      "path": "js/court-intrigue.js",
+      "size": 15277
+    },
+    {
+      "path": "js/i18n.js",
+      "size": 130999
+    },
+    {
+      "path": "js/release-guard.js",
+      "size": 7792
+    },
+    {
+      "path": "js/royal-politics.js",
+      "size": 17979
+    },
+    {
+      "path": "legal/licenses.html",
+      "size": 1564
+    },
+    {
+      "path": "legal/privacy.html",
+      "size": 1771
+    },
+    {
+      "path": "legal/terms.html",
+      "size": 1705
+    },
+    {
+      "path": "locales/en-US.json",
+      "size": 43300
+    },
+    {
+      "path": "locales/es-ES.json",
+      "size": 45682
+    },
+    {
+      "path": "locales/pt-BR.json",
+      "size": 45114
+    },
+    {
+      "path": "manifest.webmanifest",
+      "size": 1754
+    },
+    {
+      "path": "offline.html",
+      "size": 1960
+    },
+    {
+      "path": "service-worker.js",
+      "size": 5666
+    },
+    {
+      "path": "tests/F20_1_MULTI_ERA_FLOW.png",
+      "size": 199902
+    },
+    {
+      "path": "tests/RELATORIO_MIGRACAO_F32.json",
+      "size": 67
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_AUTOMATIZADO.md",
+      "size": 1034
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_AUTOMATIZADO_F15.md",
+      "size": 800
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_AUTOMATIZADO_F16.md",
+      "size": 681
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_AUTOMATIZADO_F17.md",
+      "size": 1201
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_AUTOMATIZADO_F19.md",
+      "size": 400
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_AUTOMATIZADO_F20.md",
+      "size": 1031
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_AUTOMATIZADO_F20_1.json",
+      "size": 338
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_AUTOMATIZADO_F20_1.md",
+      "size": 341
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_AUTOMATIZADO_F21.json",
+      "size": 393
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_AUTOMATIZADO_F21.md",
+      "size": 429
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_AUTOMATIZADO_F22.json",
+      "size": 1021
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_AUTOMATIZADO_F22.md",
+      "size": 908
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_AUTOMATIZADO_F23.md",
+      "size": 589
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_AUTOMATIZADO_F24.md",
+      "size": 491
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_AUTOMATIZADO_F25.md",
+      "size": 942
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_ESTATICO_F25.json",
+      "size": 3427
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_ESTATICO_F27.json",
+      "size": 554
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_ESTATICO_F27.md",
+      "size": 538
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_ESTATICO_F28.md",
+      "size": 743
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_ESTATICO_F29.json",
+      "size": 1774
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_ESTATICO_F29.md",
+      "size": 320
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_ESTATICO_F30.json",
+      "size": 382
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_ESTATICO_F30.md",
+      "size": 356
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_ESTATICO_F31.json",
+      "size": 669
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_ESTATICO_F31.md",
+      "size": 554
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_ESTATICO_F32.json",
+      "size": 510
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_ESTATICO_F32.md",
+      "size": 438
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_ESTATICO_F33.json",
+      "size": 137
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_ESTATICO_F33.md",
+      "size": 546
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_ESTATICO_F34.json",
+      "size": 137
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_ESTATICO_F34.md",
+      "size": 74
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_ESTATICO_F36.json",
+      "size": 166
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_HOTFIX_F24_1.md",
+      "size": 874
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_LOGICA_F27.json",
+      "size": 130
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_LOGICA_F27.md",
+      "size": 425
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_LOGICA_F28.json",
+      "size": 135
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_LOGICA_F29.json",
+      "size": 311
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_LOGICA_F29.md",
+      "size": 392
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_LOGICA_F30.json",
+      "size": 220
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_LOGICA_F30.md",
+      "size": 263
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_LOGICA_F31.json",
+      "size": 210
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_LOGICA_F31.md",
+      "size": 258
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_LOGICA_F32.json",
+      "size": 185
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_LOGICA_F32.md",
+      "size": 223
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_LOGICA_F33.json",
+      "size": 358
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_LOGICA_F33.md",
+      "size": 258
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_LOGICA_F34.json",
+      "size": 271
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_LOGICA_F34.md",
+      "size": 193
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_NAVEGADOR_F27.json",
+      "size": 340
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_NAVEGADOR_F29.md",
+      "size": 482
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_NAVEGADOR_F30.md",
+      "size": 692
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_NAVEGADOR_F33.md",
+      "size": 514
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_NAVEGADOR_F34.md",
+      "size": 735
+    },
+    {
+      "path": "tests/ROTEIRO_TESTE_BANDEIRAS_F17_1.md",
+      "size": 420
+    },
+    {
+      "path": "tests/ROTEIRO_TESTE_F17.md",
+      "size": 701
+    },
+    {
+      "path": "tests/ROTEIRO_TESTE_F18.md",
+      "size": 505
+    },
+    {
+      "path": "tests/ROTEIRO_TESTE_F19.md",
+      "size": 670
+    },
+    {
+      "path": "tests/ROTEIRO_TESTE_F20.md",
+      "size": 1341
+    },
+    {
+      "path": "tests/ROTEIRO_TESTE_F20_1.md",
+      "size": 486
+    },
+    {
+      "path": "tests/ROTEIRO_TESTE_F21.md",
+      "size": 742
+    },
+    {
+      "path": "tests/ROTEIRO_TESTE_F22.md",
+      "size": 787
+    },
+    {
+      "path": "tests/ROTEIRO_TESTE_F23.md",
+      "size": 758
+    },
+    {
+      "path": "tests/ROTEIRO_TESTE_F24.md",
+      "size": 648
+    },
+    {
+      "path": "tests/ROTEIRO_TESTE_F24_1.md",
+      "size": 450
+    },
+    {
+      "path": "tests/ROTEIRO_TESTE_F25.md",
+      "size": 1269
+    },
+    {
+      "path": "tests/ROTEIRO_TESTE_F26.md",
+      "size": 706
+    },
+    {
+      "path": "tests/ROTEIRO_TESTE_F27.md",
+      "size": 621
+    },
+    {
+      "path": "tests/ROTEIRO_TESTE_F28.md",
+      "size": 602
+    },
+    {
+      "path": "tests/ROTEIRO_TESTE_F29.md",
+      "size": 608
+    },
+    {
+      "path": "tests/ROTEIRO_TESTE_F30.md",
+      "size": 775
+    },
+    {
+      "path": "tests/ROTEIRO_TESTE_F31.md",
+      "size": 762
+    },
+    {
+      "path": "tests/ROTEIRO_TESTE_F32.md",
+      "size": 543
+    },
+    {
+      "path": "tests/ROTEIRO_TESTE_F33.md",
+      "size": 919
+    },
+    {
+      "path": "tests/ROTEIRO_TESTE_F34.md",
+      "size": 559
+    },
+    {
+      "path": "tests/ROTEIRO_TESTE_F35.md",
+      "size": 524
+    },
+    {
+      "path": "tests/ROTEIRO_TESTE_F36.md",
+      "size": 387
+    },
+    {
+      "path": "tests/audit_build.py",
+      "size": 1307
+    },
+    {
+      "path": "tests/roteiro-teste-jogavel.md",
+      "size": 642
+    },
+    {
+      "path": "tests/test_f25_static.py",
+      "size": 4296
+    },
+    {
+      "path": "tests/test_f26_static.py",
+      "size": 1118
+    },
+    {
+      "path": "tests/test_f27_static.py",
+      "size": 1091
+    },
+    {
+      "path": "tests/test_f28_static.py",
+      "size": 3171
+    },
+    {
+      "path": "tests/test_f29_logic.py",
+      "size": 3860
+    },
+    {
+      "path": "tests/test_f29_static.py",
+      "size": 703
+    },
+    {
+      "path": "tests/test_f30_logic.py",
+      "size": 3080
+    },
+    {
+      "path": "tests/test_f30_static.py",
+      "size": 1490
+    },
+    {
+      "path": "tests/test_f31_logic.py",
+      "size": 2626
+    },
+    {
+      "path": "tests/test_f31_migration.js",
+      "size": 1238
+    },
+    {
+      "path": "tests/test_f31_static.py",
+      "size": 3146
+    },
+    {
+      "path": "tests/test_f32_migration.js",
+      "size": 1361
+    },
+    {
+      "path": "tests/test_f33_logic.py",
+      "size": 1945
+    },
+    {
+      "path": "tests/test_f33_migration.js",
+      "size": 1387
+    },
+    {
+      "path": "tests/test_f33_static.py",
+      "size": 2269
+    },
+    {
+      "path": "tests/test_f34_logic.py",
+      "size": 1804
+    },
+    {
+      "path": "tests/test_f34_migration.js",
+      "size": 1178
+    },
+    {
+      "path": "tests/test_f34_static.py",
+      "size": 2487
+    },
+    {
+      "path": "tests/test_profile_hotfix.js",
+      "size": 2722
+    }
+  ]
+}

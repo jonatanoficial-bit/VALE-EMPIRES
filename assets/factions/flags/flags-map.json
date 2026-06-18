@@ -1,0 +1,32 @@
+{
+  "england": {
+    "label": "Reino da Inglaterra",
+    "flag": "assets/factions/flags/reino-da-inglaterra.png",
+    "thumb": "assets/factions/flags/reino-da-inglaterra-thumb.png"
+  },
+  "france": {
+    "label": "Reino da França",
+    "flag": "assets/factions/flags/reino-da-franca.png",
+    "thumb": "assets/factions/flags/reino-da-franca-thumb.png"
+  },
+  "byzantium": {
+    "label": "Império Bizantino",
+    "flag": "assets/factions/flags/imperio-bizantino.png",
+    "thumb": "assets/factions/flags/imperio-bizantino-thumb.png"
+  },
+  "mongol": {
+    "label": "Império Mongol",
+    "flag": "assets/factions/flags/imperio-mongol.png",
+    "thumb": "assets/factions/flags/imperio-mongol-thumb.png"
+  },
+  "cordoba": {
+    "label": "Califado de Córdoba",
+    "flag": "assets/factions/flags/califado-de-cordoba.png",
+    "thumb": "assets/factions/flags/califado-de-cordoba-thumb.png"
+  },
+  "norse": {
+    "label": "Reinos Nórdicos",
+    "flag": "assets/factions/flags/reinos-nordicos.png",
+    "thumb": "assets/factions/flags/reinos-nordicos-thumb.png"
+  }
+}

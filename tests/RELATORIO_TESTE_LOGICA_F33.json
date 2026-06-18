@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "checks": {
+    "balanced_income_positive": true,
+    "tribute_income_higher": true,
+    "garrison_reduces_revolt": true,
+    "relief_safer_than_tribute": true,
+    "integration_formula_bounds": true
+  },
+  "sampleIncome": {
+    "gold": 8,
+    "food": 5
+  },
+  "sampleRiskLowGarrison": 60.900000000000006,
+  "sampleRiskFullGarrison": 30.9
+}

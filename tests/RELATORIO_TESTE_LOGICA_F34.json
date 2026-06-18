@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "checks": {
+    "high_tax_yields_more": true,
+    "works_yields_less_than_taxation": true,
+    "steward_improves_revenue": true,
+    "cohesion_in_bounds": true,
+    "population_bonus_three_provinces": true
+  },
+  "sampleNormal": 10,
+  "sampleHigh": 14
+}

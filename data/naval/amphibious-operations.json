@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "feature": "amphibious-transport-landings-coastal-defense",
+  "requiredEra": "feudal",
+  "saveSchema": 10,
+  "transport": {
+    "type": "transportShip",
+    "capacity": 8,
+    "requires": "shipyard",
+    "loadRadius": 95,
+    "landingRadius": 72
+  },
+  "coastalFort": {
+    "requiredEra": "feudal",
+    "cost": {
+      "wood": 190,
+      "stone": 240,
+      "gold": 75
+    },
+    "range": 430,
+    "damage": 24,
+    "cooldownMs": 1250
+  },
+  "enemyInvasions": {
+    "minimumEra": "feudal",
+    "baseIntervalMs": 98000,
+    "minimumIntervalMs": 42000,
+    "passengersByDifficulty": {
+      "story": 3,
+      "easy": 4,
+      "normal": 5,
+      "hard": 6,
+      "conqueror": 7
+    }
+  },
+  "statistics": [
+    "landings",
+    "troopsLanded",
+    "enemyLandings",
+    "invasionsRepelled",
+    "transportsLost",
+    "troopsLostAtSea"
+  ]
+}

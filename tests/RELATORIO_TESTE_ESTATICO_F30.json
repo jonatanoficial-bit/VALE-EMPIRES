@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "schema10": true,
+    "transport_def": true,
+    "coastal_fort": true,
+    "embark_function": true,
+    "landing_function": true,
+    "enemy_invasion": true,
+    "coastal_defense": true,
+    "transport_button": true,
+    "load_button": true,
+    "landing_button": true,
+    "coastal_button": true,
+    "amphibious_data": true
+  },
+  "missing": [],
+  "ok": true
+}

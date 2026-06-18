@@ -1,0 +1,26 @@
+{
+  "buildId": "VE-3.8.0-F32",
+  "ok": true,
+  "ids": 271,
+  "duplicateIds": [],
+  "htmlRefs": 137,
+  "jsRefs": 241,
+  "jsonFiles": 45,
+  "files": 337,
+  "checks": {
+    "schema_12": true,
+    "state_urban": true,
+    "wall_def": true,
+    "gate_def": true,
+    "tower_def": true,
+    "siege_tower_def": true,
+    "update_hook": true,
+    "draw_hook": true,
+    "save_hook": true,
+    "load_hook": true,
+    "gate_pathfinding": true,
+    "port_requirement": true,
+    "reward_guard": true
+  },
+  "issues": []
+}

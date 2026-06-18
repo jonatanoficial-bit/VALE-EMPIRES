@@ -1,0 +1,14 @@
+{
+  "id": "modern",
+  "label": "Mundo Contemporâneo",
+  "version": "0.1.0-foundation",
+  "status": "planned",
+  "enabled": false,
+  "features": [
+    "economia moderna",
+    "logística",
+    "forças terrestres, aéreas e marítimas"
+  ],
+  "safeFallback": "medieval",
+  "notes": "Pacote estrutural reservado. Não pode iniciar partidas até passar por auditoria funcional própria."
+}

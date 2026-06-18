@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "phase": 31,
+  "buildings": {
+    "coastalWall": {
+      "era": "feudal",
+      "cost": {
+        "wood": 70,
+        "stone": 110
+      },
+      "hp": 920,
+      "role": "blocks beach access"
+    },
+    "beachTower": {
+      "era": "feudal",
+      "cost": {
+        "wood": 145,
+        "stone": 185,
+        "gold": 45
+      },
+      "hp": 680,
+      "range": 330,
+      "role": "anti-landing defense"
+    },
+    "siegeWorkshop": {
+      "era": "kingdoms",
+      "cost": {
+        "wood": 240,
+        "stone": 175,
+        "gold": 90
+      },
+      "hp": 590,
+      "role": "trains siege engines"
+    }
+  },
+  "units": {
+    "siegeRam": {
+      "era": "kingdoms",
+      "cost": {
+        "wood": 170,
+        "food": 70,
+        "gold": 45
+      },
+      "hp": 430,
+      "attack": 52,
+      "armor": 8,
+      "speed": 1.15,
+      "buildingDamageMultiplier": 2.5
+    }
+  },
+  "portCapture": {
+    "fortificationHp": 950,
+    "captureMax": 100,
+    "captureReward": {
+      "gold": 200
+    },
+    "passiveIncome": {
+      "gold": 5,
+      "wood": 4
+    },
+    "incomeIntervalMs": 12000
+  }
+}

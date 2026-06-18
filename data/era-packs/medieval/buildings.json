@@ -1,0 +1,19 @@
+{
+  "buildings": [
+    "townCenter",
+    "house",
+    "storehouse",
+    "mill",
+    "lumberCamp",
+    "barracks",
+    "archeryRange",
+    "stable",
+    "outpost",
+    "harbor",
+    "shipyard",
+    "coastalFort",
+    "coastalWall",
+    "beachTower",
+    "siegeWorkshop"
+  ]
+}

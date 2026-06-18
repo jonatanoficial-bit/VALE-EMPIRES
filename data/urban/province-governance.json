@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "phase": 34,
+  "system": "province-governance",
+  "provinces": [
+    "capital",
+    "coast",
+    "frontier"
+  ],
+  "governors": [
+    {
+      "id": "steward",
+      "name": "Afonso do Tesouro",
+      "role": "Mordomo Real",
+      "description": "Arrecadação e prosperidade"
+    },
+    {
+      "id": "marshal",
+      "name": "Helena de Ferro",
+      "role": "Marechal Provincial",
+      "description": "Segurança e guarnições"
+    },
+    {
+      "id": "architect",
+      "name": "Tomás da Pedra",
+      "role": "Mestre de Obras",
+      "description": "Reconstrução e infraestrutura"
+    },
+    {
+      "id": "diplomat",
+      "name": "Sofia de Córdoba",
+      "role": "Chanceler Regional",
+      "description": "Lealdade e integração"
+    }
+  ],
+  "laws": [
+    "charter",
+    "taxation",
+    "works",
+    "frontier"
+  ],
+  "taxLevels": [
+    "low",
+    "normal",
+    "high"
+  ],
+  "taxCycleMs": 25000,
+  "eventCycleMs": 45000
+}

@@ -1,0 +1,14 @@
+{
+  "id": "industrial",
+  "label": "Era Industrial",
+  "version": "0.1.0-foundation",
+  "status": "planned",
+  "enabled": false,
+  "features": [
+    "fábricas",
+    "ferrovias",
+    "carvão e petróleo"
+  ],
+  "safeFallback": "medieval",
+  "notes": "Pacote estrutural reservado. Não pode iniciar partidas até passar por auditoria funcional própria."
+}

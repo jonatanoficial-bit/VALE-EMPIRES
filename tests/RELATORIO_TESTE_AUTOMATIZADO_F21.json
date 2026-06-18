@@ -1,0 +1,14 @@
+{
+  "buildId": "VE-2.1.0-F21",
+  "version": "v2.1.0",
+  "files": 237,
+  "htmlIds": 203,
+  "htmlCssReferences": 109,
+  "javascriptAssetReferences": 95,
+  "pwaCoreAssets": 83,
+  "tutorialSteps": 14,
+  "errors": [],
+  "warnings": [
+    "Teste automatizado em navegador não executado: Chromium bloqueado pelo administrador do ambiente. Teste manual em aparelho real permanece obrigatório."
+  ]
+}

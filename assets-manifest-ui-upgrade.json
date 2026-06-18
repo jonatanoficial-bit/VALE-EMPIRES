@@ -1,0 +1,1337 @@
+[
+  {
+    "path": "assets/ui/icons-upgrade/resources/icon-wood.png",
+    "category": "icon",
+    "size": [
+      88,
+      54
+    ],
+    "source_box": [
+      18,
+      42,
+      106,
+      96
+    ],
+    "sha256": "1e1af68cb5935299cb267e8457b77252e27432f88404feaf934917a4d918efa5"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/resources/icon-food.png",
+    "category": "icon",
+    "size": [
+      110,
+      54
+    ],
+    "source_box": [
+      126,
+      42,
+      236,
+      96
+    ],
+    "sha256": "51bad23cc0eb214ff52a39dd545c2548229f2d7d56058459b778165ac1560608"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/resources/icon-gold.png",
+    "category": "icon",
+    "size": [
+      76,
+      54
+    ],
+    "source_box": [
+      265,
+      42,
+      341,
+      96
+    ],
+    "sha256": "7c398764af4f59197d19127ddfcc7a27676b1d546c9dbdef4f4506fbbeb5cad0"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/resources/icon-stone.png",
+    "category": "icon",
+    "size": [
+      85,
+      54
+    ],
+    "source_box": [
+      378,
+      42,
+      463,
+      96
+    ],
+    "sha256": "da2c9749f4d345495ec33e37a50d753ebe5c436814794a01cc6cc1ec78cc9828"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/resources/icon-population.png",
+    "category": "icon",
+    "size": [
+      91,
+      54
+    ],
+    "source_box": [
+      489,
+      42,
+      580,
+      96
+    ],
+    "sha256": "bb285ec2b7026b63f9d701e4fb398826cce7b96307ca8444232ecccade7b1943"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/population/icon-population-current.png",
+    "category": "icon",
+    "size": [
+      82,
+      54
+    ],
+    "source_box": [
+      615,
+      42,
+      697,
+      96
+    ],
+    "sha256": "2e95bddf269fb58867512c199852ee9348b9f493d55eea36c29b1acf12102ca7"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/population/icon-population-cap.png",
+    "category": "icon",
+    "size": [
+      100,
+      54
+    ],
+    "source_box": [
+      716,
+      42,
+      816,
+      96
+    ],
+    "sha256": "97d11b46d94e1ff9d23fa03ae4d477cc0c7bea6b57aa48d44f857b31cb0925e3"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/population/icon-population-increase.png",
+    "category": "icon",
+    "size": [
+      61,
+      54
+    ],
+    "source_box": [
+      846,
+      42,
+      907,
+      96
+    ],
+    "sha256": "9e97c188229cb48a09f9e58ebc454043dc8258fe8cc7ee4320e16f42dec03f1a"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/commands/icon-move.png",
+    "category": "icon",
+    "size": [
+      64,
+      54
+    ],
+    "source_box": [
+      955,
+      42,
+      1019,
+      96
+    ],
+    "sha256": "1af7ba4d69eeb6299b2df9a1abd98f71efda5f42981e4601a186080fbf8e230c"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/commands/icon-attack.png",
+    "category": "icon",
+    "size": [
+      68,
+      54
+    ],
+    "source_box": [
+      1043,
+      42,
+      1111,
+      96
+    ],
+    "sha256": "5712d5a9489ea6e6173e4720e465362e695fa5f8fa658d197f2e43c9905a279b"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/commands/icon-defend.png",
+    "category": "icon",
+    "size": [
+      67,
+      54
+    ],
+    "source_box": [
+      1144,
+      42,
+      1211,
+      96
+    ],
+    "sha256": "6407ed856b0e6b51ee9f791f6c3b869c049c86ddea7ca9cd2d1b0600cb34e843"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/commands/icon-patrol.png",
+    "category": "icon",
+    "size": [
+      63,
+      54
+    ],
+    "source_box": [
+      1240,
+      42,
+      1303,
+      96
+    ],
+    "sha256": "3b6510755664ebecbedb18a0f57d81943688074f2fa35b778697cfd342f14c75"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/commands/icon-stop.png",
+    "category": "icon",
+    "size": [
+      59,
+      54
+    ],
+    "source_box": [
+      1338,
+      42,
+      1397,
+      96
+    ],
+    "sha256": "c591ea2aeb9ad8d3f1c59d59fce45e811b228a6424b24700eede6fc2a9f9b9dc"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/commands/icon-cancel.png",
+    "category": "icon",
+    "size": [
+      65,
+      54
+    ],
+    "source_box": [
+      1433,
+      42,
+      1498,
+      96
+    ],
+    "sha256": "ae65197b97b1352012ea9c697c6511d4d3195c980e55a19e797eaa7c62abf12f"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/villagers/icon-select-villager.png",
+    "category": "icon",
+    "size": [
+      84,
+      67
+    ],
+    "source_box": [
+      18,
+      177,
+      102,
+      244
+    ],
+    "sha256": "dad59cb767a444640350a0f485e78442f7cf567a1ac65b8a37233241647e9594"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/villagers/icon-gather-wood.png",
+    "category": "icon",
+    "size": [
+      64,
+      67
+    ],
+    "source_box": [
+      157,
+      177,
+      221,
+      244
+    ],
+    "sha256": "98105620a764e4d254e9f9ba0fece38a1615fc5cd2b0c64d038582fcd5078f44"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/villagers/icon-gather-food.png",
+    "category": "icon",
+    "size": [
+      87,
+      67
+    ],
+    "source_box": [
+      265,
+      177,
+      352,
+      244
+    ],
+    "sha256": "45f27234b8f4bf937e4498078b6e9e619fbeb7cd2b22ea2a0cda1db40e3e3ee3"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/villagers/icon-gather-stone.png",
+    "category": "icon",
+    "size": [
+      77,
+      67
+    ],
+    "source_box": [
+      390,
+      177,
+      467,
+      244
+    ],
+    "sha256": "6ecf2ca92bb96237f687380f9e02d7f8991b8f26102457085b5579c1b318c5aa"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/villagers/icon-gather-gold.png",
+    "category": "icon",
+    "size": [
+      82,
+      67
+    ],
+    "source_box": [
+      501,
+      177,
+      583,
+      244
+    ],
+    "sha256": "51724a5612f6ab3f42a734ec29cbb3fd9ae557d017fe4f3f13d86aa9ec78ac98"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/villagers/icon-return-center.png",
+    "category": "icon",
+    "size": [
+      88,
+      67
+    ],
+    "source_box": [
+      616,
+      177,
+      704,
+      244
+    ],
+    "sha256": "e93287d0130c049bfa5502845ccca1144d2d8ad326aec510ee04a72269e0e345"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/construction/icon-build.png",
+    "category": "icon",
+    "size": [
+      75,
+      67
+    ],
+    "source_box": [
+      821,
+      177,
+      896,
+      244
+    ],
+    "sha256": "04619731baee8684c1def22e9dc163137c2dabbc605c8d02ee82928ff02d7a68"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/construction/icon-foundation.png",
+    "category": "icon",
+    "size": [
+      80,
+      67
+    ],
+    "source_box": [
+      929,
+      177,
+      1009,
+      244
+    ],
+    "sha256": "da1ee2cdf502f8531e0bd5556aad3dc84a8a1b73f0e80fb1cea00191ecd93559"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/construction/icon-rotate.png",
+    "category": "icon",
+    "size": [
+      72,
+      67
+    ],
+    "source_box": [
+      1048,
+      177,
+      1120,
+      244
+    ],
+    "sha256": "11ff9feda7a2f06bcf0d4d5c5c003578d0c8cf673f600edd02ebb0a19aa22d4d"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/construction/icon-cancel-construction.png",
+    "category": "icon",
+    "size": [
+      85,
+      67
+    ],
+    "source_box": [
+      1162,
+      177,
+      1247,
+      244
+    ],
+    "sha256": "0231b371eac144540d5f64290778d8a2504f3e7b0c8b05b117b2267895c3c298"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/construction/icon-repair.png",
+    "category": "icon",
+    "size": [
+      75,
+      67
+    ],
+    "source_box": [
+      1282,
+      177,
+      1357,
+      244
+    ],
+    "sha256": "a4221d2ffb880141b8ae79e23d37ada6705e5dea2a6c712cc41c91b6fc6df01f"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/construction/icon-priority.png",
+    "category": "icon",
+    "size": [
+      84,
+      67
+    ],
+    "source_box": [
+      1404,
+      177,
+      1488,
+      244
+    ],
+    "sha256": "bc5189661be54ad7f1156b6a287aed881923baf2554396682dcf5ac185e13120"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/buildings/icon-town-center.png",
+    "category": "icon",
+    "size": [
+      98,
+      74
+    ],
+    "source_box": [
+      19,
+      320,
+      117,
+      394
+    ],
+    "sha256": "1d5470e46739151dd690a60412a76109c80a640cb159625d9df23baf89b8f25c"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/buildings/icon-house.png",
+    "category": "icon",
+    "size": [
+      83,
+      74
+    ],
+    "source_box": [
+      143,
+      320,
+      226,
+      394
+    ],
+    "sha256": "efd03bb4667bb1763fb3495dd1719b5b92bc63954e9d11df38d1475b8c3bdc9d"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/buildings/icon-storage.png",
+    "category": "icon",
+    "size": [
+      81,
+      74
+    ],
+    "source_box": [
+      264,
+      320,
+      345,
+      394
+    ],
+    "sha256": "188f1743a7663ef6405f1b0ccfffc8c132d4139196034794608ca11db7a83441"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/buildings/icon-mill.png",
+    "category": "icon",
+    "size": [
+      84,
+      74
+    ],
+    "source_box": [
+      382,
+      320,
+      466,
+      394
+    ],
+    "sha256": "a9c419085584707eaca690bb4c9c746a7e6c94acef14efa741224e849fa389c1"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/buildings/icon-lumber-camp.png",
+    "category": "icon",
+    "size": [
+      93,
+      74
+    ],
+    "source_box": [
+      493,
+      320,
+      586,
+      394
+    ],
+    "sha256": "353ab16f52998e95a515b2b508e5aacc341966e1341ed679a7c0718cfa7bda99"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/buildings/icon-quarry.png",
+    "category": "icon",
+    "size": [
+      102,
+      74
+    ],
+    "source_box": [
+      600,
+      320,
+      702,
+      394
+    ],
+    "sha256": "2d971f7fdfc9dc46c38449351038b5d7dbc033918a2786203d9a4dae94ee197d"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/buildings/icon-gold-mine.png",
+    "category": "icon",
+    "size": [
+      93,
+      74
+    ],
+    "source_box": [
+      713,
+      320,
+      806,
+      394
+    ],
+    "sha256": "45bedf44446bb06d37e40a29b75ec41a670d511f17295027e158b672c0d5120a"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/buildings/icon-barracks.png",
+    "category": "icon",
+    "size": [
+      88,
+      74
+    ],
+    "source_box": [
+      827,
+      320,
+      915,
+      394
+    ],
+    "sha256": "5b04c86fd20097ae5f04bc6afc961d1a1b833e0f173c563025a399484d7b101c"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/buildings/icon-archery-range.png",
+    "category": "icon",
+    "size": [
+      96,
+      74
+    ],
+    "source_box": [
+      937,
+      320,
+      1033,
+      394
+    ],
+    "sha256": "aca333c289b59938098da60bcc4ba476039e224523a4e9e8505479484c372c45"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/military/icon-infantry.png",
+    "category": "icon",
+    "size": [
+      85,
+      74
+    ],
+    "source_box": [
+      1067,
+      320,
+      1152,
+      394
+    ],
+    "sha256": "040312ada921856f6b52dd323db428bb2b43a991b6ea002f4886073313811974"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/military/icon-archer.png",
+    "category": "icon",
+    "size": [
+      86,
+      74
+    ],
+    "source_box": [
+      1171,
+      320,
+      1257,
+      394
+    ],
+    "sha256": "5ed16c56b059d6cb0db569432db2bae044a32f305924defa063911a949be3108"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/military/icon-cavalry.png",
+    "category": "icon",
+    "size": [
+      90,
+      74
+    ],
+    "source_box": [
+      1274,
+      320,
+      1364,
+      394
+    ],
+    "sha256": "ffcb6a533752212fe15b5d2d8630e185a17dca54a7d6246e5af5904d8973e485"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/military/icon-select-all-army.png",
+    "category": "icon",
+    "size": [
+      101,
+      74
+    ],
+    "source_box": [
+      1369,
+      320,
+      1470,
+      394
+    ],
+    "sha256": "2f453952e81948a3110e7526f5bb5ffb7a676fd6aaf3dc60405bbc7e3f3452c8"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/military/icon-formation-line.png",
+    "category": "icon",
+    "size": [
+      45,
+      74
+    ],
+    "source_box": [
+      1448,
+      320,
+      1493,
+      394
+    ],
+    "sha256": "e116a8b4ff0f0b7f6ff361b28985959ab57125f5f3cc9775d3654becc770bcc3"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/military/icon-formation-wedge.png",
+    "category": "icon",
+    "size": [
+      45,
+      74
+    ],
+    "source_box": [
+      1490,
+      320,
+      1535,
+      394
+    ],
+    "sha256": "be07f8045bf333b453c8aa17c8f9db34c6ba98ec5bd9cd62522bfdab41e1387b"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/interface/icon-settings.png",
+    "category": "icon",
+    "size": [
+      71,
+      62
+    ],
+    "source_box": [
+      17,
+      486,
+      88,
+      548
+    ],
+    "sha256": "f56327c0951f8a41bea198340a6388b294961e5370fd3c416974e6be7c2a6c9a"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/interface/icon-help.png",
+    "category": "icon",
+    "size": [
+      72,
+      62
+    ],
+    "source_box": [
+      112,
+      486,
+      184,
+      548
+    ],
+    "sha256": "553773f05f3ad95d610fea9ad7f54fe4b0e102cb0eec4cb0d0a5345b07b27396"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/interface/icon-credits.png",
+    "category": "icon",
+    "size": [
+      78,
+      62
+    ],
+    "source_box": [
+      204,
+      486,
+      282,
+      548
+    ],
+    "sha256": "09fce5d0e392f697e0a1da6587e4bb471e5073836da215a703fe8b8f9cca4c63"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/interface/icon-achievements.png",
+    "category": "icon",
+    "size": [
+      80,
+      62
+    ],
+    "source_box": [
+      300,
+      486,
+      380,
+      548
+    ],
+    "sha256": "0cc6b8f6c4a6449822adad85fdca9d863628ebb37757115a43e3ab2243c789b5"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/interface/icon-messages.png",
+    "category": "icon",
+    "size": [
+      78,
+      62
+    ],
+    "source_box": [
+      397,
+      486,
+      475,
+      548
+    ],
+    "sha256": "359007801924a117307bdfe9d7ee88a351389cbb4c03a77cd68f36e2c48b2781"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/interface/icon-missions.png",
+    "category": "icon",
+    "size": [
+      81,
+      62
+    ],
+    "source_box": [
+      493,
+      486,
+      574,
+      548
+    ],
+    "sha256": "1004f5913c46adf70aa5e0f2214d821bb9085ea3d50dd6f1f6045a84b3136eb2"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/interface/icon-close.png",
+    "category": "icon",
+    "size": [
+      77,
+      62
+    ],
+    "source_box": [
+      590,
+      486,
+      667,
+      548
+    ],
+    "sha256": "bb75bf9615f80e4ba58fc6c92927348ca2b521c7187856808364bca79f4acf54"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/camera/icon-zoom-in.png",
+    "category": "icon",
+    "size": [
+      80,
+      62
+    ],
+    "source_box": [
+      629,
+      486,
+      709,
+      548
+    ],
+    "sha256": "1c53d5283ccf873aa31f7092b4f65a9a9516d5b0d49e0f3d9e84a3c306d285d5"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/camera/icon-zoom-out.png",
+    "category": "icon",
+    "size": [
+      84,
+      62
+    ],
+    "source_box": [
+      726,
+      486,
+      810,
+      548
+    ],
+    "sha256": "2bafb91abefbc607654df258710d800b41b9bcad40abe86bc49c1939a7b7684d"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/camera/icon-center-camera.png",
+    "category": "icon",
+    "size": [
+      91,
+      62
+    ],
+    "source_box": [
+      813,
+      486,
+      904,
+      548
+    ],
+    "sha256": "fbc68b9635f94bcb9245f338ab1805c6ed2474f1407ad9f3de177fe52f777317"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/camera/icon-overview.png",
+    "category": "icon",
+    "size": [
+      86,
+      62
+    ],
+    "source_box": [
+      908,
+      486,
+      994,
+      548
+    ],
+    "sha256": "80d74bdf4e7a4258859ac59f7373fe5323a43b1ab950228874cc5cda65301708"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/camera/icon-area-select.png",
+    "category": "icon",
+    "size": [
+      79,
+      62
+    ],
+    "source_box": [
+      1004,
+      486,
+      1083,
+      548
+    ],
+    "sha256": "280ca75b191e0a0c7475f563dba00a6868bb3cf48bf9920b9584c01d58993b0e"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/time/icon-day.png",
+    "category": "icon",
+    "size": [
+      76,
+      62
+    ],
+    "source_box": [
+      1063,
+      486,
+      1139,
+      548
+    ],
+    "sha256": "cecb8577eae04b742c5513a763e95cd8e0f1d9c41a853f4c52962c88ea30627b"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/time/icon-night.png",
+    "category": "icon",
+    "size": [
+      76,
+      62
+    ],
+    "source_box": [
+      1158,
+      486,
+      1234,
+      548
+    ],
+    "sha256": "3289883f64fe03469575e558d495a3b0aeb9e25e80420463cd3421ba4accb6b9"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/time/icon-speed-up.png",
+    "category": "icon",
+    "size": [
+      82,
+      62
+    ],
+    "source_box": [
+      1250,
+      486,
+      1332,
+      548
+    ],
+    "sha256": "069e28b3b53f85b0477dcc580325bfb49a7df228af5c092c6b86198fdebff453"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/time/icon-pause.png",
+    "category": "icon",
+    "size": [
+      80,
+      62
+    ],
+    "source_box": [
+      1348,
+      486,
+      1428,
+      548
+    ],
+    "sha256": "01d3a66ec8ff681bee0f1a867631330a48b7c536a77afcb6d2319164a847593d"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/time/icon-time.png",
+    "category": "icon",
+    "size": [
+      75,
+      62
+    ],
+    "source_box": [
+      1444,
+      486,
+      1519,
+      548
+    ],
+    "sha256": "9df2b420f2c16228ecc94036805c9269ab68251ca205dfcd00af6e270b09ba79"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/minimap/icon-marker.png",
+    "category": "icon",
+    "size": [
+      57,
+      60
+    ],
+    "source_box": [
+      21,
+      632,
+      78,
+      692
+    ],
+    "sha256": "695b0a640297192ec4ff51024ae25e596c870d7e421f5ca6d5c03de4ef4129a6"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/minimap/icon-friendly-unit.png",
+    "category": "icon",
+    "size": [
+      60,
+      60
+    ],
+    "source_box": [
+      95,
+      632,
+      155,
+      692
+    ],
+    "sha256": "ff092201137b421c5e8cf70e979d9e31c42b4e11d813bf53e93cb0034b2037a9"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/minimap/icon-enemy-unit.png",
+    "category": "icon",
+    "size": [
+      62,
+      60
+    ],
+    "source_box": [
+      170,
+      632,
+      232,
+      692
+    ],
+    "sha256": "c07b655199441a19d116eb6c0fde01aa95960cf26612248da8e42d562e034826"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/minimap/icon-resource.png",
+    "category": "icon",
+    "size": [
+      70,
+      60
+    ],
+    "source_box": [
+      247,
+      632,
+      317,
+      692
+    ],
+    "sha256": "945f4877929c12d82b295a0ff1060851bfa4c2f440b397f0b74582480536169d"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/minimap/icon-building.png",
+    "category": "icon",
+    "size": [
+      70,
+      60
+    ],
+    "source_box": [
+      327,
+      632,
+      397,
+      692
+    ],
+    "sha256": "42edffbfca35c247b92228473fe63efba6c48dbd7ffc484a707dde0262b26e08"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/minimap/icon-visible-area.png",
+    "category": "icon",
+    "size": [
+      73,
+      60
+    ],
+    "source_box": [
+      406,
+      632,
+      479,
+      692
+    ],
+    "sha256": "1abcd785cf200902e83ecbbbf4dd03a143df837d1feb4b1d2b40a5f7c3985ee2"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/others/icon-trade.png",
+    "category": "icon",
+    "size": [
+      75,
+      60
+    ],
+    "source_box": [
+      491,
+      632,
+      566,
+      692
+    ],
+    "sha256": "16b19816dfa1a79018c6c40a5d6e94e1f34f8f93150ed94acfb2acc02fafe44c"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/others/icon-diplomacy.png",
+    "category": "icon",
+    "size": [
+      88,
+      60
+    ],
+    "source_box": [
+      573,
+      632,
+      661,
+      692
+    ],
+    "sha256": "79117e86dcc33047059fe3fdd2c6635a199262d1e72883a904ad310523adf995"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/others/icon-technology.png",
+    "category": "icon",
+    "size": [
+      89,
+      60
+    ],
+    "source_box": [
+      670,
+      632,
+      759,
+      692
+    ],
+    "sha256": "831d2ae24e1defb35b2cb2da626986ac9f014da94b75404e5406f98396709cf5"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/others/icon-heroes.png",
+    "category": "icon",
+    "size": [
+      81,
+      60
+    ],
+    "source_box": [
+      770,
+      632,
+      851,
+      692
+    ],
+    "sha256": "47816754c1de045db8714b4267c1d1fef390c9b5799a0d27eb0957592161a81b"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/others/icon-map.png",
+    "category": "icon",
+    "size": [
+      78,
+      60
+    ],
+    "source_box": [
+      865,
+      632,
+      943,
+      692
+    ],
+    "sha256": "fc6404792eefd0450e1600871c8c29dc2fcfed811c2389c652f45597517b6cb5"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/others/icon-shop.png",
+    "category": "icon",
+    "size": [
+      81,
+      60
+    ],
+    "source_box": [
+      957,
+      632,
+      1038,
+      692
+    ],
+    "sha256": "c8bbaed9f9dc4bceb70ab2e4736672c94af28fbf6cc1c2d87dbeb5e06cecafc7"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/status/icon-available.png",
+    "category": "icon",
+    "size": [
+      84,
+      60
+    ],
+    "source_box": [
+      1045,
+      632,
+      1129,
+      692
+    ],
+    "sha256": "21e30aff2273f68b0f6fffea36243d6534e542bc50e217fc4986aba23a7a68a2"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/status/icon-in-progress.png",
+    "category": "icon",
+    "size": [
+      81,
+      60
+    ],
+    "source_box": [
+      1142,
+      632,
+      1223,
+      692
+    ],
+    "sha256": "515512b5ce3949743b8d5b4cb5695238bb495850132d31aed5c02129ac056195"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/status/icon-blocked.png",
+    "category": "icon",
+    "size": [
+      84,
+      60
+    ],
+    "source_box": [
+      1238,
+      632,
+      1322,
+      692
+    ],
+    "sha256": "353596b2a79c0728d2d4457fc98d3fbfea0bbc73d50d632844572a56730fd42c"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/status/icon-attention.png",
+    "category": "icon",
+    "size": [
+      82,
+      60
+    ],
+    "source_box": [
+      1332,
+      632,
+      1414,
+      692
+    ],
+    "sha256": "9989658508b3a1545e474f75e936dba68fc9a446f2a14bfef3d824a605144dcc"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/status/icon-buff.png",
+    "category": "icon",
+    "size": [
+      76,
+      60
+    ],
+    "source_box": [
+      1429,
+      632,
+      1505,
+      692
+    ],
+    "sha256": "917c0379391518f6c06bb4a2107c882368e3e4d4d077b0cff2579048e5daa9ac"
+  },
+  {
+    "path": "assets/ui/icons-upgrade/status/icon-debuff.png",
+    "category": "icon",
+    "size": [
+      59,
+      60
+    ],
+    "source_box": [
+      1475,
+      632,
+      1534,
+      692
+    ],
+    "sha256": "5c40c0c16973816d84b8fdd633528315f67a80ca52536acd67464d711c385835"
+  },
+  {
+    "path": "assets/ui/buttons-upgrade/button-continue-green.png",
+    "category": "button",
+    "size": [
+      216,
+      47
+    ],
+    "source_box": [
+      25,
+      779,
+      241,
+      826
+    ],
+    "sha256": "2ea40202db59c5b672065d9d3cac0798ddb725c9c054e274eed7a259391be9c9"
+  },
+  {
+    "path": "assets/ui/buttons-upgrade/button-new-game-blue.png",
+    "category": "button",
+    "size": [
+      212,
+      47
+    ],
+    "source_box": [
+      259,
+      779,
+      471,
+      826
+    ],
+    "sha256": "37d35af00a90cb32c734785e618c252c982e07c56fcb4db0c68b1128fdca4c57"
+  },
+  {
+    "path": "assets/ui/buttons-upgrade/button-load-blue.png",
+    "category": "button",
+    "size": [
+      195,
+      47
+    ],
+    "source_box": [
+      474,
+      779,
+      669,
+      826
+    ],
+    "sha256": "4b8d93aa20e242edfa822e0d0f2ff11f8144d9bd601af00e12951dd7fba04d0e"
+  },
+  {
+    "path": "assets/ui/buttons-upgrade/button-save-blue.png",
+    "category": "button",
+    "size": [
+      194,
+      47
+    ],
+    "source_box": [
+      688,
+      779,
+      882,
+      826
+    ],
+    "sha256": "445dd72a2065346dcf64b51c7fb23e3e7bd016ef3337bf54504ad6b9a78bcea3"
+  },
+  {
+    "path": "assets/ui/buttons-upgrade/button-settings-blue.png",
+    "category": "button",
+    "size": [
+      189,
+      47
+    ],
+    "source_box": [
+      894,
+      779,
+      1083,
+      826
+    ],
+    "sha256": "0398864c8155e178bf22f353574be16f4407680482df201572494454f5ddefee"
+  },
+  {
+    "path": "assets/ui/buttons-upgrade/button-credits-blue.png",
+    "category": "button",
+    "size": [
+      178,
+      47
+    ],
+    "source_box": [
+      1109,
+      779,
+      1287,
+      826
+    ],
+    "sha256": "48be63a3e5cc26078257db282b36430c0093259e2f9612bb15b3638ae296a0a7"
+  },
+  {
+    "path": "assets/ui/buttons-upgrade/button-exit-red.png",
+    "category": "button",
+    "size": [
+      175,
+      47
+    ],
+    "source_box": [
+      1329,
+      779,
+      1504,
+      826
+    ],
+    "sha256": "5e62b32950406bcf004ce0e866f8deb1e1185bcc2a4bf56109d37ff825c00261"
+  },
+  {
+    "path": "assets/ui/panels-upgrade/panel-parchment-large.png",
+    "category": "panel",
+    "size": [
+      267,
+      109
+    ],
+    "source_box": [
+      22,
+      885,
+      289,
+      994
+    ],
+    "sha256": "65e4a57e167651c5c7d9289a5eaa9a3b03a94abd7411bc69f838b7c8aad3b191"
+  },
+  {
+    "path": "assets/ui/panels-upgrade/panel-stone-medium.png",
+    "category": "panel",
+    "size": [
+      225,
+      109
+    ],
+    "source_box": [
+      306,
+      885,
+      531,
+      994
+    ],
+    "sha256": "4388e93acf9a56842bea97c80f0b165795c2e798ab6d70a804a90ad26cf09a29"
+  },
+  {
+    "path": "assets/ui/panels-upgrade/panel-dark-medium.png",
+    "category": "panel",
+    "size": [
+      211,
+      109
+    ],
+    "source_box": [
+      558,
+      885,
+      769,
+      994
+    ],
+    "sha256": "029bbfe5668a4571950de3c2b4b7403aa4b4a30f7f9a97efd316c671db441bab"
+  },
+  {
+    "path": "assets/ui/panels-upgrade/panel-dark-wide.png",
+    "category": "panel",
+    "size": [
+      320,
+      109
+    ],
+    "source_box": [
+      799,
+      885,
+      1119,
+      994
+    ],
+    "sha256": "7ae056ddd52ab8a9e8b954458e855787e339b5ceeae093353ba96ebdee845301"
+  },
+  {
+    "path": "assets/ui/panels-upgrade/crest-blue-gold.png",
+    "category": "panel",
+    "size": [
+      204,
+      129
+    ],
+    "source_box": [
+      1172,
+      879,
+      1376,
+      1008
+    ],
+    "sha256": "2bb3ad36ad1a0e10c0e528fb2e37ee7793fdf28164ed74595aac065f763bb1d4"
+  },
+  {
+    "path": "assets/ui/panels-upgrade/banner-red.png",
+    "category": "panel",
+    "size": [
+      115,
+      125
+    ],
+    "source_box": [
+      1378,
+      879,
+      1493,
+      1004
+    ],
+    "sha256": "5d1598455929d2f9ceca090e281dcb0eccb5dd9a41067bac1ce9945b88b127f7"
+  }
+]

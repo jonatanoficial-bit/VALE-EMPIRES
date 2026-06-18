@@ -1,0 +1,10 @@
+{
+  "buildId": "VE-4.2.0-F36",
+  "saveSchema": 16,
+  "checks": {
+    "button": true,
+    "script": true,
+    "saveField": true,
+    "releaseGuardSchema16": true
+  }
+}

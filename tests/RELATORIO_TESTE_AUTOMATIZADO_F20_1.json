@@ -1,0 +1,17 @@
+{
+  "viewport": "915x412",
+  "steps": [
+    "menu-loaded",
+    "period-screen",
+    "modern-locked",
+    "profile-screen",
+    "campaign-screen",
+    "game-started"
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "profile_era_pack_pre_game": "medieval",
+  "save_schema": 4,
+  "era_pack": "medieval",
+  "profile_era_pack": "medieval"
+}
