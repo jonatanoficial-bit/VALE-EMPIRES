@@ -1,0 +1,30 @@
+{
+  "schema": "vale-empires-cultural-morale-v1",
+  "phase": 39,
+  "version": "v4.5.0",
+  "systems": [
+    "moral_do_reino",
+    "unidade_social",
+    "influencia_religiosa_abstrata",
+    "influencia_civil",
+    "prestigio_artistico",
+    "cronistas",
+    "festivais",
+    "pressao_cultural_rival",
+    "estabilidade_social"
+  ],
+  "doctrines": [
+    "equilibrio_civil",
+    "tradicao_e_unidade",
+    "renascimento_artistico",
+    "disciplina_social"
+  ],
+  "actions": [
+    "festival_do_vale",
+    "patrocinar_cronistas",
+    "restaurar_pracas",
+    "assembleia_civil",
+    "ritual_de_unidade",
+    "campanha_de_esperanca"
+  ]
+}

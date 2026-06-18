@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "phase": 38,
+  "system": "informationWarfare",
+  "description": "Serviço diplomático secreto, reputação internacional, propaganda estratégica e defesa contra boatos.",
+  "metrics": [
+    "reputation",
+    "influence",
+    "credibility",
+    "propaganda",
+    "disinformation",
+    "defense",
+    "foreignTension"
+  ],
+  "doctrines": [
+    "balanced",
+    "glory",
+    "shadow",
+    "truth"
+  ],
+  "channels": [
+    "heralds",
+    "envoys",
+    "scribes",
+    "informants"
+  ],
+  "campaigns": [
+    "legitimacy",
+    "trade",
+    "expose",
+    "prestige",
+    "covert"
+  ],
+  "safety": {
+    "graphicViolence": false,
+    "strategicSimulation": true,
+    "directRealWorldTargeting": false
+  }
+}

@@ -1,11 +1,15 @@
-# Changelog — v4.2.0
+# Changelog — v4.5.0
 
-## Fase 36 — Intrigas da Corte
-- Adicionado botão Intrigas da Corte na HUD.
-- Criado sistema de casamento dinástico.
-- Criadas seis casas nobres relacionadas às civilizações atuais.
-- Adicionados pretendentes ao trono e investigação.
-- Adicionada rede de espionagem e risco de conspiração.
-- Adicionado conselho dinástico para reduzir crise sucessória.
-- Save schema atualizado para 16.
-- PWA e cache atualizados.
+## Fase 39 — Moral, cultura e estabilidade social
+
+- Adicionado botão `btnCulturalMoralePanel` na HUD.
+- Adicionado script `js/cultural-morale.js`.
+- Adicionado dataset `data/society/cultural-morale.json`.
+- Adicionadas quatro doutrinas sociais.
+- Adicionadas quatro instituições culturais evolutivas.
+- Adicionadas seis ações culturais estratégicas.
+- Adicionada métrica de estabilidade social.
+- Adicionada exportação de crônica cultural JSON.
+- Save schema atualizado para 19.
+- Release guard atualizado para migrar `culturalMorale`.
+- Service worker atualizado para cache da Fase 39.

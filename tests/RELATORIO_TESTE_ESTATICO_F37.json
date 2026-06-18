@@ -1,0 +1,17 @@
+{
+  "buildId": "VE-4.3.0-F37",
+  "version": "v4.3.0",
+  "saveSchema": 17,
+  "files": 375,
+  "htmlIds": 288,
+  "duplicateIds": [],
+  "htmlReferences": 145,
+  "missingReferences": [],
+  "required": {
+    "btnSecretOpsPanel": true,
+    "secretScript": true,
+    "secretData": true,
+    "saveField": true,
+    "schema17": true
+  }
+}

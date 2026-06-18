@@ -1,7 +1,7 @@
 (function(){
 'use strict';
 const BUILD=window.VALE_BUILD||{};
-const REQUIRED_IDS=['app','loadingScreen','menuScreen','periodScreen','profileScreen','skirmishScreen','campaignScreen','gameScreen','modalOverlay','recoveryOverlay','gameCanvas','minimapCanvas','btnNewGame','btnSkirmishMenu','btnContinue','btnSettings','btnCredits','btnLanguageMenu','languageOverlay','btnPeriodConfirm','btnDiplomacyPanel','btnCityAdminPanel','btnProvincePanel','btnRoyalCouncilPanel','btnCourtIntriguePanel','diplomacyOverlay','btnDiplomacyClose','btnRecoverRestart','btnRecoverSafe','btnRecoverBack'];
+const REQUIRED_IDS=['app','loadingScreen','menuScreen','periodScreen','profileScreen','skirmishScreen','campaignScreen','gameScreen','modalOverlay','recoveryOverlay','gameCanvas','minimapCanvas','btnNewGame','btnSkirmishMenu','btnContinue','btnSettings','btnCredits','btnLanguageMenu','languageOverlay','btnPeriodConfirm','btnDiplomacyPanel','btnCityAdminPanel','btnProvincePanel','btnRoyalCouncilPanel','btnCourtIntriguePanel','btnSecretOpsPanel','btnInfoWarfarePanel','btnCulturalMoralePanel','diplomacyOverlay','btnDiplomacyClose','btnRecoverRestart','btnRecoverSafe','btnRecoverBack'];
 const CRITICAL_ASSETS=[
   'assets/branding/vale-empires-logo-fullscreen.png','assets/backgrounds/menu-main-background.png','assets/backgrounds/loading-screen-background.png',
   'assets/placeholders/test-placeholder-emblem.png','assets/terrain/terrain-grass-light.png','assets/terrain/terrain-water-shallow.png',
@@ -36,11 +36,14 @@ function migrateSave(save){
   if(!migrated.provinceNetwork||typeof migrated.provinceNetwork!=='object')migrated.provinceNetwork=null;
   if(!migrated.royalPolitics||typeof migrated.royalPolitics!=='object')migrated.royalPolitics=null;
   if(!migrated.courtIntrigue||typeof migrated.courtIntrigue!=='object')migrated.courtIntrigue=null;
-  migrated.schemaVersion=16;
-  if(original<16){migrated.migratedFrom=original;migrated.migratedAt=new Date().toISOString();addEvent('save-migration',`Save migrado do schema ${original} para 16`,{eraPack:migrated.eraPack,gameMode:migrated.gameMode});}
+  if(!migrated.secretOperations||typeof migrated.secretOperations!=='object')migrated.secretOperations=null;
+  if(!migrated.informationWarfare||typeof migrated.informationWarfare!=='object')migrated.informationWarfare=null;
+  if(!migrated.culturalMorale||typeof migrated.culturalMorale!=='object')migrated.culturalMorale=null;
+  migrated.schemaVersion=19;
+  if(original<19){migrated.migratedFrom=original;migrated.migratedAt=new Date().toISOString();addEvent('save-migration',`Save migrado do schema ${original} para 19`,{eraPack:migrated.eraPack,gameMode:migrated.gameMode});}
   return migrated;
 }
-function captureStorage(){for(const key of ['valeEmpires.save','valeEmpires.save.campaign','valeEmpires.save.skirmish','valeEmpires.save.backup','valeEmpires.save.campaign.backup','valeEmpires.save.skirmish.backup','valeEmpires.profile','valeEmpires.campaign','valeEmpires.eraPack','valeEmpires.audioPrefs','valeEmpires.lastSaveAt','valeEmpires.language','valeEmpires.skirmish']){let raw=null;try{raw=localStorage.getItem(key)}catch(err){REPORT.warnings.push(`Storage indisponível: ${err.message}`)}REPORT.storage[key]={present:raw!==null,bytes:raw?new Blob([raw]).size:0,validJSON:true};if(raw&&!['valeEmpires.lastSaveAt','valeEmpires.language','valeEmpires.eraPack'].includes(key)){try{JSON.parse(raw)}catch{REPORT.storage[key].validJSON=false;REPORT.warnings.push(`JSON inválido em ${key}`)}}}}
+function captureStorage(){for(const key of ['valeEmpires.save','valeEmpires.save.campaign','valeEmpires.save.skirmish','valeEmpires.save.backup','valeEmpires.save.campaign.backup','valeEmpires.save.skirmish.backup','valeEmpires.profile','valeEmpires.campaign','valeEmpires.eraPack','valeEmpires.audioPrefs','valeEmpires.lastSaveAt','valeEmpires.language','valeEmpires.skirmish','valeEmpires.secretOperations','valeEmpires.informationWarfare','valeEmpires.culturalMorale']){let raw=null;try{raw=localStorage.getItem(key)}catch(err){REPORT.warnings.push(`Storage indisponível: ${err.message}`)}REPORT.storage[key]={present:raw!==null,bytes:raw?new Blob([raw]).size:0,validJSON:true};if(raw&&!['valeEmpires.lastSaveAt','valeEmpires.language','valeEmpires.eraPack'].includes(key)){try{JSON.parse(raw)}catch{REPORT.storage[key].validJSON=false;REPORT.warnings.push(`JSON inválido em ${key}`)}}}}
 function checkDOM(){REPORT.dom.missing=REQUIRED_IDS.filter(id=>!document.getElementById(id));if(REPORT.dom.missing.length)REPORT.errors.push(`IDs obrigatórios ausentes: ${REPORT.dom.missing.join(', ')}`);}
 function checkAsset(src){return new Promise(resolve=>{const img=new Image();img.onload=()=>resolve({src,ok:true});img.onerror=()=>resolve({src,ok:false});img.src=src+(src.includes('?')?'&':'?')+'preflight='+encodeURIComponent(BUILD.version||'0');});}
 async function checkAssets(){const result=await Promise.all(CRITICAL_ASSETS.map(checkAsset));REPORT.assets.checked=result.length;REPORT.assets.loaded=result.filter(x=>x.ok).length;REPORT.assets.failed=result.filter(x=>!x.ok).map(x=>x.src);if(REPORT.assets.failed.length)REPORT.warnings.push(`Assets críticos em fallback: ${REPORT.assets.failed.join(', ')}`);}

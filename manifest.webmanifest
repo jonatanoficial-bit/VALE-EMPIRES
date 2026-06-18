@@ -1,7 +1,7 @@
 {
   "name": "Vale Empires",
   "short_name": "Vale Empires",
-  "description": "RTS medieval multiera com dinastia, intrigas da corte, províncias, cidades, diplomacia, comércio e guerra naval.",
+  "description": "RTS medieval multiera com cultura, moral do reino, diplomacia, espionagem, províncias, guerra naval e campanha.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "fullscreen",

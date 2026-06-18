@@ -1,24 +1,28 @@
 {
   "game": "Vale Empires",
-  "version": "v4.2.0",
-  "phase": "36",
-  "buildId": "VE-4.2.0-F36",
-  "compiledAt": "17/06/2026 às 19:58:33 BRT",
-  "status": "Beta Court Intrigue, Dynastic Marriages & Succession Crisis",
-  "saveSchema": 16,
+  "version": "v4.5.0",
+  "phase": "39",
+  "buildId": "VE-4.5.0-F39",
+  "compiledAt": "18/06/2026 às 18:05:00 BRT",
+  "status": "Beta Cultural Morale, Faith Influence & Social Stability",
+  "saveSchema": 19,
   "features": [
-    "Intrigas da corte",
-    "Casamentos dinásticos",
-    "Alianças familiares",
-    "Pretendentes ao trono",
-    "Rede de espionagem",
-    "Crises sucessórias",
-    "Ações políticas com custo real",
-    "Exportação de intrigas",
-    "Integração com Conselho Real e save principal"
+    "Moral e Cultura do Reino",
+    "Estabilidade social avançada",
+    "Influência de tradições e unidade civil",
+    "Prestígio artístico",
+    "Cronistas do reino",
+    "Instituições culturais evolutivas",
+    "Festivais e assembleias civis",
+    "Pressão cultural rival",
+    "Agitação social e controle não gráfico",
+    "Exportação de crônica cultural JSON"
   ],
-  "hotfix": {
-    "fixed": "ReferenceError: centerCamera is not defined",
-    "details": "Restaurada função centerCamera usada por início de campanha, novo mapa e botão centralizar."
-  }
+  "preserved": [
+    "Fase 38 Guerra de Informações",
+    "Fase 37 Espionagem",
+    "Fase 36 Intrigas",
+    "Fase 35 Conselho Real",
+    "Hotfix centerCamera"
+  ]
 }
