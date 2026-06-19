@@ -1,0 +1,79 @@
+{
+  "game": "Vale Empires",
+  "phase": 41,
+  "version": "v4.7.0",
+  "buildId": "VE-4.7.0-F41-INTERNAL-ECONOMY",
+  "title": "Economia interna, abastecimento, impostos e classes produtivas",
+  "systems": [
+    "mercado_domestico",
+    "politica_fiscal",
+    "abastecimento_regional",
+    "indice_de_precos",
+    "corrupcao_e_mercado_paralelo",
+    "setores_produtivos",
+    "classes_produtivas",
+    "tensao_social_e_estabilidade_economica"
+  ],
+  "metrics": [
+    "prosperity",
+    "supply",
+    "confidence",
+    "priceIndex",
+    "taxPressure",
+    "corruption",
+    "blackMarket",
+    "classTension",
+    "unemployment",
+    "liquidity",
+    "treasuryPrestige"
+  ],
+  "fiscalPolicies": [
+    "balanced",
+    "relief",
+    "warTax",
+    "merchantAutonomy"
+  ],
+  "productiveSectors": [
+    "agriculture",
+    "craft",
+    "mining",
+    "construction"
+  ],
+  "productiveClasses": [
+    "peasants",
+    "artisans",
+    "merchants",
+    "miners",
+    "builders",
+    "guards"
+  ],
+  "economicActions": [
+    "granaryRelease",
+    "fairCharter",
+    "auditCollectors",
+    "guildSubsidy",
+    "priceCourt",
+    "ruralRoads",
+    "coinReform"
+  ],
+  "integrations": {
+    "readsMainGameSnapshot": true,
+    "usesValeEmpiresAPI": true,
+    "readsReligionCivilizationScore": true,
+    "readsCulturalMoraleScore": true,
+    "affectsResources": ["food", "gold"],
+    "mobileOverlay": true,
+    "exportDossier": true
+  },
+  "saveIntegration": {
+    "localStorageKey": "valeEmpires.internalEconomy",
+    "mainSaveField": "internalEconomy",
+    "saveSchema": 21
+  },
+  "antiBreak": {
+    "missingButtonSafe": true,
+    "missingAPIGracefulFallback": true,
+    "corruptedStorageNormalize": true,
+    "offlineCacheIncluded": true
+  }
+}

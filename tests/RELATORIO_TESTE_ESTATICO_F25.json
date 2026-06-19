@@ -1,12 +1,12 @@
 {
   "phase": "25",
   "version": "v3.1.0",
-  "files": 283,
-  "html_ids": 241,
-  "html_css_references": 134,
-  "pwa_core_assets": 93,
-  "locale_base_keys": 19,
-  "locale_base_texts": 568,
+  "files": 452,
+  "html_ids": 294,
+  "html_css_references": 164,
+  "pwa_core_assets": 117,
+  "locale_base_keys": 20,
+  "locale_base_texts": 596,
   "checks": [
     {
       "check": "HTML sem IDs duplicados",
@@ -14,47 +14,47 @@
     },
     {
       "check": "ID obrigatório presente: btnSkirmishMenu",
-      "ok": true
+      "ok": false
     },
     {
       "check": "ID obrigatório presente: skirmishScreen",
-      "ok": true
+      "ok": false
     },
     {
       "check": "ID obrigatório presente: btnSkirmishStart",
-      "ok": true
+      "ok": false
     },
     {
       "check": "ID obrigatório presente: skirmishSeed",
-      "ok": true
+      "ok": false
     },
     {
       "check": "ID obrigatório presente: skirmishResultOverlay",
-      "ok": true
+      "ok": false
     },
     {
       "check": "ID obrigatório presente: btnSkirmishResultRestart",
-      "ok": true
+      "ok": false
     },
     {
       "check": "mapSize: 3 opções",
-      "ok": true
+      "ok": false
     },
     {
       "check": "startingEra: 4 opções",
-      "ok": true
+      "ok": false
     },
     {
       "check": "resources: 3 opções",
-      "ok": true
+      "ok": false
     },
     {
       "check": "victory: 3 opções",
-      "ok": true
+      "ok": false
     },
     {
       "check": "difficulty: 5 opções",
-      "ok": true
+      "ok": false
     },
     {
       "check": "Função presente: openSkirmishSetup",
@@ -82,7 +82,7 @@
     },
     {
       "check": "Save schema 5 no app",
-      "ok": true
+      "ok": false
     },
     {
       "check": "Slot dedicado de save da partida livre",
@@ -106,15 +106,15 @@
     },
     {
       "check": "Versão v3.1.0",
-      "ok": true
+      "ok": false
     },
     {
       "check": "Fase 25",
-      "ok": true
+      "ok": false
     },
     {
       "check": "BUILD saveSchema 5",
-      "ok": true
+      "ok": false
     },
     {
       "check": "Paridade de keys: pt-BR",
@@ -166,10 +166,27 @@
     },
     {
       "check": "Cache PWA versionado para F25",
-      "ok": true
+      "ok": false
     }
   ],
-  "errors": [],
+  "errors": [
+    "ID obrigatório presente: btnSkirmishMenu",
+    "ID obrigatório presente: skirmishScreen",
+    "ID obrigatório presente: btnSkirmishStart",
+    "ID obrigatório presente: skirmishSeed",
+    "ID obrigatório presente: skirmishResultOverlay",
+    "ID obrigatório presente: btnSkirmishResultRestart",
+    "mapSize: 3 opções",
+    "startingEra: 4 opções",
+    "resources: 3 opções",
+    "victory: 3 opções",
+    "difficulty: 5 opções",
+    "Save schema 5 no app",
+    "Versão v3.1.0",
+    "Fase 25",
+    "BUILD saveSchema 5",
+    "Cache PWA versionado para F25"
+  ],
   "missing_references": [],
   "missing_core_assets": []
 }

@@ -649,5 +649,8 @@
     "provinces": "Provinces",
     "governors": "Governors",
     "regionalCohesion": "Regional cohesion"
+  },
+  "systems": {
+    "publicHealth": "Public Health"
   }
 }

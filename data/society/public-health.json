@@ -1,0 +1,58 @@
+{
+  "id": "public-health",
+  "phase": 43,
+  "version": "v4.9.0",
+  "title": {
+    "pt-BR": "Saúde Pública, Saneamento e Bem-estar Popular",
+    "en-US": "Public Health, Sanitation & Popular Wellbeing",
+    "es-ES": "Salud Pública, Saneamiento y Bienestar Popular"
+  },
+  "description": {
+    "pt-BR": "Sistema estratégico de saúde pública, saneamento, água potável, enfermarias, curandeiros, quarentenas e vigilância epidemiológica que afeta população, economia, estabilidade e moral do reino.",
+    "en-US": "Strategic system of public health, sanitation, clean water, infirmaries, healers, quarantines and epidemiological surveillance affecting population, economy, stability and realm morale.",
+    "es-ES": "Sistema estratégico de salud pública, saneamiento, agua potable, enfermerías, sanadores, cuarentenas y vigilancia epidemiológica que afecta población, economía, estabilidad y moral del reino."
+  },
+  "networks": [
+    "wells",
+    "streetCleaning",
+    "infirmaries",
+    "healerGuild",
+    "marketInspection",
+    "quarantineHouses"
+  ],
+  "districts": [
+    "capital",
+    "river",
+    "market",
+    "barracks",
+    "villages"
+  ],
+  "policies": [
+    "preventiveCare",
+    "emergencyQuarantine",
+    "templeHospitals",
+    "guildMedicine"
+  ],
+  "actions": [
+    "digWells",
+    "cleanStreets",
+    "buildInfirmary",
+    "trainHealers",
+    "inspectMarkets",
+    "cordonSanitary"
+  ],
+  "saveIntegration": {
+    "key": "publicHealth",
+    "saveSchema": 23
+  },
+  "audit": {
+    "requires": "F42 base preserved",
+    "mobileFirst": true,
+    "languages": [
+      "pt-BR",
+      "en-US",
+      "es-ES"
+    ],
+    "antiBreak": "Overlay created dynamically; missing button ignored; save/restore/newReign hooks optional-chained; no external dependencies."
+  }
+}

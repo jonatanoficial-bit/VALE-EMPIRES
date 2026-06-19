@@ -1,31 +1,19 @@
-# Vale Empires — Fase 39
+# Vale Empires — Fase 46 v4.12.0
 
-**Versão:** v4.5.0  
-**Fase:** 39  
-**Build ID:** VE-4.5.0-F39  
-**Status:** Beta Cultural Morale, Faith Influence & Social Stability  
-**Save schema:** 19  
+Build completa do jogo **Vale Empires**, fase 46: **Demografia, Migração, Habitação e Urbanismo**.
 
-## Tema
+A build preserva todos os sistemas anteriores e adiciona um painel social avançado com população, crescimento, migração, moradia, urbanismo, emprego, integração cultural, famílias, superlotação, sem-teto e risco de distúrbios.
 
-A Fase 39 adiciona guerra cultural abstrata, moral do reino, influência civil, tradições, prestígio artístico, cronistas e estabilidade social avançada.
+## Execução
 
-## Principais novidades
+Use um servidor local ou publique no GitHub/Vercel. Para teste simples:
 
-- botão **Moral e Cultura do Reino** na HUD;
-- painel cultural próprio;
-- moral, unidade, tradição, influência civil, artes, cronistas, agitação e pressão cultural rival;
-- quatro doutrinas sociais;
-- quatro instituições culturais com nível e XP;
-- seis ações culturais estratégicas;
-- eventos periódicos de pressão cultural;
-- exportação de crônica cultural em JSON;
-- persistência no save principal via `culturalMorale`.
+```bash
+python -m http.server 8000
+```
 
-## Preservado
+Abra `http://localhost:8000`.
 
-Foram preservadas as Fases 35, 36, 37, 38 e o hotfix `centerCamera()`.
+## Upload Git Bash
 
-## Observação
-
-Todas as ações são simulações estratégicas abstratas de gestão cultural e social dentro de um jogo fictício.
+O caminho oficial está em `docs/CAMINHO_UPLOAD_GIT_BASH_VALE_EMPIRES.txt`.

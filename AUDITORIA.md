@@ -1,32 +1,24 @@
-# Auditoria — Fase 39
+# Auditoria — Vale Empires Fase 46
 
-## Build
+Build: `VE-4.12.0-F46-DEMOGRAFIA-MIGRACAO-URBANISMO`
 
-- Versão: v4.5.0
-- Build ID: VE-4.5.0-F39
-- Save schema: 19
+## Resultado
 
-## Verificações executadas
+Aprovado para entrega técnica.
 
-- `node --check` em todos os JavaScripts.
-- Validação de todos os JSONs.
-- Confirmação do botão `btnCulturalMoralePanel` no HTML.
-- Confirmação do script `js/cultural-morale.js` no HTML e no service worker.
-- Confirmação do dataset `data/society/cultural-morale.json`.
-- Migração defensiva `culturalMorale` no `release-guard.js`.
-- Teste lógico de estabilidade social, ações culturais e redução de agitação.
-- Servidor HTTP local com resposta 200.
-- Manifesto SHA-256 regenerado.
-- ZIP final validado sem corrupção.
+## Itens verificados
 
-## Limitação honesta
+- ZIP completo baseado na Fase 45 real.
+- Fases anteriores preservadas.
+- Novo módulo `js/demography-urbanism.js` integrado ao HTML.
+- Dados estruturais em `data/society/demography-urbanism.json`.
+- Save schema atualizado para 26.
+- Persistência principal via `demographyUrbanism`.
+- Integrações opcionais por `optional chaining`.
+- Overlay dinâmico com proteção contra elemento ausente.
+- PWA atualizado para novo cache.
+- Testes F46 adicionados.
 
-A homologação manual em Android, iOS, desktop e PWA instalada continua necessária para toque, fullscreen, áudio e partidas longas.
+## Homologação manual recomendada
 
-## Resultado final
-
-- Arquivos no manifesto: 397
-- JSONs validados: 57
-- JavaScripts validados: 12
-- HTTP local falhou/limitado: <urlopen error [Errno 111] Connection refused>
-- ZIP final validado sem corrupção.
+Android, iOS, desktop, tablet e PWA instalado após upload.

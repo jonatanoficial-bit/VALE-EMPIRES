@@ -1,0 +1,50 @@
+{
+  "id": "imperial-logistics",
+  "phase": 42,
+  "version": "v4.8.0",
+  "title": {
+    "pt-BR": "Infraestrutura Imperial e Logística Profunda",
+    "en-US": "Imperial Infrastructure & Deep Logistics",
+    "es-ES": "Infraestructura Imperial y Logística Profunda"
+  },
+  "description": {
+    "pt-BR": "Sistema estratégico de estradas, pontes, depósitos, correios, obras públicas e corredores regionais que afeta abastecimento, economia, mobilidade militar, províncias e estabilidade do reino.",
+    "en-US": "Strategic system of roads, bridges, depots, couriers, public works and regional corridors affecting supply, economy, military mobility, provinces and realm stability.",
+    "es-ES": "Sistema estratégico de caminos, puentes, depósitos, correos, obras públicas y corredores regionales que afecta abastecimiento, economía, movilidad militar, provincias y estabilidad del reino."
+  },
+  "networks": [
+    "royalRoads",
+    "bridges",
+    "depots",
+    "couriers",
+    "signalTowers",
+    "capitalRing"
+  ],
+  "corridors": [
+    "northRoad",
+    "riverGate",
+    "mountainPass",
+    "coastalWay",
+    "capitalRing"
+  ],
+  "policies": [
+    "balancedWorks",
+    "militaryPriority",
+    "merchantPriority",
+    "localAutonomy"
+  ],
+  "saveIntegration": {
+    "key": "imperialLogistics",
+    "saveSchema": 22
+  },
+  "audit": {
+    "requires": "F41 base preserved",
+    "mobileFirst": true,
+    "languages": [
+      "pt-BR",
+      "en-US",
+      "es-ES"
+    ],
+    "antiBreak": "Overlay created dynamically; missing buttons are ignored safely; save restore/newReign hooks are optional-chained."
+  }
+}

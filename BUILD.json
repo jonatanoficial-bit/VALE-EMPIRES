@@ -1,28 +1,32 @@
 {
   "game": "Vale Empires",
-  "version": "v4.5.0",
-  "phase": "39",
-  "buildId": "VE-4.5.0-F39",
-  "compiledAt": "18/06/2026 às 18:05:00 BRT",
-  "status": "Beta Cultural Morale, Faith Influence & Social Stability",
-  "saveSchema": 19,
+  "version": "v4.12.0",
+  "phase": "46",
+  "buildId": "VE-4.12.0-F46-DEMOGRAFIA-MIGRACAO-URBANISMO",
+  "compiledAt": "19/06/2026 às 16:12:00 BRT",
+  "status": "Beta Demography, Migration, Housing & Urbanism",
+  "saveSchema": 26,
   "features": [
-    "Moral e Cultura do Reino",
-    "Estabilidade social avançada",
-    "Influência de tradições e unidade civil",
-    "Prestígio artístico",
-    "Cronistas do reino",
-    "Instituições culturais evolutivas",
-    "Festivais e assembleias civis",
-    "Pressão cultural rival",
-    "Agitação social e controle não gráfico",
-    "Exportação de crônica cultural JSON"
+    "Demografia, migração, habitação e urbanismo avançados",
+    "População, crescimento, migração, controle migratório, moradia, bairros e emprego urbano",
+    "Integração cultural, famílias, natalidade, força de trabalho, superlotação e risco de distúrbios",
+    "Distritos urbanos com nível, XP, cobertura e bônus progressivos",
+    "Grupos populacionais com apoio, tensão e influência social",
+    "Doutrinas sociais: povoamento equilibrado, fronteira aberta, carta urbana, amparo familiar e integração gradual",
+    "Medidas demográficas com custo, chance, sucesso/falha e impacto real",
+    "Ciclos automáticos integrados com saúde, economia, logística, justiça, educação e religião/civilização",
+    "Exportação de dossiê JSON demográfico",
+    "Persistência no save principal via demographyUrbanism",
+    "Documentação, auditoria, checklist e testes específicos da Fase 46"
   ],
   "preserved": [
-    "Fase 38 Guerra de Informações",
-    "Fase 37 Espionagem",
-    "Fase 36 Intrigas",
-    "Fase 35 Conselho Real",
-    "Hotfix centerCamera"
+    "Fase 45 Justiça, Leis e Ordem Civil",
+    "Fase 44 Educação, Conhecimento e Ciência",
+    "Fase 43 Saúde Pública e Bem-estar",
+    "Fase 42 Infraestrutura Imperial e Logística",
+    "Fase 41 Economia Interna e Abastecimento",
+    "Fase 40 Religião/Civilização e hotfix recovery",
+    "Fase 39 Moral e Cultura do Reino",
+    "Fases 1–38 e todos os sistemas base, PWA, idiomas, campanha, partida livre, navais, cidades, províncias e anti-quebra"
   ]
 }

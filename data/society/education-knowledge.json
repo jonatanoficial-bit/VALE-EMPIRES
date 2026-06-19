@@ -1,0 +1,80 @@
+{
+  "phase": 44,
+  "buildId": "VE-4.10.0-F44-EDUCATION-KNOWLEDGE",
+  "version": "v4.10.0",
+  "system": "educationKnowledge",
+  "title": {
+    "pt-BR": "Educação, Conhecimento e Ciência do Reino",
+    "en-US": "Realm Education, Knowledge & Science",
+    "es-ES": "Educación, Conocimiento y Ciencia del Reino"
+  },
+  "description": {
+    "pt-BR": "Sistema de alfabetização, ensino, universidades, bibliotecas, burocracia, ciência aplicada, mobilidade social e conflitos entre tradição e inovação."
+  },
+  "metrics": [
+    "literacy",
+    "scholarship",
+    "archives",
+    "university",
+    "teachers",
+    "technicalTraining",
+    "civicEducation",
+    "bureaucracySkill",
+    "innovation",
+    "socialMobility",
+    "dogma",
+    "brainDrain",
+    "elitePressure"
+  ],
+  "institutions": [
+    "villageSchools",
+    "scribalHalls",
+    "royalLibrary",
+    "universityCollege",
+    "artisanWorkshops",
+    "militaryAcademy"
+  ],
+  "groups": [
+    "scholars",
+    "scribes",
+    "artisans",
+    "clergy",
+    "nobles",
+    "commoners"
+  ],
+  "policies": [
+    "templeSchools",
+    "civicLiteracy",
+    "royalUniversity",
+    "guildApprenticeship",
+    "stateExams"
+  ],
+  "actions": [
+    "copyBooks",
+    "hireMasters",
+    "foundSchools",
+    "universityDebate",
+    "trainOfficials",
+    "workshopStandards"
+  ],
+  "integrations": [
+    "publicHealth",
+    "internalEconomy",
+    "religionCivilization",
+    "imperialLogistics",
+    "culturalMorale"
+  ],
+  "saveIntegration": {
+    "key": "educationKnowledge",
+    "saveSchema": 24
+  },
+  "audit": {
+    "mobileFirst": true,
+    "languages": [
+      "pt-BR",
+      "en-US",
+      "es-ES"
+    ],
+    "antiBreak": "Overlay dinâmico; botão ausente ignorado; integração via optional chaining; sem dependência externa."
+  }
+}

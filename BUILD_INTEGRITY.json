@@ -1,42 +1,38 @@
 {
-  "buildId": "VE-4.5.0-F39",
-  "version": "v4.5.0",
-  "generatedAt": "18/06/2026 às 18:05:00 BRT",
+  "buildId": "VE-4.12.0-F46-DEMOGRAFIA-MIGRACAO-URBANISMO",
+  "version": "v4.12.0",
+  "generatedAt": "19/06/2026 às 16:12:00 BRT",
+  "fileCount": 466,
+  "packageFileCount": 468,
+  "excludedSelfReferentialFiles": [
+    "BUILD_INTEGRITY.json",
+    "BUILD_MANIFEST.json"
+  ],
   "files": [
     {
       "path": "AUDITORIA.md",
-      "size": 823,
-      "sha256": "0ed2494f3f045b672fdad5e1e4fa2a127c89d384038214edb9371fb790b90c76"
+      "size": 714,
+      "sha256": "9a384726a26171b0143a2a432929ab7bbeee8ffd2b8fa4fc36845dcba7319f8e"
     },
     {
       "path": "BUILD.json",
-      "size": 803,
-      "sha256": "38bfeba1e299f0f129f0a96ebd3a78946a293239a4a0ce7480a650aef5926c31"
-    },
-    {
-      "path": "BUILD_INTEGRITY.json",
-      "size": 67933,
-      "sha256": "c369a428ae893897113523693255efec12bf2994f4afa80d842f2924c62485d1"
-    },
-    {
-      "path": "BUILD_MANIFEST.json",
-      "size": 67905,
-      "sha256": "5237a37acb0e533fc69916698199a9213b75f00442b35d2e4b199b946a74e798"
+      "size": 1686,
+      "sha256": "941dbfba64d24217d46d5f5ab6809735d291e1d9c21fee437411a1f8b3ce46af"
     },
     {
       "path": "CHANGELOG.md",
-      "size": 624,
-      "sha256": "98c8b2e47e5e688e44603ed2a2cdde98fa7c3970794d841d7d0ee444e5156e97"
+      "size": 952,
+      "sha256": "0291e3cdf96569d1b2119c8bbde55be938b3678d8c858176ec6e726e259ade6c"
     },
     {
       "path": "CHECKLIST.md",
-      "size": 722,
-      "sha256": "df79e7a63c91d9f3fcfd241b0c6512546adad03cda4c2511f87acaa34a019d0a"
+      "size": 521,
+      "sha256": "b46953ea4443b7f208ed9738fae451b67925c2e36a31ab8fbd5751e5c541fbb8"
     },
     {
       "path": "README.md",
-      "size": 1047,
-      "sha256": "54ec7bacd53b755161aa085829e0ac423d5dc6d977db8fbd082d438dcd39a3db"
+      "size": 634,
+      "sha256": "4b221f755ddf65fa091871a322b14d3dc3951c11af0e90a48eb39d3e9cd83de5"
     },
     {
       "path": "assets/audio/audio-manifest.json",
@@ -970,8 +966,8 @@
     },
     {
       "path": "css/main.css",
-      "size": 149834,
-      "sha256": "3ba788859771d77f8314144d354a8e11e98fff0735a9d4855782b5b43ec4e844"
+      "size": 152235,
+      "sha256": "59199c118de741c45c3d2d6f7b1bd0d41af98a8798b556c7904f3e706818da27"
     },
     {
       "path": "data/achievements/achievements.json",
@@ -992,6 +988,11 @@
       "path": "data/diplomacy/information-warfare.json",
       "size": 718,
       "sha256": "1a5783ee0ed3419adf14aaf31f683d8c7b8f4652ed53ce0204e1d421afa51efc"
+    },
+    {
+      "path": "data/economy/internal-economy.json",
+      "size": 1722,
+      "sha256": "918a0fcadab5f3d8a9e66e3f13aed5b29f427d393b3fb87fca50ff603dbe70f2"
     },
     {
       "path": "data/era-packs/early-1900s/manifest.json",
@@ -1054,6 +1055,11 @@
       "sha256": "5b6a2d532d9975d023c9ebf88b73519a2256bb08e1e0113ce0e1c2568f34ff0f"
     },
     {
+      "path": "data/infrastructure/imperial-logistics.json",
+      "size": 1608,
+      "sha256": "ee92beab87455136f86d5bfc97cd8fae5784f5bff19f6512fd264a968ee3e0d6"
+    },
+    {
       "path": "data/intelligence/secret-operations.json",
       "size": 656,
       "sha256": "f928b8c764e3e570f24233e8f0677cb8cad0c52ebeb0710c1c3d18d2753acc2d"
@@ -1082,6 +1088,31 @@
       "path": "data/society/cultural-morale.json",
       "size": 628,
       "sha256": "aff52a336bea2cd75d2c95d643b50f21d004fd90c23365c04dc05a301210c4d4"
+    },
+    {
+      "path": "data/society/demography-urbanism.json",
+      "size": 1483,
+      "sha256": "5f3a6deee07483341fe7c5dd005d40167ded935f6240c3c424590a3a0fd6253b"
+    },
+    {
+      "path": "data/society/education-knowledge.json",
+      "size": 1785,
+      "sha256": "5bfc0d0bfec58b489a9dfd4e07f873a82c639992dd44e944bfd49380a93d615d"
+    },
+    {
+      "path": "data/society/justice-law.json",
+      "size": 1807,
+      "sha256": "bad59c2046d6c2f697b4e2e00cdda436cc0c1793920b98b40587873d1f80b7d5"
+    },
+    {
+      "path": "data/society/public-health.json",
+      "size": 1789,
+      "sha256": "4d1feb327890962abaaff1b8dcb8e7d27c5127ed296f459bef5f789520e8e3df"
+    },
+    {
+      "path": "data/society/religion-civilization.json",
+      "size": 1511,
+      "sha256": "e17ada1fe63a72510b42d691f957f02018df138a4df93a71d37f45e8794496dc"
     },
     {
       "path": "data/trade/physical-routes.json",
@@ -1149,6 +1180,11 @@
       "sha256": "4e1c4eea43c88c7643a74d08a45c4c47e54003ca17914a5343e891ea0d2a4bab"
     },
     {
+      "path": "docs/CAMINHO_UPLOAD_GIT_BASH_VALE_EMPIRES.txt",
+      "size": 592,
+      "sha256": "66d97a9752f6bab717b1ba305b76fdb5dc5cbb7c514c1fe3fa7d6dee7c3bf622"
+    },
+    {
       "path": "docs/CAMPANHA_F14.md",
       "size": 1012,
       "sha256": "31baacaca7924fb41662488a5087c002cfb565e261b4d7f40c319e6f44e3a843"
@@ -1174,6 +1210,11 @@
       "sha256": "46737354b9876de19d7a43f4d55de9234638406bab0662d03c05ca9259d905d1"
     },
     {
+      "path": "docs/DEMOGRAFIA_MIGRACAO_URBANISMO_F46.md",
+      "size": 1556,
+      "sha256": "4e210e211aaa7c680b16e31de414f60a5e7edb6a000071778485d9375bf365e9"
+    },
+    {
       "path": "docs/DINASTIA_CONSELHO_REAL_F35.md",
       "size": 1765,
       "sha256": "261dea147d288161688a56cc5b6237a531f19dc7e27c21d497f2de14803e5241"
@@ -1187,6 +1228,16 @@
       "path": "docs/DIPLOMACIA_COMERCIO_ALIANCAS_F26.md",
       "size": 977,
       "sha256": "0b4942e11a697ed299bebe908bfdfb25ae6b37fcd72ca50f7d77dfa4bc9605a6"
+    },
+    {
+      "path": "docs/ECONOMIA_INTERNA_F41.md",
+      "size": 2880,
+      "sha256": "8c92460d39df19d626d266ac5e9c1847a95212d0ca2dfc60fe6d1cfa54c55a22"
+    },
+    {
+      "path": "docs/EDUCACAO_CONHECIMENTO_F44.md",
+      "size": 1934,
+      "sha256": "c118c6e4671ae0ebe34f11ac95962312ce6fafcd9650e52231c874087069c9ba"
     },
     {
       "path": "docs/ERAS_E_EVOLUCAO_F11.md",
@@ -1219,6 +1270,16 @@
       "sha256": "db24b452aedb68b3ec8dac8a8b2472cd1aeaa37c4cdc9093bef7715f8b4aa9a3"
     },
     {
+      "path": "docs/HOTFIX_RECUPERACAO_F40_V4_6_1.md",
+      "size": 762,
+      "sha256": "9e9c027a9b83c8bdc1be1455924c7ddac8d18036b5aa0b89dad2a95e02c4abea"
+    },
+    {
+      "path": "docs/INFRAESTRUTURA_LOGISTICA_F42.md",
+      "size": 1505,
+      "sha256": "b8dcdd8696d7d4f48a0194ea72b639b1fb6414cdbaffaeecbfbc6c50a74e1fe0"
+    },
+    {
       "path": "docs/INTELIGENCIA_ARTIFICIAL_F10.md",
       "size": 687,
       "sha256": "2234f6da783424fc46ca1001ab39e044c7024ccb7ee66523314cda31301ad9b7"
@@ -1227,6 +1288,11 @@
       "path": "docs/INTERNACIONALIZACAO_F23.md",
       "size": 894,
       "sha256": "779feb8e6397df215e68c1578f6a8690d372a7429d5961cf1c2d13ae6e47dd38"
+    },
+    {
+      "path": "docs/JUSTICA_LEIS_ORDEM_CIVIL_F45.md",
+      "size": 1607,
+      "sha256": "fa588a0d1c0ded34beed5fd039cfc0e11203e8fb0a4a9f9087b1cc38acc00cbe"
     },
     {
       "path": "docs/MATRIZ_TESTES_DISPOSITIVOS_F18.md",
@@ -1284,9 +1350,19 @@
       "sha256": "480ddd91d05611b0a64fc2cfb6e15834a3a8987d466c3ada27174018f1d3eedf"
     },
     {
+      "path": "docs/RELIGIAO_CIVILIZACAO_IDENTIDADE_F40.md",
+      "size": 2366,
+      "sha256": "7905d72628028689e598ca8c290861c6d6833dd94631d54848f738310be34c50"
+    },
+    {
       "path": "docs/ROADMAP_FINAL_MULTIERA.md",
       "size": 771,
       "sha256": "10e5ddeb5c274a0a7c35497a3ef3da7cdcdf66e16518e09de5750bbb8d19deb2"
+    },
+    {
+      "path": "docs/SAUDE_PUBLICA_F43.md",
+      "size": 1642,
+      "sha256": "77634803b849d227660ae6262113b01ebcd901122fefb53adae4531e60bccac8"
     },
     {
       "path": "docs/TUTORIAL_CAMPANHA_F21.md",
@@ -1295,8 +1371,8 @@
     },
     {
       "path": "index.html",
-      "size": 50012,
-      "sha256": "6dedf24c30f3696e99f80185897fb86b2d7a25a383161a14c70614dd9434e2fc"
+      "size": 52101,
+      "sha256": "841c48d5744458d77c4c4a995d71575330afcb49cfde0315825ebf271b76c29d"
     },
     {
       "path": "js/achievements-engine.js",
@@ -1305,8 +1381,8 @@
     },
     {
       "path": "js/app.js",
-      "size": 393174,
-      "sha256": "97431bb829f30a22b90e509658515e28efd0c9f24a3a0c8f4f343a47bfb7c881"
+      "size": 395362,
+      "sha256": "cf4ee31fb8b56951ea0197b318bd5f2973361b860fcf062ccbc4bce400d6e6dc"
     },
     {
       "path": "js/audio-engine.js",
@@ -1315,8 +1391,8 @@
     },
     {
       "path": "js/build-info.js",
-      "size": 307,
-      "sha256": "fedba4f1290ba08c6484c67e4c16d48bf37c5915f22ebc0a0783564b5bd42f7a"
+      "size": 329,
+      "sha256": "87b5f5f7a752c81b45bd0fcd5bf50d9d07d5e633c8abc38a56f8b50fc345a291"
     },
     {
       "path": "js/court-intrigue.js",
@@ -1329,9 +1405,24 @@
       "sha256": "149f5554490fd03db0baea3116fc60f9579799a16d0046b6bee7b3bf93d1fef9"
     },
     {
+      "path": "js/demography-urbanism.js",
+      "size": 28365,
+      "sha256": "295856c2b008e1aa8bc96d6f513defaff4a86501682552dea37c1aaea36bb128"
+    },
+    {
+      "path": "js/education-knowledge.js",
+      "size": 29102,
+      "sha256": "70a1db3a430d778e9e8d5bda1d104aa587b3b83ddff134a3de6cb133904b5632"
+    },
+    {
       "path": "js/i18n.js",
       "size": 130999,
       "sha256": "769c05737b3052ac701c1ca7872f8c0f76ae3a6176465abafe8aaee483101c45"
+    },
+    {
+      "path": "js/imperial-logistics.js",
+      "size": 28239,
+      "sha256": "60dbbd30acb0819242ea1af76ea777a4442333e3e7f80ae4e89bb0513f512b09"
     },
     {
       "path": "js/information-warfare.js",
@@ -1339,9 +1430,29 @@
       "sha256": "a2dc66c7c85c88c301096d44931a0f03d6c012900437a3e2661e1c5bfdda221c"
     },
     {
+      "path": "js/internal-economy.js",
+      "size": 27204,
+      "sha256": "a6456027758b486d9aecf398a0379360d33a866d6eab80b994388fb577bb4359"
+    },
+    {
+      "path": "js/justice-law.js",
+      "size": 28327,
+      "sha256": "0a3e256d89f8cb65054a4bf0fcdebc0b806a17ff8b1c1c09369d0a8c67375f20"
+    },
+    {
+      "path": "js/public-health.js",
+      "size": 23139,
+      "sha256": "252de52de09e163332df36f2bbec6462504bc90bea5f96cb254bca0ea60170b3"
+    },
+    {
       "path": "js/release-guard.js",
-      "size": 8279,
-      "sha256": "a48cf2b07351f8bae711618538e03ec3414f616f114f5bf53b50317217b2596f"
+      "size": 9124,
+      "sha256": "efd991d5f5fdc74041655ce0ace14e1b3008800867fc348ca8964fc36c6e8900"
+    },
+    {
+      "path": "js/religion-civilization.js",
+      "size": 27481,
+      "sha256": "08b2c1f513af48f5fb4cab18a448c6c1b2409dd490b175054e4bc888b035550b"
     },
     {
       "path": "js/royal-politics.js",
@@ -1370,23 +1481,23 @@
     },
     {
       "path": "locales/en-US.json",
-      "size": 43300,
-      "sha256": "4e2e998d40c66845d965ee42645d56626fe0b62eefa9930f08c7cdc43a2bd471"
+      "size": 43356,
+      "sha256": "44cc72663768c278f91f91bcf9f4f07b77f702c717fde9b9704799a370923fe1"
     },
     {
       "path": "locales/es-ES.json",
-      "size": 45682,
-      "sha256": "f9ab2b22c4c9bff11a1a6b2bd61a631eafd0fe03ebc7cbf45c17f433994500d2"
+      "size": 45739,
+      "sha256": "c976d6c596aa7641e1632043ca4b1eee0fc4904e19afe94ffc298bee70f0b2f2"
     },
     {
       "path": "locales/pt-BR.json",
-      "size": 45114,
-      "sha256": "50d0fd1ec8742ad308d3677fd158c05188fdc488a23b7095a21bf439f75447d2"
+      "size": 45172,
+      "sha256": "89b27e3099d1c2c69de9b49a41f7e11e46707df62ce9c164d577e951c5f6fd8a"
     },
     {
       "path": "manifest.webmanifest",
-      "size": 1752,
-      "sha256": "354ae33374b2fc0c88d2a25156956cff6a036d9bdc06b8dade735498ff357b81"
+      "size": 1713,
+      "sha256": "5d6d0b3bebb70510ad7a9544f2537f134471b36355ed30ba5c3988e75bb4ab96"
     },
     {
       "path": "offline.html",
@@ -1395,8 +1506,8 @@
     },
     {
       "path": "service-worker.js",
-      "size": 5878,
-      "sha256": "684eeac1404ca6a6da146501336a8fe803ba01fa799d3969eb1301531a44401a"
+      "size": 6362,
+      "sha256": "7178fabebf61b2d91f6800c594a2e4bcb8bb4c9fa8f9f127a049478cc298a46a"
     },
     {
       "path": "tests/F20_1_MULTI_ERA_FLOW.png",
@@ -1485,8 +1596,8 @@
     },
     {
       "path": "tests/RELATORIO_TESTE_ESTATICO_F25.json",
-      "size": 3427,
-      "sha256": "a75a405e9fe741f551eb1e616a39571c07600fa0ffbca4ea4e83a07f056de43d"
+      "size": 4024,
+      "sha256": "55b5793b21cd4f533c1d8f461a311856db1062e51385633d34f004b5a2cb9ceb"
     },
     {
       "path": "tests/RELATORIO_TESTE_ESTATICO_F27.json",
@@ -1589,6 +1700,56 @@
       "sha256": "e9a92f2150d6f464b4ae29db8e1201842909c8d52ef491656ab3a7b343c2fd8e"
     },
     {
+      "path": "tests/RELATORIO_TESTE_ESTATICO_F40.json",
+      "size": 440,
+      "sha256": "ec435b75fb24a3c81458b7a1364de861f1e6dc5fbd3adfe1bb408faf3021ba7e"
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_ESTATICO_F40.md",
+      "size": 913,
+      "sha256": "19214be8539ce5dae4455cd7c4ad7b18d778dba293046743228c1cd8a2998f1a"
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_ESTATICO_F41.json",
+      "size": 299,
+      "sha256": "eae1c07c1935a0a7b99e0c31086214c62cb119f84fe8658631e08ba7d8031746"
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_ESTATICO_F41.md",
+      "size": 596,
+      "sha256": "32c879975e5bac1b33dd8e8b72c3cd3f173bc5ed50686e29dbe0580b15dc9ae2"
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_ESTATICO_F42.json",
+      "size": 192,
+      "sha256": "10aa3c3773ee17b545b7044e77a5afa8666b11f74d13a24a1c47354e9926d886"
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_ESTATICO_F42.md",
+      "size": 458,
+      "sha256": "b0f730c72789052bcbecb024fee09adc57e5ef1594a0ba3d4a9a49efb781163a"
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_ESTATICO_F43.md",
+      "size": 364,
+      "sha256": "5c78aff86184107fdeda7780b495315fee2881a78436899ddb60ad0186c56dbb"
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_ESTATICO_F44.md",
+      "size": 342,
+      "sha256": "2df93137735f0332647aae021f0e52c80167111a0d8e3db74d05efe86b2eac11"
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_ESTATICO_F45.md",
+      "size": 388,
+      "sha256": "fc5c32243726a07a96444b2d2c29e765ac39dab423f6be7c35f87285ee3880e9"
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_ESTATICO_F46.md",
+      "size": 425,
+      "sha256": "877ad08d33775d6474ea0d3b91e6b208a343bcda9b2b2c6dc878b5cec447914f"
+    },
+    {
       "path": "tests/RELATORIO_TESTE_HOTFIX_F24_1.md",
       "size": 874,
       "sha256": "26efba3fb498906d3f5c88820287b69b3b2ffbd45daed612fbe7b54efbd47400"
@@ -1684,6 +1845,56 @@
       "sha256": "fb1207f9371ec4072c38c3e1c49694a4b9e25656ea0b997a63c8bdbb3fc27d7b"
     },
     {
+      "path": "tests/RELATORIO_TESTE_LOGICA_F40.json",
+      "size": 442,
+      "sha256": "deffd97041093f2006a63536d77d25245c37ab7927885b77fbd0a4cbaadba176"
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_LOGICA_F40.md",
+      "size": 951,
+      "sha256": "e47d2c7d0189f5351b8c0e4088d42017c39251f13af7ed62f2302c2f7db01d5c"
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_LOGICA_F41.json",
+      "size": 261,
+      "sha256": "605015297d72cf3215cf43f68c7c3642fcef92c079ade36ddcc82c230650dc70"
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_LOGICA_F41.md",
+      "size": 759,
+      "sha256": "bc384cc05c97011d021a34583617b04f474da2411a8398e1fffee01ab4a20f58"
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_LOGICA_F42.json",
+      "size": 192,
+      "sha256": "10aa3c3773ee17b545b7044e77a5afa8666b11f74d13a24a1c47354e9926d886"
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_LOGICA_F42.md",
+      "size": 514,
+      "sha256": "b5a8aa3883e8f844fad3020361d064909893b09a6174f53cbaee8c11868bad9b"
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_LOGICA_F43.md",
+      "size": 385,
+      "sha256": "5bf757c5efab4a64227b4a01a4a5e12cb687f7028f12b09d6bdaee091fa3ccd0"
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_LOGICA_F44.md",
+      "size": 418,
+      "sha256": "3b309c28ebd313e8c8970fe1d6ca830f00201a0663fdb9e63e0a426bbffbc7a7"
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_LOGICA_F45.md",
+      "size": 333,
+      "sha256": "e6b0b323cbddb2a7768c2a8e75944226fb2ced1a983d53f87fb887cff53dfd21"
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_LOGICA_F46.md",
+      "size": 378,
+      "sha256": "a90ceb8c9a198c29afcdd1d35f1c8c6757482df4729da6c6ebdf2ae8e31e5929"
+    },
+    {
       "path": "tests/RELATORIO_TESTE_NAVEGADOR_F27.json",
       "size": 340,
       "sha256": "be0b54c7ae4291df3c562423db5e8ad98b80d230ec15e9ce3789389ce515b5c5"
@@ -1722,6 +1933,41 @@
       "path": "tests/RELATORIO_TESTE_NAVEGADOR_F39.md",
       "size": 208,
       "sha256": "d46989cc44e1d02bc06efd193c5910ad3de70d37e53393dd0222bc28f40a060a"
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_NAVEGADOR_F40.md",
+      "size": 460,
+      "sha256": "31d99a45ce5b1b1b3839773c90b81f66448790b9456b20e83c2e47a920964cb6"
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_NAVEGADOR_F41.md",
+      "size": 459,
+      "sha256": "d1890b08ef7ef770578959e8989bce536585929c01b780423357346257fbfa6d"
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_NAVEGADOR_F42.md",
+      "size": 447,
+      "sha256": "2c8d2abae1c0a8c1a1b8852663cea128dea68dd958aefefda4a7b057afc0823a"
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_NAVEGADOR_F43.md",
+      "size": 398,
+      "sha256": "b360811060301182a11f9faa83119e9bf1b2e5c94e575754892e8041f9d44497"
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_NAVEGADOR_F44.md",
+      "size": 233,
+      "sha256": "eb56c8631d34cee7de281187cd0485f5eeae93fea59bbec1203dba0ba1577484"
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_NAVEGADOR_F45.md",
+      "size": 284,
+      "sha256": "2772c08c5d55a004e58752a10f3558b0da42e7c16270359789d532dfa5e98ca4"
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_NAVEGADOR_F46.md",
+      "size": 284,
+      "sha256": "f688077ff84f4c9d67546e9a0a45b1e5f13a1990a0686a7e2b5351a3f9387ffa"
     },
     {
       "path": "tests/ROTEIRO_TESTE_BANDEIRAS_F17_1.md",
@@ -1854,6 +2100,41 @@
       "sha256": "724c36e13b081a02b6fefe37f4c7b7b54253d465cd2fc7cf4eec2a3d5b4f761c"
     },
     {
+      "path": "tests/ROTEIRO_TESTE_F40.md",
+      "size": 1042,
+      "sha256": "2146c79891abe211d14ea38c02befb7c25afbce7c301dc2c92fc7e00e79fad6d"
+    },
+    {
+      "path": "tests/ROTEIRO_TESTE_F41.md",
+      "size": 886,
+      "sha256": "a48cc3cc22c2f953ec1a1489cf54b65dccb266f37c742ae927dbe06dbfc33d4a"
+    },
+    {
+      "path": "tests/ROTEIRO_TESTE_F42.md",
+      "size": 597,
+      "sha256": "6227cd2e78401ade016cfea4b5c78830683ca986e81d6c8e87be62de44f8615c"
+    },
+    {
+      "path": "tests/ROTEIRO_TESTE_F43.md",
+      "size": 284,
+      "sha256": "58443bf640480f05673c9ff1b49199c7c363ff410374fd9a5bf4a74cb77e382d"
+    },
+    {
+      "path": "tests/ROTEIRO_TESTE_F44.md",
+      "size": 457,
+      "sha256": "acec67fdf553d0865619785a196df6fa6a14bfb7c69f99ee500debaa2ffefd74"
+    },
+    {
+      "path": "tests/ROTEIRO_TESTE_F45.md",
+      "size": 484,
+      "sha256": "16390ecb78f0cd5b99e852afe47ea4f6fa75883a14d0effd37c2c20a44692f85"
+    },
+    {
+      "path": "tests/ROTEIRO_TESTE_F46.md",
+      "size": 506,
+      "sha256": "4c89377c51d91470585c6f560f0f882db38b92a743fc8ca83510f51465f20642"
+    },
+    {
       "path": "tests/audit_build.py",
       "size": 1307,
       "sha256": "c20d2ad24cd0fa84b6939b9f1743024a0d25956bfc3e0dc4ce107bf8f6f6345a"
@@ -1982,6 +2263,76 @@
       "path": "tests/test_f39_static.py",
       "size": 780,
       "sha256": "6517cc4250617b4208db8027043dab544d2110168a02abda998aae2f649085a1"
+    },
+    {
+      "path": "tests/test_f40_logic.py",
+      "size": 1613,
+      "sha256": "55efc099d57bc82b7853425577ab42d625a0e34a355a9c7099d900ad7f37039e"
+    },
+    {
+      "path": "tests/test_f40_static.py",
+      "size": 1518,
+      "sha256": "d413250ac3ff6753c9ded80731698917314d9370a3eaf15192a56254318e0d68"
+    },
+    {
+      "path": "tests/test_f41_logic.py",
+      "size": 1869,
+      "sha256": "ffe4ff97c4006c1851698ead9dccd7bdedf9fb321c00b790ecced5a2ec27f744"
+    },
+    {
+      "path": "tests/test_f41_static.py",
+      "size": 1838,
+      "sha256": "b875eee6894db3234146a69e6dec72c7e8773613f4d6ee384e428c1ac65fe24e"
+    },
+    {
+      "path": "tests/test_f42_logic.py",
+      "size": 969,
+      "sha256": "a60d6188940546a5c06960363d3590d345027cde63be46e3340c7d6d5b6e6d9c"
+    },
+    {
+      "path": "tests/test_f42_static.py",
+      "size": 1416,
+      "sha256": "0ae75c25cd10e8d6ff41862055bd0b820be487b6f7e1fcef2d2c76402d192256"
+    },
+    {
+      "path": "tests/test_f43_logic.py",
+      "size": 960,
+      "sha256": "98b754139d49bc62c671800fa3722cb8f97e8b6eb19a4f4346f63c3eac0d6de4"
+    },
+    {
+      "path": "tests/test_f43_static.py",
+      "size": 1347,
+      "sha256": "9e058e9078b2ad99a0f4fc1f0a23d7aaea0c218b08f4e9d3da6dd2f9f95682ab"
+    },
+    {
+      "path": "tests/test_f44_logic.py",
+      "size": 1254,
+      "sha256": "fc28efb8969c1b057bfec38801e22c108058c9dd019d3cfd01601b6d5ee1ebf1"
+    },
+    {
+      "path": "tests/test_f44_static.py",
+      "size": 1101,
+      "sha256": "41556c315380ff4418d7f486bf5006312cf8f5fe7b7edd9c16a75ec55ece586b"
+    },
+    {
+      "path": "tests/test_f45_logic.py",
+      "size": 1263,
+      "sha256": "165e73090c9ab0d04eae48a87517a383e32b1309ceeb0d5db7aadffdce0c870c"
+    },
+    {
+      "path": "tests/test_f45_static.py",
+      "size": 1016,
+      "sha256": "f245d182523f8c571887daac24ba991c36f439dc052e7ca5b68c08c756667ae5"
+    },
+    {
+      "path": "tests/test_f46_logic.py",
+      "size": 1373,
+      "sha256": "899860df713c48034ba8de6b790068cba890b8eb3e44915057e9fb70047c3240"
+    },
+    {
+      "path": "tests/test_f46_static.py",
+      "size": 1109,
+      "sha256": "311b5779e3dcae35932889d11461e1db8a4a9cd27fe78f525170f13161a47a18"
     },
     {
       "path": "tests/test_profile_hotfix.js",

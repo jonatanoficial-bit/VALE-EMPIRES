@@ -1,0 +1,83 @@
+{
+  "phase": 45,
+  "buildId": "VE-4.11.0-F45-JUSTICE-LAW-CIVIL-ORDER",
+  "version": "v4.11.0",
+  "system": "justiceLaw",
+  "title": {
+    "pt-BR": "Justiça, Leis e Ordem Civil do Reino",
+    "en-US": "Realm Justice, Law & Civil Order",
+    "es-ES": "Justicia, Leyes y Orden Civil del Reino"
+  },
+  "description": {
+    "pt-BR": "Sistema de leis, tribunais, crimes, corrupção judicial, guarda civil, prisões, apelações, costumes locais e legitimidade jurídica."
+  },
+  "metrics": [
+    "ruleOfLaw",
+    "courtCapacity",
+    "royalDecrees",
+    "localCustoms",
+    "civilWatch",
+    "prisonCondition",
+    "civilOrder",
+    "crimeRate",
+    "judicialCorruption",
+    "legitimacy",
+    "appealAccess",
+    "legalEducation",
+    "enforcementBalance",
+    "tyrannyRisk"
+  ],
+  "institutions": [
+    "royalCourt",
+    "magistrates",
+    "civilWatch",
+    "notaryArchives",
+    "prisonWardens",
+    "localCouncils"
+  ],
+  "factions": [
+    "nobles",
+    "clergy",
+    "merchants",
+    "guilds",
+    "peasants",
+    "soldiers"
+  ],
+  "policies": [
+    "customaryBalance",
+    "royalCode",
+    "publicJustice",
+    "strictOrder",
+    "restorativeLaw"
+  ],
+  "actions": [
+    "codifyLaws",
+    "appointJudges",
+    "patrolRoads",
+    "auditCourts",
+    "prisonReform",
+    "publicTrials",
+    "amnestyProgram"
+  ],
+  "integrations": [
+    "educationKnowledge",
+    "internalEconomy",
+    "religionCivilization",
+    "publicHealth",
+    "imperialLogistics",
+    "provinceNetwork"
+  ],
+  "saveIntegration": {
+    "key": "justiceLaw",
+    "saveSchema": 25
+  },
+  "audit": {
+    "mobileFirst": true,
+    "languages": [
+      "pt-BR",
+      "en-US",
+      "es-ES"
+    ],
+    "antiBreak": "Overlay dinâmico, botão ausente ignorado, optional chaining e persistência isolada em localStorage + save principal."
+  }
+}

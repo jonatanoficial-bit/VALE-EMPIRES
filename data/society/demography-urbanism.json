@@ -1,0 +1,74 @@
+{
+  "phase": 46,
+  "version": "v4.12.0",
+  "buildId": "VE-4.12.0-F46-DEMOGRAFIA-MIGRACAO-URBANISMO",
+  "title": "Demografia, Migração, Habitação e Urbanismo",
+  "saveIntegration": {
+    "key": "demographyUrbanism",
+    "saveSchema": 26,
+    "global": "window.ValeDemographyUrbanism"
+  },
+  "metrics": [
+    "populationIndex",
+    "populationGrowth",
+    "migrationFlow",
+    "migrationControl",
+    "housingQuality",
+    "urbanPlanning",
+    "employment",
+    "culturalIntegration",
+    "birthRate",
+    "familyStability",
+    "workforce",
+    "crowding",
+    "homelessness",
+    "unrestRisk"
+  ],
+  "policies": [
+    "balancedSettlement",
+    "openFrontier",
+    "urbanCharter",
+    "familyRelief",
+    "assimilation"
+  ],
+  "districts": [
+    "capitalQuarter",
+    "workersWard",
+    "migrantCamp",
+    "familyHomes",
+    "frontierVillages",
+    "publicSquares"
+  ],
+  "groups": [
+    "nativeFamilies",
+    "migrants",
+    "craftsmen",
+    "farmers",
+    "poor",
+    "youth"
+  ],
+  "actions": [
+    "buildHousing",
+    "openGranaryNeighborhoods",
+    "registerMigrants",
+    "planStreets",
+    "promoteFamilies",
+    "relocateOvercrowded",
+    "civicFestival"
+  ],
+  "integrations": [
+    "publicHealth",
+    "internalEconomy",
+    "imperialLogistics",
+    "justiceLaw",
+    "educationKnowledge",
+    "religionCivilization"
+  ],
+  "antiBreak": [
+    "overlay dinâmico",
+    "optional chaining",
+    "save normalizado",
+    "cache PWA novo",
+    "botão ausente ignorado"
+  ]
+}

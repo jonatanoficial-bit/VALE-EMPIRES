@@ -1,0 +1,15 @@
+{
+  "phase": 41,
+  "type": "logic",
+  "status": "approved",
+  "version": "v4.7.0",
+  "systems": [
+    "economicHealth",
+    "fiscalPolicies",
+    "productiveSectors",
+    "productiveClasses",
+    "economicActions",
+    "resourceCycles",
+    "saveRestore"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "schema": "vale-empires-religion-civilization-v1",
+  "phase": 40,
+  "version": "v4.6.1",
+  "buildId": "VE-4.6.1-F40-HOTFIX-RECOVERY",
+  "scope": "fictional_abstract_strategy_simulation",
+  "systems": [
+    "religiao_ficcional_abstrata",
+    "pacto_civilizacional",
+    "tradicoes_profundas",
+    "faccoes_sociais",
+    "identidade_nacional",
+    "memoria_comum",
+    "legitimidade",
+    "tolerancia",
+    "autonomia_local",
+    "estabilidade_popular_avancada"
+  ],
+  "civilizationCharters": [
+    "coroa_sagrada_do_vale",
+    "comunidade_civica",
+    "lei_ancestral",
+    "acordo_das_tradicoes"
+  ],
+  "traditions": [
+    "calendario_sagrado_ficticio",
+    "epico_nacional",
+    "costumes_das_aldeias",
+    "pedras_de_juramento",
+    "escolas_de_escribas"
+  ],
+  "socialFactions": [
+    "ordem_espiritual",
+    "nobreza_regional",
+    "guildas_urbanas",
+    "aldeias_e_camponeses",
+    "exercito_e_veteranos",
+    "sabios_e_cronistas"
+  ],
+  "actions": [
+    "grande_concilio_do_reino",
+    "juramento_nacional",
+    "carta_dos_costumes_e_direitos",
+    "dizimo_social_do_reino",
+    "escolas_de_memoria_nacional",
+    "festival_das_bandeiras",
+    "sinodo_provincial"
+  ],
+  "saveIntegration": {
+    "localStorageKey": "valeEmpires.religionCivilization",
+    "mainSaveField": "religionCivilization",
+    "saveSchema": 20
+  },
+  "safetyNote": "O sistema representa tradições e instituições espirituais fictícias e abstratas para simulação estratégica, sem reproduzir ou promover doutrinas reais."
+}

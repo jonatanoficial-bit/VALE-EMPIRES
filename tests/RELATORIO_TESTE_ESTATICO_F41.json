@@ -1,0 +1,14 @@
+{
+  "phase": 41,
+  "type": "static",
+  "status": "approved",
+  "version": "v4.7.0",
+  "checks": [
+    "btnInternalEconomyPanel",
+    "js/internal-economy.js",
+    "data/economy/internal-economy.json",
+    "service-worker cache",
+    "save field internalEconomy",
+    "release guard schema 21"
+  ]
+}

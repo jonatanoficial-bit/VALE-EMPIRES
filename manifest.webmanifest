@@ -1,7 +1,7 @@
 {
   "name": "Vale Empires",
   "short_name": "Vale Empires",
-  "description": "RTS medieval multiera com cultura, moral do reino, diplomacia, espionagem, províncias, guerra naval e campanha.",
+  "description": "Vale Empires Fase 46 — Demografia, Migração, Habitação e Urbanismo",
   "start_url": "./index.html",
   "scope": "./",
   "display": "fullscreen",
@@ -33,7 +33,7 @@
     }
   ],
   "dir": "ltr",
-  "version": "3.9.0",
+  "version": "4.10.0",
   "shortcuts": [
     {
       "name": "Nova Campanha",

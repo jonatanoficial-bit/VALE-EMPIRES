@@ -1,0 +1,17 @@
+{
+  "phase": 40,
+  "buildId": "VE-4.6.1-F40-HOTFIX-RECOVERY",
+  "status": "approved",
+  "logic": {
+    "popularStabilityFormula": true,
+    "nationalIdentityFormula": true,
+    "civilizationCharters": 4,
+    "deepTraditions": 5,
+    "socialFactions": 6,
+    "strategicActions": 7,
+    "factionMediation": true,
+    "defensiveNormalize": true
+  },
+  "version": "v4.6.1",
+  "hotfix": "Correção show() contra telas nulas e cache PWA v4.6.1"
+}

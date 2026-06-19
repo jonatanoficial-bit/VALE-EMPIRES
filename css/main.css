@@ -426,3 +426,20 @@ html[data-locale="en-US"] .period-card-copy strong,html[data-locale="es-ES"] .pe
 .intrigue-claimant{grid-template-columns:44px 1fr auto}.intrigue-house.selected{border-color:#62d998;background:rgba(34,88,68,.34)}.intrigue-claimant.danger{border-color:#e6534b;background:rgba(80,18,22,.36)}
 .intrigue-house img,.intrigue-claimant img{width:42px;height:42px;object-fit:cover;border-radius:8px}.intrigue-house strong,.intrigue-claimant strong{display:block;color:#f6e6b8}.intrigue-house span,.intrigue-claimant span{font-size:11px;color:#c9b98d}.intrigue-house button,.intrigue-claimant button{min-width:84px;border:1px solid rgba(226,190,91,.45);background:linear-gradient(180deg,#1a3950,#081827);color:#f6e6b8;border-radius:10px;padding:7px 9px;font-weight:800}.intrigue-house button:disabled{opacity:.42}.intrigue-house small,.intrigue-claimant small{display:block;font-size:10px;color:#dcc889}
 @media(max-height:520px){.intrigue-list{max-height:220px}.intrigue-house,.intrigue-claimant{grid-template-columns:36px 1fr auto;gap:6px}.intrigue-house button[data-gift]{display:none}.intrigue-house img,.intrigue-claimant img{width:34px;height:34px}}
+
+
+/* Fase 43 — Saúde pública, saneamento e bem-estar */
+.health-hud-button.ready{box-shadow:0 0 0 1px rgba(98,217,152,.45),0 0 18px rgba(98,217,152,.24)}
+.health-hud-button.danger{box-shadow:0 0 0 1px rgba(230,83,75,.58),0 0 18px rgba(230,83,75,.35);animation:royalPulse 1.6s infinite}
+.health-shell{max-height:min(93dvh,780px)}
+.health-layout{display:grid;grid-template-columns:1fr 1.12fr 1.12fr;gap:12px}.health-actions{grid-column:1/4}.health-card-grid,.health-action-grid,.health-policy-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}.health-card,.health-choice{display:grid;gap:5px;padding:9px;border:1px solid rgba(226,190,91,.22);border-radius:12px;background:rgba(5,17,29,.65);color:#f6e8b8;text-align:left}.health-card img{width:38px;height:38px;object-fit:contain}.health-card strong,.health-choice strong{color:#ffe6a7}.health-card span,.health-card small,.health-choice span{color:#b9c7d1;font-size:.76rem;line-height:1.3}.health-card button,.health-choice{border:1px solid rgba(218,178,92,.35);border-radius:10px;background:linear-gradient(180deg,#10243a,#07121f);color:#f6e8b8;padding:8px;font-weight:800}.health-card button small{display:block;color:#91a9b8;font-weight:400}.health-choice.selected{border-color:#62d998;background:rgba(30,82,62,.58)}
+@media(max-width:900px),(max-height:560px){.health-layout{grid-template-columns:1fr}.health-actions{grid-column:auto}.health-card-grid,.health-action-grid,.health-policy-grid{grid-template-columns:1fr 1fr}.health-card,.health-choice{padding:7px}.health-card span,.health-card small,.health-choice span{font-size:.62rem}}
+@media(max-width:640px){.health-card-grid,.health-action-grid,.health-policy-grid{grid-template-columns:1fr}}
+
+
+/* Fase 44 — Educação, conhecimento e ciência do reino */
+.education-hud-button.ready{box-shadow:0 0 0 1px rgba(117,195,255,.45),0 0 18px rgba(117,195,255,.24)}
+.education-hud-button.danger{box-shadow:0 0 0 1px rgba(230,83,75,.58),0 0 18px rgba(230,83,75,.35);animation:royalPulse 1.6s infinite}
+.education-knowledge-overlay .knowledge-shell{max-height:min(93dvh,790px)}
+.education-knowledge-overlay .royal-shell{overflow:auto;-webkit-overflow-scrolling:touch}
+@media(max-width:900px),(max-height:560px){.education-knowledge-overlay .royal-header h2{font-size:1.05rem}.education-knowledge-overlay .royal-header p{font-size:.62rem}.education-knowledge-overlay .royal-card{padding:8px}}

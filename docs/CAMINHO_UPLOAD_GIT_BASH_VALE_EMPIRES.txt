@@ -1,0 +1,19 @@
+CAMINHO OFICIAL — VALE EMPIRES
+
+Pasta Windows:
+C:\Users\jonat\Desktop\GAME\¨2026\Vale EMPIRES
+
+Git Bash:
+cd "C:/Users/jonat/Desktop/GAME/¨2026/Vale EMPIRES"
+
+Repositório:
+https://github.com/jonatanoficial-bit/VALE-EMPIRES.git
+
+Comandos de upload recomendados:
+cd "C:/Users/jonat/Desktop/GAME/¨2026/Vale EMPIRES"
+git status
+git add .
+git commit -m "Fase 46 v4.12.0 - demografia migracao habitacao e urbanismo"
+git push -u origin main
+
+Regra do projeto: sempre extrair o ZIP completo da fase atual dentro da pasta oficial, sobrescrevendo a build anterior e preservando assets existentes.
