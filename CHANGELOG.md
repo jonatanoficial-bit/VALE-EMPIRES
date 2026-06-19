@@ -1,16 +1,12 @@
-# CHANGELOG — Vale Empires
+# Changelog — Vale Empires
 
-## v4.12.0 — Fase 46 — Demografia, Migração, Habitação e Urbanismo
+## v4.13.0 — Fase 47 — Tema Musical Oficial e Áudio Premium
 
-- Adicionado sistema de demografia, migração, habitação e urbanismo social.
-- Novo painel de Demografia na HUD.
-- Distritos urbanos com nível, XP, cobertura e bônus progressivos.
-- Grupos populacionais com apoio, tensão e influência social.
-- Doutrinas sociais e medidas demográficas com custo/chance/sucesso/falha.
-- Integração opcional com saúde, economia, logística, justiça, educação e religião/civilização.
-- Save schema atualizado para 26 com chave `demographyUrbanism`.
-- Documentação, auditoria, checklist e testes F46 incluídos.
-
-## Preservado
-
-Todas as fases anteriores foram mantidas: F45 justiça, F44 educação/conhecimento, F43 saúde pública, F42 logística, F41 economia, F40 religião/civilização, F39 cultura/moral, sistemas reais, PWA, campanha, partida livre, províncias, cidades e sistemas navais.
+- Inserido o MP3 instrumental enviado pelo usuário como tema oficial do jogo.
+- Atualizado `js/audio-engine.js` para usar o novo tema no menu, exploração e jogo principal.
+- Ajustada a troca de cenas para não reiniciar a mesma faixa quando o caminho de áudio é igual.
+- Atualizado `assets/audio/audio-manifest.json` com metadados do tema oficial.
+- Atualizado `service-worker.js` com cache novo e inclusão do MP3 no pacote PWA.
+- Mantidos os áudios antigos como legado/fallback interno no pacote, sem serem a trilha principal.
+- Ampliado diagnóstico de storage para incluir Justiça e Demografia.
+- Preservadas as Fases 1–46.

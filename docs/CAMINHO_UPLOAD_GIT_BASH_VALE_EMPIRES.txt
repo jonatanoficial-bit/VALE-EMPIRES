@@ -9,11 +9,17 @@ cd "C:/Users/jonat/Desktop/GAME/¨2026/Vale EMPIRES"
 Repositório:
 https://github.com/jonatanoficial-bit/VALE-EMPIRES.git
 
-Comandos de upload recomendados:
+COMANDOS RÁPIDOS PARA SUBIR A BUILD ATUAL:
+
 cd "C:/Users/jonat/Desktop/GAME/¨2026/Vale EMPIRES"
+
 git status
+
 git add .
-git commit -m "Fase 46 v4.12.0 - demografia migracao habitacao e urbanismo"
+
+git commit -m "Fase 47 v4.13.0 - tema musical oficial e audio premium"
+
 git push -u origin main
 
-Regra do projeto: sempre extrair o ZIP completo da fase atual dentro da pasta oficial, sobrescrevendo a build anterior e preservando assets existentes.
+OBSERVAÇÃO:
+Antes de rodar os comandos, extraia o ZIP completo da fase dentro da pasta acima, substituindo os arquivos antigos.

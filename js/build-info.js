@@ -1,10 +1,10 @@
 window.VALE_BUILD = {
   game: 'Vale Empires',
-  version: 'v4.12.0',
-  phase: '46',
-  buildId: 'VE-4.12.0-F46-DEMOGRAFIA-MIGRACAO-URBANISMO',
-  compiledAt: '19/06/2026 às 16:12:00 BRT',
-  status: 'Beta Demography, Migration, Housing & Urbanism',
-  assetsPackage: 'Fases 1–46 integradas',
+  version: 'v4.13.0',
+  phase: '47',
+  buildId: 'VE-4.13.0-F47-TEMA-MUSICAL-OFICIAL-AUDIO-PREMIUM',
+  compiledAt: '19/06/2026 às 18:04:25 BRT',
+  status: 'Beta Official Theme Music & Premium Audio Integration',
+  assetsPackage: 'Fases 1–47 integradas',
   authoring: 'Vale Games + ChatGPT'
 };

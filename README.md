@@ -1,19 +1,15 @@
-# Vale Empires — Fase 46 v4.12.0
+# Vale Empires — Fase 47 v4.13.0
 
-Build completa do jogo **Vale Empires**, fase 46: **Demografia, Migração, Habitação e Urbanismo**.
+Build completa baseada na Fase 46, preservando todos os sistemas anteriores e integrando o tema musical oficial enviado pelo usuário.
 
-A build preserva todos os sistemas anteriores e adiciona um painel social avançado com população, crescimento, migração, moradia, urbanismo, emprego, integração cultural, famílias, superlotação, sem-teto e risco de distúrbios.
+## Destaque da fase
 
-## Execução
-
-Use um servidor local ou publique no GitHub/Vercel. Para teste simples:
-
-```bash
-python -m http.server 8000
-```
-
-Abra `http://localhost:8000`.
+- Arquivo `Vale empires tema.mp3` incorporado como `assets/audio/music/vale-empires-official-theme.mp3`.
+- O tema oficial substitui a música simples anterior no menu, exploração e jogo principal.
+- O player evita reiniciar a faixa quando a cena muda entre menu, exploração e combate usando o mesmo tema.
+- O cache PWA foi renovado para o navegador baixar a música nova após upload no GitHub/Vercel.
+- Efeitos sonoros, stingers de nações, vitória/derrota e controles de volume foram preservados.
 
 ## Upload Git Bash
 
-O caminho oficial está em `docs/CAMINHO_UPLOAD_GIT_BASH_VALE_EMPIRES.txt`.
+Consulte `docs/CAMINHO_UPLOAD_GIT_BASH_VALE_EMPIRES.txt`.

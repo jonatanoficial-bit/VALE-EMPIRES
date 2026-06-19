@@ -1,9 +1,9 @@
 {
-  "buildId": "VE-4.12.0-F46-DEMOGRAFIA-MIGRACAO-URBANISMO",
-  "version": "v4.12.0",
-  "generatedAt": "19/06/2026 às 16:12:00 BRT",
-  "fileCount": 466,
-  "packageFileCount": 468,
+  "buildId": "VE-4.13.0-F47-TEMA-MUSICAL-OFICIAL-AUDIO-PREMIUM",
+  "version": "v4.13.0",
+  "generatedAt": "19/06/2026 às 18:04:25 BRT",
+  "fileCount": 473,
+  "packageFileCount": 475,
   "excludedSelfReferentialFiles": [
     "BUILD_INTEGRITY.json",
     "BUILD_MANIFEST.json"
@@ -11,33 +11,33 @@
   "files": [
     {
       "path": "AUDITORIA.md",
-      "size": 714,
-      "sha256": "9a384726a26171b0143a2a432929ab7bbeee8ffd2b8fa4fc36845dcba7319f8e"
+      "size": 1010,
+      "sha256": "aaa014c790838a1229e0392708d4e4f9b9d5d9932dacd51cccd9d3a6133af769"
     },
     {
       "path": "BUILD.json",
-      "size": 1686,
-      "sha256": "941dbfba64d24217d46d5f5ab6809735d291e1d9c21fee437411a1f8b3ce46af"
+      "size": 1877,
+      "sha256": "2fbc7051abee9632e95bdbfc37e894b6891706514b9e84c620129a5dced7c45e"
     },
     {
       "path": "CHANGELOG.md",
-      "size": 952,
-      "sha256": "0291e3cdf96569d1b2119c8bbde55be938b3678d8c858176ec6e726e259ade6c"
+      "size": 733,
+      "sha256": "e9f9b8ceb28c7935a9d5146bcb621b3c49870f936992cd6d2604cca378239a9d"
     },
     {
       "path": "CHECKLIST.md",
-      "size": 521,
-      "sha256": "b46953ea4443b7f208ed9738fae451b67925c2e36a31ab8fbd5751e5c541fbb8"
+      "size": 572,
+      "sha256": "154759b2217d7615be217ce4b6494ec42f3e63fff93db176c0ec86a363cd0d66"
     },
     {
       "path": "README.md",
-      "size": 634,
-      "sha256": "4b221f755ddf65fa091871a322b14d3dc3951c11af0e90a48eb39d3e9cd83de5"
+      "size": 777,
+      "sha256": "ae969d765757d80e652c9e1da4d7bb7b66b9370265867e7488289e672b239859"
     },
     {
       "path": "assets/audio/audio-manifest.json",
-      "size": 1887,
-      "sha256": "641b14b45b32a9474ca538ffa0f911c70c141fdbd7ea998e190467a93c106a62"
+      "size": 2470,
+      "sha256": "3567df931201d0ff0af27d783f39df4de5aa7a7fca0fb26a1b81fca854021ce3"
     },
     {
       "path": "assets/audio/music/combat-siege.ogg",
@@ -58,6 +58,11 @@
       "path": "assets/audio/music/menu-royal.ogg",
       "size": 147103,
       "sha256": "8432c6a6a35dae019e3a169e3a21d6c3375e03808929c184199aacf0dc80dabf"
+    },
+    {
+      "path": "assets/audio/music/vale-empires-official-theme.mp3",
+      "size": 3436303,
+      "sha256": "ee05c3c2a86d60168d0224538295c810f36a188ed37ee4e041e78a1425aca466"
     },
     {
       "path": "assets/audio/music/victory-fanfare.ogg",
@@ -886,8 +891,8 @@
     },
     {
       "path": "commercial-assets/ASSET_LICENSE_REGISTER.md",
-      "size": 604,
-      "sha256": "892891b5bf3f7db7149ed86d7d37a4b4c9e4a542bc8e74eb4d31b9f950ed4e8b"
+      "size": 958,
+      "sha256": "fe07a512bfdde3c85bdbb306e64e08c17b6da3d788f3aebf1f35ea29495ea585"
     },
     {
       "path": "commercial-assets/EULA.md",
@@ -1181,8 +1186,8 @@
     },
     {
       "path": "docs/CAMINHO_UPLOAD_GIT_BASH_VALE_EMPIRES.txt",
-      "size": 592,
-      "sha256": "66d97a9752f6bab717b1ba305b76fdb5dc5cbb7c514c1fe3fa7d6dee7c3bf622"
+      "size": 581,
+      "sha256": "c13d67ccb54e5374e751bcd968a52bc5513e5dd22c39d59119f33a7178b412da"
     },
     {
       "path": "docs/CAMPANHA_F14.md",
@@ -1365,6 +1370,11 @@
       "sha256": "77634803b849d227660ae6262113b01ebcd901122fefb53adae4531e60bccac8"
     },
     {
+      "path": "docs/TEMA_MUSICAL_OFICIAL_F47.md",
+      "size": 1024,
+      "sha256": "1cfcb4d9fb2c0965b2d169fc20a51ec706240a5edfecdac1a8fd3ee144c2fc79"
+    },
+    {
       "path": "docs/TUTORIAL_CAMPANHA_F21.md",
       "size": 1040,
       "sha256": "49ef0b8e4a36306f41f31604a24f67abfe16f694572100e1a3722de81cd4c1db"
@@ -1386,13 +1396,13 @@
     },
     {
       "path": "js/audio-engine.js",
-      "size": 9651,
-      "sha256": "864584b13496091f1e06f0a56e55ae6ef4ec396527b728a9f2409af585d3ae87"
+      "size": 10034,
+      "sha256": "c757432bc50565578e958c602422280783704d73fe9d574f087574104ae8fe8c"
     },
     {
       "path": "js/build-info.js",
-      "size": 329,
-      "sha256": "87b5f5f7a752c81b45bd0fcd5bf50d9d07d5e633c8abc38a56f8b50fc345a291"
+      "size": 341,
+      "sha256": "77ad87661122094a6072c09e0ca3332f8f97381f8b9b136739db34160502ae68"
     },
     {
       "path": "js/court-intrigue.js",
@@ -1446,8 +1456,8 @@
     },
     {
       "path": "js/release-guard.js",
-      "size": 9124,
-      "sha256": "efd991d5f5fdc74041655ce0ace14e1b3008800867fc348ca8964fc36c6e8900"
+      "size": 9182,
+      "sha256": "209f8a41465397cb489155ef11dd308ac67e95ecaac45b5deed98a96b9bca6dc"
     },
     {
       "path": "js/religion-civilization.js",
@@ -1496,8 +1506,8 @@
     },
     {
       "path": "manifest.webmanifest",
-      "size": 1713,
-      "sha256": "5d6d0b3bebb70510ad7a9544f2537f134471b36355ed30ba5c3988e75bb4ab96"
+      "size": 1704,
+      "sha256": "6b0bd9fbac69c3e30b77725f3419f4cbe50984416250baa4e420c3dad7eaa3fa"
     },
     {
       "path": "offline.html",
@@ -1506,8 +1516,8 @@
     },
     {
       "path": "service-worker.js",
-      "size": 6362,
-      "sha256": "7178fabebf61b2d91f6800c594a2e4bcb8bb4c9fa8f9f127a049478cc298a46a"
+      "size": 6418,
+      "sha256": "d2297eaba3b41df0328f978b1b470d07342cb85f9a779f8758eb5c1e714df625"
     },
     {
       "path": "tests/F20_1_MULTI_ERA_FLOW.png",
@@ -1750,6 +1760,11 @@
       "sha256": "877ad08d33775d6474ea0d3b91e6b208a343bcda9b2b2c6dc878b5cec447914f"
     },
     {
+      "path": "tests/RELATORIO_TESTE_ESTATICO_F47.md",
+      "size": 432,
+      "sha256": "9357b1c4b22a4e8868700bd07232c5797045fb793431658e37407807c51c1298"
+    },
+    {
       "path": "tests/RELATORIO_TESTE_HOTFIX_F24_1.md",
       "size": 874,
       "sha256": "26efba3fb498906d3f5c88820287b69b3b2ffbd45daed612fbe7b54efbd47400"
@@ -1895,6 +1910,11 @@
       "sha256": "a90ceb8c9a198c29afcdd1d35f1c8c6757482df4729da6c6ebdf2ae8e31e5929"
     },
     {
+      "path": "tests/RELATORIO_TESTE_LOGICA_F47.md",
+      "size": 387,
+      "sha256": "030d5fe50999e84376e9c0d674cb0750a1b4231149876f44432a6ae9564c3850"
+    },
+    {
       "path": "tests/RELATORIO_TESTE_NAVEGADOR_F27.json",
       "size": 340,
       "sha256": "be0b54c7ae4291df3c562423db5e8ad98b80d230ec15e9ce3789389ce515b5c5"
@@ -1968,6 +1988,11 @@
       "path": "tests/RELATORIO_TESTE_NAVEGADOR_F46.md",
       "size": 284,
       "sha256": "f688077ff84f4c9d67546e9a0a45b1e5f13a1990a0686a7e2b5351a3f9387ffa"
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_NAVEGADOR_F47.md",
+      "size": 280,
+      "sha256": "6b6a0ddc9da83d4905f3d9132fc789cbc18988c5ebde0e1eb7c8b357a73801b4"
     },
     {
       "path": "tests/ROTEIRO_TESTE_BANDEIRAS_F17_1.md",
@@ -2133,6 +2158,11 @@
       "path": "tests/ROTEIRO_TESTE_F46.md",
       "size": 506,
       "sha256": "4c89377c51d91470585c6f560f0f882db38b92a743fc8ca83510f51465f20642"
+    },
+    {
+      "path": "tests/ROTEIRO_TESTE_F47.md",
+      "size": 593,
+      "sha256": "2e90ea8345d39809677c3e96c32ac2be109311f46be3581b8c4944fced6a5c3e"
     },
     {
       "path": "tests/audit_build.py",
@@ -2333,6 +2363,11 @@
       "path": "tests/test_f46_static.py",
       "size": 1109,
       "sha256": "311b5779e3dcae35932889d11461e1db8a4a9cd27fe78f525170f13161a47a18"
+    },
+    {
+      "path": "tests/test_f47_audio.py",
+      "size": 1591,
+      "sha256": "8df317eb9ec826c04557bd5fe0edba452764da3303e848c280edb4dcd4725fbc"
     },
     {
       "path": "tests/test_profile_hotfix.js",

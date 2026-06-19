@@ -1,10 +1,14 @@
 {
   "music": {
-    "menu": "assets/audio/music/menu-royal.ogg",
-    "exploration": "assets/audio/music/exploration-fields.ogg",
-    "combat": "assets/audio/music/combat-siege.ogg",
+    "menu": "assets/audio/music/vale-empires-official-theme.mp3",
+    "exploration": "assets/audio/music/vale-empires-official-theme.mp3",
+    "combat": "assets/audio/music/vale-empires-official-theme.mp3",
     "victory": "assets/audio/music/victory-fanfare.ogg",
-    "defeat": "assets/audio/music/defeat-lament.ogg"
+    "defeat": "assets/audio/music/defeat-lament.ogg",
+    "officialTheme": "assets/audio/music/vale-empires-official-theme.mp3",
+    "legacyMenu": "assets/audio/music/menu-royal.ogg",
+    "legacyExploration": "assets/audio/music/exploration-fields.ogg",
+    "legacyCombat": "assets/audio/music/combat-siege.ogg"
   },
   "sfx": {
     "arrow-shot": "assets/audio/sfx/arrow-shot.ogg",
@@ -37,5 +41,14 @@
     "france": "assets/audio/stingers/nation-france.ogg",
     "mongol": "assets/audio/stingers/nation-mongol.ogg",
     "norse": "assets/audio/stingers/nation-norse.ogg"
+  },
+  "officialTheme": {
+    "file": "assets/audio/music/vale-empires-official-theme.mp3",
+    "uploadedName": "Vale empires tema.mp3",
+    "durationSeconds": 152.904,
+    "sampleRateHz": 48000,
+    "channels": 2,
+    "role": "main_menu_exploration_combat_theme",
+    "loop": true
   }
 }
