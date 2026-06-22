@@ -1,4 +1,4 @@
-CAMINHO OFICIAL — VALE EMPIRES
+VALE EMPIRES — CAMINHO OFICIAL DE UPLOAD GIT BASH
 
 Pasta Windows:
 C:\Users\jonat\Desktop\GAME\¨2026\Vale EMPIRES
@@ -6,20 +6,10 @@ C:\Users\jonat\Desktop\GAME\¨2026\Vale EMPIRES
 Git Bash:
 cd "C:/Users/jonat/Desktop/GAME/¨2026/Vale EMPIRES"
 
-Repositório:
-https://github.com/jonatanoficial-bit/VALE-EMPIRES.git
-
-COMANDOS RÁPIDOS PARA SUBIR A BUILD ATUAL:
-
-cd "C:/Users/jonat/Desktop/GAME/¨2026/Vale EMPIRES"
-
 git status
-
 git add .
-
-git commit -m "Fase 47 v4.13.0 - tema musical oficial e audio premium"
-
+git commit -m "Fase 48 v4.14.0 - comercio exterior tratados rotas internacionais"
 git push -u origin main
 
-OBSERVAÇÃO:
-Antes de rodar os comandos, extraia o ZIP completo da fase dentro da pasta acima, substituindo os arquivos antigos.
+Repositório:
+https://github.com/jonatanoficial-bit/VALE-EMPIRES.git

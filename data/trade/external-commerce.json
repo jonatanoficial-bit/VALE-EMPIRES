@@ -1,0 +1,95 @@
+{
+  "system": "external-commerce",
+  "phase": 48,
+  "version": "1.0",
+  "description": "Comércio exterior, tratados econômicos, rotas internacionais, embargos, tarifas, autonomia estratégica e confiança mercantil.",
+  "markets": [
+    {
+      "id": "northernLeague",
+      "name": {
+        "pt-BR": "Liga dos Portos do Norte",
+        "en-US": "Northern Port League",
+        "es-ES": "Liga de Puertos del Norte"
+      },
+      "goods": [
+        "wood",
+        "gold"
+      ],
+      "risk": 32,
+      "trust": 56
+    },
+    {
+      "id": "southernSultanates",
+      "name": {
+        "pt-BR": "Sultanatos do Sul",
+        "en-US": "Southern Sultanates",
+        "es-ES": "Sultanatos del Sur"
+      },
+      "goods": [
+        "food",
+        "gold"
+      ],
+      "risk": 44,
+      "trust": 51
+    },
+    {
+      "id": "easternKhanates",
+      "name": {
+        "pt-BR": "Canatos do Oriente",
+        "en-US": "Eastern Khanates",
+        "es-ES": "Kanatos de Oriente"
+      },
+      "goods": [
+        "stone",
+        "gold"
+      ],
+      "risk": 50,
+      "trust": 46
+    },
+    {
+      "id": "westernFreePorts",
+      "name": {
+        "pt-BR": "Portos Livres do Oeste",
+        "en-US": "Western Free Ports",
+        "es-ES": "Puertos Libres del Oeste"
+      },
+      "goods": [
+        "food",
+        "wood",
+        "gold"
+      ],
+      "risk": 28,
+      "trust": 61
+    },
+    {
+      "id": "islandGuilds",
+      "name": {
+        "pt-BR": "Guildas das Ilhas",
+        "en-US": "Island Guilds",
+        "es-ES": "Gremios de las Islas"
+      },
+      "goods": [
+        "gold",
+        "stone"
+      ],
+      "risk": 38,
+      "trust": 54
+    }
+  ],
+  "policies": [
+    "balancedTariffs",
+    "mercantilistCrown",
+    "openTrade",
+    "strategicProtectionism"
+  ],
+  "actions": [
+    "negotiateTreaty",
+    "openForeignMarket",
+    "secureConvoys",
+    "counterSmuggling",
+    "strategicEmbargo",
+    "exportSubsidy"
+  ],
+  "saveKey": "externalCommerce",
+  "localStorage": "valeEmpires.externalCommerce"
+}

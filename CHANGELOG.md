@@ -1,12 +1,12 @@
 # Changelog — Vale Empires
 
-## v4.13.0 — Fase 47 — Tema Musical Oficial e Áudio Premium
+## v4.14.0 — Fase 48 — Comércio Exterior, Tratados e Rotas Internacionais
 
-- Inserido o MP3 instrumental enviado pelo usuário como tema oficial do jogo.
-- Atualizado `js/audio-engine.js` para usar o novo tema no menu, exploração e jogo principal.
-- Ajustada a troca de cenas para não reiniciar a mesma faixa quando o caminho de áudio é igual.
-- Atualizado `assets/audio/audio-manifest.json` com metadados do tema oficial.
-- Atualizado `service-worker.js` com cache novo e inclusão do MP3 no pacote PWA.
-- Mantidos os áudios antigos como legado/fallback interno no pacote, sem serem a trilha principal.
-- Ampliado diagnóstico de storage para incluir Justiça e Demografia.
-- Preservadas as Fases 1–46.
+- Adicionado sistema completo de comércio exterior.
+- Adicionado painel HUD **Comércio Exterior**.
+- Adicionados mercados estrangeiros com níveis, XP, acesso, risco e volume.
+- Adicionadas políticas comerciais: tarifas equilibradas, coroa mercantilista, portos abertos e protecionismo estratégico.
+- Adicionadas ações econômicas: tratados, abertura de mercado, escolta de comboios, combate ao contrabando, embargo estratégico e subsídio de exportações.
+- Adicionado save schema 27 com `externalCommerce`.
+- Preservado o tema musical oficial da Fase 47.
+- Preservadas as Fases 1–47.

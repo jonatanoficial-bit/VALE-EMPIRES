@@ -1,15 +1,18 @@
-# Vale Empires — Fase 47 v4.13.0
+# Vale Empires — Fase 48 v4.14.0
 
-Build completa baseada na Fase 46, preservando todos os sistemas anteriores e integrando o tema musical oficial enviado pelo usuário.
+Build `VE-4.14.0-F48-COMERCIO-EXTERIOR-TRATADOS-ROTAS-INTERNACIONAIS`.
 
-## Destaque da fase
+Esta build completa preserva todas as fases anteriores e adiciona a **Fase 48 — Comércio Exterior, Tratados Econômicos e Rotas Internacionais**.
 
-- Arquivo `Vale empires tema.mp3` incorporado como `assets/audio/music/vale-empires-official-theme.mp3`.
-- O tema oficial substitui a música simples anterior no menu, exploração e jogo principal.
-- O player evita reiniciar a faixa quando a cena muda entre menu, exploração e combate usando o mesmo tema.
-- O cache PWA foi renovado para o navegador baixar a música nova após upload no GitHub/Vercel.
-- Efeitos sonoros, stingers de nações, vitória/derrota e controles de volume foram preservados.
+## Destaques
+- Comércio exterior avançado.
+- Tratados econômicos internacionais.
+- Mercados estrangeiros com confiança, risco, volume e acesso.
+- Tarifas, contrabando e embargos.
+- Autonomia estratégica e credibilidade da moeda.
+- Integração com economia interna, logística, justiça, educação e províncias.
+- Tema musical oficial da Fase 47 preservado como trilha principal.
+- PWA, mobile fullscreen, auditoria e anti-quebra mantidos.
 
 ## Upload Git Bash
-
-Consulte `docs/CAMINHO_UPLOAD_GIT_BASH_VALE_EMPIRES.txt`.
+Veja `docs/CAMINHO_UPLOAD_GIT_BASH_VALE_EMPIRES.txt`.

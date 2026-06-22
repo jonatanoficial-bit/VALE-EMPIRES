@@ -1,9 +1,9 @@
 {
-  "buildId": "VE-4.13.0-F47-TEMA-MUSICAL-OFICIAL-AUDIO-PREMIUM",
-  "version": "v4.13.0",
-  "generatedAt": "19/06/2026 às 18:04:25 BRT",
-  "fileCount": 473,
-  "packageFileCount": 475,
+  "buildId": "VE-4.14.0-F48-COMERCIO-EXTERIOR-TRATADOS-ROTAS-INTERNACIONAIS",
+  "version": "v4.14.0",
+  "generatedAt": "22/06/2026 às 22:18:00 BRT",
+  "fileCount": 482,
+  "packageFileCount": 484,
   "excludedSelfReferentialFiles": [
     "BUILD_INTEGRITY.json",
     "BUILD_MANIFEST.json"
@@ -11,28 +11,28 @@
   "files": [
     {
       "path": "AUDITORIA.md",
-      "size": 1010,
-      "sha256": "aaa014c790838a1229e0392708d4e4f9b9d5d9932dacd51cccd9d3a6133af769"
+      "size": 1016,
+      "sha256": "cfef1eb4ffab99d35d90acc3d0ae0ef006e6107609e2d8492d79b6d899d2b693"
     },
     {
       "path": "BUILD.json",
-      "size": 1877,
-      "sha256": "2fbc7051abee9632e95bdbfc37e894b6891706514b9e84c620129a5dced7c45e"
+      "size": 2040,
+      "sha256": "3dad5dac71bf9b93f4415db1409cb550eccadff649daf5841c6fff287182dab8"
     },
     {
       "path": "CHANGELOG.md",
-      "size": 733,
-      "sha256": "e9f9b8ceb28c7935a9d5146bcb621b3c49870f936992cd6d2604cca378239a9d"
+      "size": 706,
+      "sha256": "5b1a6c5b5e12ebc32f63f43796b6af116b28808a8653c975f9e8e38ae18d348a"
     },
     {
       "path": "CHECKLIST.md",
-      "size": 572,
-      "sha256": "154759b2217d7615be217ce4b6494ec42f3e63fff93db176c0ec86a363cd0d66"
+      "size": 569,
+      "sha256": "a51f7527724a15de341674e94fd87320bf4b58c7fe1a90ba118c784170c5488b"
     },
     {
       "path": "README.md",
-      "size": 777,
-      "sha256": "ae969d765757d80e652c9e1da4d7bb7b66b9370265867e7488289e672b239859"
+      "size": 779,
+      "sha256": "d9f19955115ce5ab4da60895a81126551e89c8452704b276f56c8605be899eaf"
     },
     {
       "path": "assets/audio/audio-manifest.json",
@@ -1120,6 +1120,11 @@
       "sha256": "e17ada1fe63a72510b42d691f957f02018df138a4df93a71d37f45e8794496dc"
     },
     {
+      "path": "data/trade/external-commerce.json",
+      "size": 2021,
+      "sha256": "cb6b11247a3f181780a6fba88cf1b5ecc75f64d4b1e19e3a34233aa19c79d4b9"
+    },
+    {
       "path": "data/trade/physical-routes.json",
       "size": 676,
       "sha256": "585968f86ff0664a0db5c58ae2ae6e010e28c576a9cc18384b10a0d16c18284a"
@@ -1186,8 +1191,8 @@
     },
     {
       "path": "docs/CAMINHO_UPLOAD_GIT_BASH_VALE_EMPIRES.txt",
-      "size": 581,
-      "sha256": "c13d67ccb54e5374e751bcd968a52bc5513e5dd22c39d59119f33a7178b412da"
+      "size": 378,
+      "sha256": "fa0b63d928421880f5d928b82f542f1c5650a9a0022477656a4fb29562472a58"
     },
     {
       "path": "docs/CAMPANHA_F14.md",
@@ -1208,6 +1213,11 @@
       "path": "docs/CIVILIZACOES_F13.md",
       "size": 903,
       "sha256": "fce766fea33c6734ebb11a8889665ec5718afd5858f34a741c1c7a75e912917d"
+    },
+    {
+      "path": "docs/COMERCIO_EXTERIOR_TRATADOS_F48.md",
+      "size": 1526,
+      "sha256": "3e0dc1a3e03ecc446285df0b7ae805647ebf85cba10fab3614cf474796dd15e8"
     },
     {
       "path": "docs/CULTURA_MORAL_REINO_F39.md",
@@ -1381,8 +1391,8 @@
     },
     {
       "path": "index.html",
-      "size": 52101,
-      "sha256": "841c48d5744458d77c4c4a995d71575330afcb49cfde0315825ebf271b76c29d"
+      "size": 52431,
+      "sha256": "da00c2e28478da0346904a85fac31c31104cd2cc4f06a02d02df7edc8f2ed8b9"
     },
     {
       "path": "js/achievements-engine.js",
@@ -1391,8 +1401,8 @@
     },
     {
       "path": "js/app.js",
-      "size": 395362,
-      "sha256": "cf4ee31fb8b56951ea0197b318bd5f2973361b860fcf062ccbc4bce400d6e6dc"
+      "size": 395666,
+      "sha256": "defd38723e7aebd7ad6466952b306003360ac436060d876a34c1f472c6993591"
     },
     {
       "path": "js/audio-engine.js",
@@ -1401,8 +1411,8 @@
     },
     {
       "path": "js/build-info.js",
-      "size": 341,
-      "sha256": "77ad87661122094a6072c09e0ca3332f8f97381f8b9b136739db34160502ae68"
+      "size": 361,
+      "sha256": "458ffb54ae71475148f7c2b4ba221a65e0d7c21ecc42da4c33b0231e7e1871d2"
     },
     {
       "path": "js/court-intrigue.js",
@@ -1423,6 +1433,11 @@
       "path": "js/education-knowledge.js",
       "size": 29102,
       "sha256": "70a1db3a430d778e9e8d5bda1d104aa587b3b83ddff134a3de6cb133904b5632"
+    },
+    {
+      "path": "js/external-commerce.js",
+      "size": 25844,
+      "sha256": "9bcd241fa4b23a5745ef5e8d5c85fbb4ac1a902dd724323643e192d3c51faf0b"
     },
     {
       "path": "js/i18n.js",
@@ -1456,8 +1471,8 @@
     },
     {
       "path": "js/release-guard.js",
-      "size": 9182,
-      "sha256": "209f8a41465397cb489155ef11dd308ac67e95ecaac45b5deed98a96b9bca6dc"
+      "size": 9555,
+      "sha256": "28059607fc1942026cb2c14d3c05f28aa8d343b2c8aa616a05b5c663dce172bb"
     },
     {
       "path": "js/religion-civilization.js",
@@ -1506,8 +1521,8 @@
     },
     {
       "path": "manifest.webmanifest",
-      "size": 1704,
-      "sha256": "6b0bd9fbac69c3e30b77725f3419f4cbe50984416250baa4e420c3dad7eaa3fa"
+      "size": 1717,
+      "sha256": "0f1968e1a816a1ee30167788b3c33b0af264bb72e45ea708b78c12fd5c8c6dfe"
     },
     {
       "path": "offline.html",
@@ -1516,8 +1531,8 @@
     },
     {
       "path": "service-worker.js",
-      "size": 6418,
-      "sha256": "d2297eaba3b41df0328f978b1b470d07342cb85f9a779f8758eb5c1e714df625"
+      "size": 6481,
+      "sha256": "1b622d67d606f587e76a320c7fd004e9be63ecf214e3b1ab2bcd18e9fc87f2c7"
     },
     {
       "path": "tests/F20_1_MULTI_ERA_FLOW.png",
@@ -1765,6 +1780,11 @@
       "sha256": "9357b1c4b22a4e8868700bd07232c5797045fb793431658e37407807c51c1298"
     },
     {
+      "path": "tests/RELATORIO_TESTE_ESTATICO_F48.md",
+      "size": 153,
+      "sha256": "a448c8800b3cbf9e182537c931606ecfc4c02cc72098e6f6cd0a1b63360692b2"
+    },
+    {
       "path": "tests/RELATORIO_TESTE_HOTFIX_F24_1.md",
       "size": 874,
       "sha256": "26efba3fb498906d3f5c88820287b69b3b2ffbd45daed612fbe7b54efbd47400"
@@ -1915,6 +1935,11 @@
       "sha256": "030d5fe50999e84376e9c0d674cb0750a1b4231149876f44432a6ae9564c3850"
     },
     {
+      "path": "tests/RELATORIO_TESTE_LOGICA_F48.md",
+      "size": 210,
+      "sha256": "687f6d11a1c1a2c6d629061da324f7a18a45d7959e4ebdd97e5176c5896501ff"
+    },
+    {
       "path": "tests/RELATORIO_TESTE_NAVEGADOR_F27.json",
       "size": 340,
       "sha256": "be0b54c7ae4291df3c562423db5e8ad98b80d230ec15e9ce3789389ce515b5c5"
@@ -1993,6 +2018,11 @@
       "path": "tests/RELATORIO_TESTE_NAVEGADOR_F47.md",
       "size": 280,
       "sha256": "6b6a0ddc9da83d4905f3d9132fc789cbc18988c5ebde0e1eb7c8b357a73801b4"
+    },
+    {
+      "path": "tests/RELATORIO_TESTE_NAVEGADOR_F48.md",
+      "size": 326,
+      "sha256": "4d1b0ebc10ecd8a36a998e1e981f4ff88055f7e3c00f2bae1a31edc0321534ea"
     },
     {
       "path": "tests/ROTEIRO_TESTE_BANDEIRAS_F17_1.md",
@@ -2163,6 +2193,11 @@
       "path": "tests/ROTEIRO_TESTE_F47.md",
       "size": 593,
       "sha256": "2e90ea8345d39809677c3e96c32ac2be109311f46be3581b8c4944fced6a5c3e"
+    },
+    {
+      "path": "tests/ROTEIRO_TESTE_F48.md",
+      "size": 193,
+      "sha256": "bb5bdfa0c9a7b3034c0a7bde947c04b06b64ab641a2490616ee3169960a8212f"
     },
     {
       "path": "tests/audit_build.py",
@@ -2368,6 +2403,16 @@
       "path": "tests/test_f47_audio.py",
       "size": 1591,
       "sha256": "8df317eb9ec826c04557bd5fe0edba452764da3303e848c280edb4dcd4725fbc"
+    },
+    {
+      "path": "tests/test_f48_logic.py",
+      "size": 785,
+      "sha256": "3040aef4679a8471c4671be3f155c013636724df2e49dd5f0e38357bef5cbb97"
+    },
+    {
+      "path": "tests/test_f48_static.py",
+      "size": 1012,
+      "sha256": "4b5a5e53cb1c52219b481fe622ef7ccb81cc2a9be68f938e121acc100bc9e0c1"
     },
     {
       "path": "tests/test_profile_hotfix.js",

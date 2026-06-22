@@ -1,7 +1,7 @@
 {
   "name": "Vale Empires",
   "short_name": "Vale Empires",
-  "description": "Vale Empires Fase 47 — Tema Musical Oficial e Áudio Premium",
+  "description": "Vale Empires Fase 48 — Comércio Exterior, Tratados e Rotas Internacionais",
   "start_url": "./index.html",
   "scope": "./",
   "display": "fullscreen",
@@ -33,7 +33,7 @@
     }
   ],
   "dir": "ltr",
-  "version": "4.13.0",
+  "version": "4.14.0",
   "shortcuts": [
     {
       "name": "Nova Campanha",

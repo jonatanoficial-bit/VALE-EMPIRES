@@ -1,30 +1,30 @@
 {
   "game": "Vale Empires",
-  "version": "v4.13.0",
-  "phase": "47",
-  "buildId": "VE-4.13.0-F47-TEMA-MUSICAL-OFICIAL-AUDIO-PREMIUM",
-  "compiledAt": "19/06/2026 às 18:04:25 BRT",
-  "status": "Beta Official Theme Music & Premium Audio Integration",
-  "saveSchema": 26,
+  "version": "v4.14.0",
+  "phase": "48",
+  "buildId": "VE-4.14.0-F48-COMERCIO-EXTERIOR-TRATADOS-ROTAS-INTERNACIONAIS",
+  "compiledAt": "22/06/2026 às 22:18:00 BRT",
+  "status": "Beta Foreign Trade, Economic Treaties & International Routes",
+  "saveSchema": 27,
   "features": [
-    "Tema musical oficial do jogo integrado como trilha principal em MP3",
-    "Substituição da música simples anterior no menu, exploração e jogo principal",
-    "Reprodução em loop com desbloqueio seguro por interação do usuário em mobile e desktop",
-    "Transição de cenas sem reiniciar a faixa quando menu, exploração e combate usam o mesmo tema",
-    "Manifesto de áudio atualizado com metadados do arquivo enviado pelo usuário",
-    "Cache PWA renovado para forçar atualização da trilha no navegador e no Vercel",
-    "Diagnóstico de áudio ampliado no release guard",
-    "Preservação integral das Fases 1–46, incluindo demografia, justiça, educação, saúde, logística, economia, religião, cultura, inteligência e diplomacia"
+    "Comércio exterior avançado com exportações, importações e autonomia estratégica",
+    "Rede de tratados econômicos internacionais e confiança mercantil",
+    "Mercados estrangeiros com acesso, volume, risco, confiança e progressão por nível",
+    "Tarifas, contrabando, embargos, credibilidade monetária e alcance marítimo",
+    "Interesses comerciais internos: mercadores da coroa, guildas dos cais, exportadores rurais e consumidores urbanos",
+    "Ações diplomático-econômicas: tratados, abertura de mercados, escolta de comboios, combate ao contrabando, embargo estratégico e subsídio exportador",
+    "Integração com economia interna, logística imperial, justiça, educação e províncias",
+    "Novo botão na HUD: Comércio Exterior",
+    "Persistência no save principal via externalCommerce",
+    "Preservação integral das Fases 1–47, incluindo tema musical oficial e todos os sistemas de simulação profunda"
   ],
   "audioAsset": {
     "file": "assets/audio/music/vale-empires-official-theme.mp3",
     "source": "Arquivo MP3 instrumental enviado pelo usuário: Vale empires tema.mp3",
-    "durationSeconds": 152.904,
-    "sampleRateHz": 48000,
-    "channels": 2,
-    "format": "MP3"
+    "status": "preserved-as-main-theme"
   },
   "preserved": [
+    "Fase 47 Tema Musical Oficial e Áudio Premium",
     "Fase 46 Demografia, Migração, Habitação e Urbanismo",
     "Fase 45 Justiça, Leis e Ordem Civil",
     "Fase 44 Educação, Conhecimento e Ciência",
@@ -32,7 +32,6 @@
     "Fase 42 Infraestrutura Imperial e Logística",
     "Fase 41 Economia Interna e Abastecimento",
     "Fase 40 Religião/Civilização e hotfix recovery",
-    "Fase 39 Moral e Cultura do Reino",
-    "Fases 1–38 e todos os sistemas base, PWA, idiomas, campanha, partida livre, navais, cidades, províncias e anti-quebra"
+    "Fases 1–39 e todos os sistemas base, PWA, idiomas, campanha, partida livre, navais, cidades, províncias e anti-quebra"
   ]
 }
